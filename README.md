@@ -1,6 +1,4 @@
-# DDJD-E
-
-# BLOODLINES
+# DDJD-E BLOODLINES
 
 ## Developed By Group E1
 | Name                    | Role           | Number    | E-Mail               |
