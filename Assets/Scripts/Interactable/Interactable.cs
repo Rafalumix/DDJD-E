@@ -30,12 +30,18 @@ public class Interactable : MonoBehaviour
         {
             if (triggerActive)
             {
-                Debug.Log("You touched " + gameObject.name); 
+                doActionOnClick(); 
             } else
             {
                 Debug.Log("Not in range"); 
             }
         } 
     }
+
+    virtual protected void doActionOnClick()
+    {
+        Debug.Log("You touched " + gameObject.name);
+    }
+
 
 }
