@@ -7,7 +7,7 @@ public class LifePointsController : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth { get; private set; }
     public bool isDead { get; private set; }
-    private PlayerStats playerStats;
+    private StatsController statsController;
     private PotionController potionController; 
     
     // Start is called before the first frame update
@@ -15,7 +15,7 @@ public class LifePointsController : MonoBehaviour
     {
         currentHealth = maxHealth;
         isDead = false; 
-        playerStats = GetComponent<PlayerStats>();
+        statsController = GetComponent<StatsController>();
         potionController = GetComponent<PotionController>(); 
     }
 
@@ -44,7 +44,7 @@ public class LifePointsController : MonoBehaviour
     public void takeDamage(int damage)
     {
         //endurance effect 
-        damage -= playerStats.endurance.getValue();
+        damage -= statsController.endurance.getValue();
         damage = Mathf.Clamp(damage, 5, int.MaxValue);  //Minimum amount of damage taken is 5 
 
 

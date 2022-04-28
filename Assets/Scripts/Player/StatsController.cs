@@ -1,12 +1,16 @@
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
+public class StatsController : MonoBehaviour
 {
     public int xp { get; private set; } 
     public int level { get; private set; }
 
+    public Stat vitality;
+    public Stat dexterity; 
     public Stat endurance; 
-    public Stat damage; 
+    public Stat damage;
+    public Stat evasion;
+    public Stat luck; 
 
     //Possible idea of stats: Stamina, dexterity (faster attacks and speed)
 
