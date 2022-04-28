@@ -2,22 +2,10 @@ using UnityEngine;
 
 public class StatsController : MonoBehaviour
 {
-    public int xp { get; private set; } 
-    public int level { get; private set; }
-
-    public Stat vitality;
-    public Stat dexterity; 
-    public Stat endurance; 
-    public Stat damage;
-    public Stat evasion;
-    public Stat luck; 
-
-    //Possible idea of stats: Stamina, dexterity (faster attacks and speed)
 
     void Awake()
     {
-        xp = 0;
-        level = 1; 
+       
     }
 
     private void Update()
@@ -30,20 +18,27 @@ public class StatsController : MonoBehaviour
 
     public void gainXp (int amount)
     {
-        xp += amount; 
+        PlayerStats.xp += amount; 
         Debug.Log(transform.name + " gained " + amount + "xp!");
-        if (xp >= 1000)
+        if (PlayerStats.xp >= 1000)
         {
-            levelUp(); 
-            xp -= 1000; 
+            levelUp();
+            PlayerStats.xp -= 1000; 
         }
     }
 
     private void levelUp()
     {
         Debug.Log(transform.name + " level up!");
-        level++; 
-        endurance.levelUpStat();
-        damage.levelUpStat(); 
+        PlayerStats.level++;
+
+        //Should evaluate how to manage level up (possible idea: choose 2 stats at random and boost them only)
+        int a = (int)Random.Range(0f, 6f);
+        PlayerStats.stats[a].levelUpStat();
+        Debug.Log(PlayerStats.stats[a].getName() + "boosted!");
+
+        a = (int)Random.Range(0f, 6f);
+        PlayerStats.stats[a].levelUpStat();
+        Debug.Log(PlayerStats.stats[a].getName() + "boosted!"); 
     }
 }

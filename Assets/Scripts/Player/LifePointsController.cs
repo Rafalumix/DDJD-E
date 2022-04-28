@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class LifePointsController : MonoBehaviour
 {
-    public int maxHealth = 100;
-    public int currentHealth { get; private set; }
-    public bool isDead { get; private set; }
     private StatsController statsController;
     private PotionController potionController; 
     
     // Start is called before the first frame update
     private void Awake()
     {
-        currentHealth = maxHealth;
-        isDead = false; 
         statsController = GetComponent<StatsController>();
         potionController = GetComponent<PotionController>(); 
     }
@@ -30,12 +25,12 @@ public class LifePointsController : MonoBehaviour
         {
             if (potionController.usePotion())
             {
-                currentHealth += potionController.potionHealingAmount;
-                if (currentHealth > maxHealth)
+                PlayerStats.currentHealth += PlayerStats.potionHealingAmount;
+                if (PlayerStats.currentHealth > PlayerStats.maxHealth)
                 {
-                    currentHealth = maxHealth; 
+                    PlayerStats.currentHealth = PlayerStats.maxHealth; 
                 }
-                Debug.Log(transform.name + " now have " + currentHealth + " life points.");
+                Debug.Log(transform.name + " now have " + PlayerStats.currentHealth + " life points.");
             }
             
         }
@@ -44,22 +39,22 @@ public class LifePointsController : MonoBehaviour
     public void takeDamage(int damage)
     {
         //endurance effect 
-        damage -= statsController.endurance.getValue();
+        damage -= PlayerStats.endurance.getValue();
         damage = Mathf.Clamp(damage, 5, int.MaxValue);  //Minimum amount of damage taken is 5 
 
 
-        currentHealth -= damage;
+        PlayerStats.currentHealth -= damage;
         Debug.Log(transform.name + " takes " + damage + " damage.");
-        Debug.Log(transform.name + " now have " + currentHealth + " life points.");
+        Debug.Log(transform.name + " now have " + PlayerStats.currentHealth + " life points.");
 
-        if (currentHealth <= 0)
+        if (PlayerStats.currentHealth <= 0)
         {
             Die();
         }
     }
     public void Die()
     {
-        isDead = true;
+        PlayerStats.isDead = true;
         Debug.Log(transform.name + " died.");
     }
 }

@@ -6,39 +6,33 @@ public class PotionController: MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public int nPotionsMax { get; private set; }
-    public int nPotionsActual { get; private set; }
-    public int potionHealingAmount { get; private set; }
-
     private void Awake()
     {
-        nPotionsMax = 1;
-        nPotionsActual = nPotionsMax;
-        potionHealingAmount = 10;
+       
     }
 
     void fillPotions()
     {
-        nPotionsActual = nPotionsMax;
+        PlayerStats.nPotionsActual = PlayerStats.nPotionsMax;
         Debug.Log("Potions refilled!");
-        Debug.Log("Now you have " + nPotionsActual + " life potions!"); 
+        Debug.Log("Now you have " + PlayerStats.nPotionsActual + " life potions!"); 
     }
     void boostNPotions()
     {
-        nPotionsMax++; 
+        PlayerStats.nPotionsMax++; 
     }
 
     void boostPotionStreght()
     {
-        potionHealingAmount += 5; 
+        PlayerStats.potionHealingAmount += 5; 
     }
 
     public bool usePotion()
     {
-        if (nPotionsActual > 0)
+        if (PlayerStats.nPotionsActual > 0)
         {
-            nPotionsActual--;
-            Debug.Log("Potion used, now you have " + nPotionsActual + " potion(s).");
+            PlayerStats.nPotionsActual--;
+            Debug.Log("Potion used, now you have " + PlayerStats.nPotionsActual + " potion(s).");
             return true; 
         }
         Debug.Log("You don't have more potions"); 
