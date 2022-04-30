@@ -4,8 +4,10 @@ using UnityEngine;
 
 public static class PlayerStats
 {
-    public static string name = "Bob"; 
+    public static string name = "Bob";
 
+    //Family 
+    public static int numberOfGenerations = 1; 
     //Health 
     public static int maxHealth = 100; 
     public static int currentHealth = maxHealth;

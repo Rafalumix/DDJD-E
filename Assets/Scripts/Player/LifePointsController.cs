@@ -1,17 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class LifePointsController : MonoBehaviour
 {
-    private StatsController statsController;
-    private PotionController potionController; 
+    private PotionController potionController;
     
     // Start is called before the first frame update
     private void Awake()
     {
-        statsController = GetComponent<StatsController>();
-        potionController = GetComponent<PotionController>(); 
+        potionController = GetComponent<PotionController>();
     }
 
     // Update is called once per frame
@@ -32,7 +31,10 @@ public class LifePointsController : MonoBehaviour
                 }
                 Debug.Log(transform.name + " now have " + PlayerStats.currentHealth + " life points.");
             }
-            
+        }
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            die(); 
         }
     }
 
@@ -49,12 +51,14 @@ public class LifePointsController : MonoBehaviour
 
         if (PlayerStats.currentHealth <= 0)
         {
-            Die();
+            die(); 
         }
     }
-    public void Die()
+
+    public void die()
     {
         PlayerStats.isDead = true;
         Debug.Log(transform.name + " died.");
+        SceneManager.LoadScene(0);
     }
 }

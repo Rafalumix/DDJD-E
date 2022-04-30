@@ -3,14 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PotionController: MonoBehaviour
-{
-    // Start is called before the first frame update
-
-    private void Awake()
-    {
-       
-    }
-
+{ 
     void fillPotions()
     {
         PlayerStats.nPotionsActual = PlayerStats.nPotionsMax;

@@ -6,8 +6,7 @@ using UnityEngine;
 public class Stat
 {
     [SerializeField] //Can be modified inside the inspector 
-    private int baseValue = 1;
-    private int modifier = 0;
+    private int level = 1;
 
     private string name;     
     public Stat(string name)
@@ -21,12 +20,18 @@ public class Stat
     }
 
     public int getValue(){
-        return baseValue+modifier; 
+        return level; 
     }
 
     public void levelUpStat()
     {
-        modifier += 1; 
+        Debug.Log(name + " boosted!");
+        level += 2; 
+    }
+
+    public void setStat(int n)
+    {
+        this.level = n; 
     }
 }
 
