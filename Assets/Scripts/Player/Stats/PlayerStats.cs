@@ -18,16 +18,16 @@ public static class PlayerStats
     public static int xp = 0;
     public static int level = 1;
 
-    public static Stat vitality = new Stat("vitality");
+    public static Stat life = new Stat("life");
     public static Stat endurance = new Stat("endurance");
-    public static Stat dexterity = new Stat("dexterity");
-    public static Stat strength = new Stat("strength");
+    public static Stat vigor = new Stat("vigor");
     public static Stat evasion = new Stat("evasion");
+    public static Stat speed = new Stat("speed");
     public static Stat luck = new Stat("luck");
 
     public static Stat[] stats =
     {
-        PlayerStats.vitality, PlayerStats.endurance, PlayerStats.dexterity, 
-        PlayerStats.strength, PlayerStats.evasion, PlayerStats.luck
+        PlayerStats.life, PlayerStats.endurance, PlayerStats.vigor, 
+        PlayerStats.evasion, PlayerStats.speed, PlayerStats.luck
     }; 
 }

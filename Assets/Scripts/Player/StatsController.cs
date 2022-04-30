@@ -35,10 +35,10 @@ public class StatsController : MonoBehaviour
         //Should evaluate how to manage level up (possible idea: choose 2 stats at random and boost them only)
         int a = (int)Random.Range(0f, 6f);
         PlayerStats.stats[a].levelUpStat();
-        Debug.Log(PlayerStats.stats[a].getName() + "boosted!");
+        Debug.Log(PlayerStats.stats[a].getName() + " boosted!");
 
         a = (int)Random.Range(0f, 6f);
         PlayerStats.stats[a].levelUpStat();
-        Debug.Log(PlayerStats.stats[a].getName() + "boosted!"); 
+        Debug.Log(PlayerStats.stats[a].getName() + " boosted!"); 
     }
 }
