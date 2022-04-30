@@ -14,6 +14,10 @@ public class StatsController : MonoBehaviour
         {
             gainXp(100);
         }
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            printStats(); 
+        }
     }
 
     public void gainXp (int amount)
@@ -40,5 +44,16 @@ public class StatsController : MonoBehaviour
         a = (int)Random.Range(0f, 6f);
         PlayerStats.stats[a].levelUpStat();
         Debug.Log(PlayerStats.stats[a].getName() + " boosted!"); 
+    }
+
+    private void printStats()
+    {
+        Debug.Log(PlayerStats.name + "'s statistics:" + " Level: " + PlayerStats.level.ToString());
+        Debug.Log("xp: " + PlayerStats.xp.ToString() + "; Number of potions: " + PlayerStats.nPotionsActual.ToString());
+        Debug.Log("Life Points: " + PlayerStats.currentHealth.ToString() + "/" + PlayerStats.maxHealth.ToString());
+        for (int i = 0; i!=PlayerStats.stats.Length; i++)
+        {
+            Debug.Log(PlayerStats.stats[i].getName() + ": " + PlayerStats.stats[i].getValue().ToString());
+        }
     }
 }
