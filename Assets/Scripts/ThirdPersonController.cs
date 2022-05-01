@@ -123,7 +123,18 @@ namespace StarterAssets
 			
 			JumpAndGravity();
 			GroundedCheck();
-			Move();
+			if(!_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && !_animator.GetCurrentAnimatorStateInfo(0).IsName("Block"))
+				Move();
+
+			if(Input.GetKeyDown(KeyCode.Mouse0)) {
+				Attack();
+			}
+			else if(Input.GetKeyDown(KeyCode.Mouse1)) {
+				Block();
+			}
+			if(Input.GetKeyUp(KeyCode.Mouse1)) {
+				StopBlock();
+			}
 		}
 
 		private void LateUpdate()
@@ -232,6 +243,20 @@ namespace StarterAssets
 				_animator.SetFloat(_animIDSpeed, _animationBlend);
 				_animator.SetFloat(_animIDMotionSpeed, inputMagnitude);
 			}
+		}
+		private void Attack() 
+		{
+			_animator.SetTrigger("Attack");
+		}
+
+		private void Block() 
+		{
+			_animator.SetBool("Block", true);
+		}
+
+		private void StopBlock() 
+		{
+			_animator.SetBool("Block", false);
 		}
 
 		private void JumpAndGravity()
