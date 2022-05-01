@@ -1,0 +1,41 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[System.Serializable] //Fields inside this class will show up in the inspector 
+public class Endurance : Stat
+{
+    private int armor;
+    private float defensiveReduction;
+    
+    public Endurance(int start_level){
+        name = "Endurance";
+        level = start_level;
+        armor = (level-1)*5;
+        defensiveReduction = 0.5f;
+    }
+
+    public override void levelUp()
+    {
+        base.levelUp();
+        armor = (level-1)*5;
+        defensiveReduction = ((int)(level/5) / 10) + 0.5f;
+        Debug.Log("Player's defensive reduction is now " + defensiveReduction);
+    }
+
+    public int getArmor(){return armor;}
+
+    public int getReduction(){return defensiveReduction;}
+
+    public int endureDamage(int flatDamage, bool defending){
+        int result = flatDamage - armor;
+        if (defending){
+            result=(int)(result*defensiveReduction);
+        }
+        return result;
+    }
+
+    
+    
+}
+

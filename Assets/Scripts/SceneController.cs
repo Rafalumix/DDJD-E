@@ -27,13 +27,13 @@ public class SceneController : MonoBehaviour
     public void generateNewHeir()
     {
         PlayerStats.numberOfGenerations++;
-        PlayerStats.currentHealth = PlayerStats.maxHealth;
+        PlayerStats.life.fullHeal();
         PlayerStats.nPotionsActual = PlayerStats.nPotionsMax;
 
         generateNewStats();
         evaluateLevel(); 
 
-        PlayerStats.isDead = false; 
+        PlayerStats.life.setDead(false); 
     }
 
     public void generateNewStats()
@@ -49,7 +49,7 @@ public class SceneController : MonoBehaviour
         while (points != 0)  //assign randomly the following points 
         {
             int i = (int)Random.Range(0f, PlayerStats.stats.Length);
-            PlayerStats.stats[i].levelUpStat();
+            PlayerStats.stats[i].levelUp();
             points--; 
         }
     }

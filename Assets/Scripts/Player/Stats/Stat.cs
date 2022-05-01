@@ -6,13 +6,9 @@ using UnityEngine;
 public class Stat
 {
     [SerializeField] //Can be modified inside the inspector 
-    private int level = 1;
+    protected int level = 1;
 
-    private string name;     
-    public Stat(string name)
-    {
-        this.name = name; 
-    }
+    protected string name = "";
 
     public string getName()
     {
@@ -23,10 +19,10 @@ public class Stat
         return level; 
     }
 
-    public void levelUpStat()
+    public virtual void levelUp()
     {
         Debug.Log(name + " boosted!");
-        level += 2; 
+        level += 1; 
     }
 
     public void setStat(int n)
