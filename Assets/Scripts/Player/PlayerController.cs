@@ -1,16 +1,8 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    
-    private PotionController potionController = new PotionController();
-    
-    // Start is called before the first frame update
-    private void Awake()
-    {
-        potionController = GetComponent<PotionController>();
-    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.X))
@@ -19,27 +11,28 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.I))
         {
-            printStats(); 
+            printStats();
         }
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            levelUp(); 
+            levelUp();
         }
         if (Input.GetKeyDown(KeyCode.T))
         {
-            takeDamage(5);
+            takeDamage(30);
+        }
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            calculateOutgoingDamage();
         }
         if (Input.GetKeyDown(KeyCode.P))
         {
-            if (potionController.usePotion())
-            {
-                PlayerStats.life.heal(PlayerStats.potionHealingAmount);
-                Debug.Log(transform.name + " now have " + PlayerStats.life.getHealth() + " life points.");
-            }
+
+            takePotion();
         }
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            die(); 
+            die();
         }
     }
 
@@ -50,18 +43,19 @@ public class PlayerController : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void gainXp (int amount)
+    public void gainXp(int amount)
     {
-        //Change this
-        if (amount>=PlayerStats.xpNeededToLvlUp){
-            do{
-                amount-=PlayerStats.xpNeededToLvlUp;
+        if (amount >= PlayerStats.xpNeededToLvlUp)
+        {
+            do
+            {
+                amount -= PlayerStats.xpNeededToLvlUp;
                 levelUp();
-                if(amount==0) return;
-            }while(amount>=PlayerStats.xpNeededToLvlUp);
-            
+                if (amount == 0) return;
+            } while (amount >= PlayerStats.xpNeededToLvlUp);
+
         }
-        PlayerStats.xpNeededToLvlUp-=amount;
+        PlayerStats.xpNeededToLvlUp -= amount;
     }
 
     private void levelUp()
@@ -78,42 +72,68 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void takeDamage(int enemyFlatDamage){
-        if ( chanceHit(PlayerStats.evasion.getDodgeChance())){
-            Debug.Log("The player dodged and attack");
+    private void takeDamage(int enemyFlatDamage)
+    {
+        if (chanceHit(PlayerStats.evasion.getDodgeChance()))
+        {
+            Debug.Log("The player dodged an attack");
             return;
         }
         else
         {
-            bool isDefending = false; //NEED TO OBTAIN
-            PlayerStats.life.removeHealth(PlayerStats.endurance.endureDamage());
-            if(PlayerStats.life.getDead()){
+            bool isDefending = false; //TODO NEED TO OBTAIN
+            PlayerStats.life.removeHealth(PlayerStats.endurance.endureDamage(enemyFlatDamage, isDefending));
+            if (PlayerStats.life.getDead())
+            {
                 die();
             }
 
         }
-
-
     }
 
-    private int calculateOutgoingDamage(){
-        
-        return 1;
+    private int calculateOutgoingDamage()
+    {
+        bool crit = false;
+        if (chanceHit(PlayerStats.luck.getCrit()))
+        {
+            crit = true;
+        }
+        int damage = PlayerStats.vigor.getFlatDamage();
+        if (crit)
+        {
+            damage *= 2;
+        }
+        Debug.Log("The player will deal " + damage + " damage.");
+        return damage;
     }
 
     private void printStats()
     {
-        // Debug.Log(PlayerStats.name + " " + ConvertToRoman.ToRoman(PlayerStats.numberOfGenerations) + "'s statistics:" + " Level: " + PlayerStats.level.ToString());
-        // Debug.Log("xp: " + PlayerStats.xp.ToString() + "; Number of potions: " + PlayerStats.nPotionsActual.ToString());
-        // Debug.Log("Life Points: " + PlayerStats.currentHealth.ToString() + "/" + PlayerStats.maxHealth.ToString());
-        // for (int i = 0; i!=PlayerStats.stats.Length; i++)
-        // {
-        //     Debug.Log(PlayerStats.stats[i].getName() + ": " + PlayerStats.stats[i].getValue().ToString());
-        // }
+        for (int i = 0; i != PlayerStats.stats.Length; i++)
+        {
+            PlayerStats.stats[i].showDetails();
+        }
     }
 
-    private bool chanceHit(int chance){
-        if ( chance >= Random.Range(1, 101)){
+    private void takePotion()
+    {
+        if (PlayerStats.nPotionsActual > 0)
+        {
+            PlayerStats.nPotionsActual--;
+            Debug.Log("Potion used, now you have " + PlayerStats.nPotionsActual + " potion(s).");
+            PlayerStats.life.heal(PlayerStats.potionHealingAmount);
+            Debug.Log(transform.name + " now have " + PlayerStats.life.getHealth() + " life points.");
+        }
+        else
+        {
+            Debug.Log("You don't have more potions");
+        }
+    }
+
+    private bool chanceHit(int chance)
+    {
+        if (chance >= Random.Range(1, 101))
+        {
             return true;
         }
         return false;

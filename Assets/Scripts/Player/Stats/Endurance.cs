@@ -25,13 +25,14 @@ public class Endurance : Stat
 
     public int getArmor(){return armor;}
 
-    public int getReduction(){return defensiveReduction;}
+    public float getReduction(){return defensiveReduction;}
 
     public int endureDamage(int flatDamage, bool defending){
         int result = flatDamage - armor;
         if (defending){
             result=(int)(result*defensiveReduction);
         }
+        Debug.Log("The player took "+result+" damage ");
         return result;
     }
 

@@ -25,6 +25,10 @@ public class Stat
         level += 1; 
     }
 
+    public virtual void showDetails(){
+        Debug.Log(name + " is level "+ level);
+    }
+
     public void setStat(int n)
     {
         this.level = n; 
