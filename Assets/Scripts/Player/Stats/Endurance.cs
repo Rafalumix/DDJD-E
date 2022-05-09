@@ -7,6 +7,7 @@ public class Endurance : Stat
 {
     private int armor;
     private float defensiveReduction;
+    private int minimumAmountOfDamageTaken = 5; 
     
     public Endurance(int start_level){
         name = "Endurance";
@@ -32,6 +33,7 @@ public class Endurance : Stat
         if (defending){
             result=(int)(result*defensiveReduction);
         }
+        result = Mathf.Clamp(result, minimumAmountOfDamageTaken, int.MaxValue);  //Minimum amount of damage taken is 5 
         Debug.Log("The player took "+result+" damage ");
         return result;
     }

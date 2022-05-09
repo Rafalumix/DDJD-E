@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.P))
         {
-
             takePotion();
         }
         if (Input.GetKeyDown(KeyCode.Z))
@@ -109,6 +108,9 @@ public class PlayerController : MonoBehaviour
 
     private void printStats()
     {
+        Debug.Log(PlayerStats.name + " " + ConvertToRoman.ToRoman(PlayerStats.numberOfGenerations) + " statistics:" + " Level: " + PlayerStats.level.ToString());
+        Debug.Log("xp needed to level up: " + PlayerStats.xpNeededToLvlUp.ToString() + "; Number of potions: " + PlayerStats.nPotionsActual.ToString());
+        Debug.Log("Life Points: " + PlayerStats.life.getHealth().ToString() + "/" + PlayerStats.life.getMaxHealth().ToString());
         for (int i = 0; i != PlayerStats.stats.Length; i++)
         {
             PlayerStats.stats[i].showDetails();

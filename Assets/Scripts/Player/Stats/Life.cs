@@ -39,6 +39,11 @@ public class Life : Stat
         return currentHealth;
     }
 
+    public int getMaxHealth()
+    {
+        return maxHealth; 
+    }
+
     public void removeHealth(int damage){
         currentHealth = Mathf.Max(0,currentHealth-damage);
         if (currentHealth==0) isDead=true;
