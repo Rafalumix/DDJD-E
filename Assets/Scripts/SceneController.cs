@@ -10,17 +10,12 @@ public class SceneController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            restartLevel(); 
-        }
     }
     public void restartLevel()
     {
         generateNewHeir(); 
         Debug.Log("Restart level."); 
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene(2); 
     }
 
     public void generateNewHeir()
@@ -65,7 +60,6 @@ public class SceneController : MonoBehaviour
 
     public void returnToMenu()
     {
-        Debug.Log("Back to main menu.");
-
+        SceneManager.LoadScene(0);
     }
 }

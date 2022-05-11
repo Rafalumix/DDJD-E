@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         PlayerStats.life.setDead(true);
         Debug.Log(transform.name + " died.");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void gainXp(int amount)
