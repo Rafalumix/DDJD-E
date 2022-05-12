@@ -26,7 +26,7 @@ public class TextScript : MonoBehaviour
                 exitUIEntry.eventID = EventTriggerType.PointerExit;
                 exitUIEntry.callback.AddListener((eventData) => { ExitUI(); });
                 eventTrigger.triggers.Add(exitUIEntry);
-            }
+        }
     }
 
     public void EnterUI()
