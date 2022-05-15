@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class PlayerStats
 {
-    public static string name = "Bob";
+    public static string name = RandomNameGenerator.getRandomName();
     //Family 
     public static int numberOfGenerations = 1;     
     
@@ -35,6 +35,7 @@ public static class PlayerStats
     public static void generateNewHeir()
     {
         PlayerStats.numberOfGenerations++;
+        PlayerStats.name = RandomNameGenerator.getRandomName(); 
         PlayerStats.life.fullHeal();
         PlayerStats.nPotionsActual = PlayerStats.nPotionsMax;
 
