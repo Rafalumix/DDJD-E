@@ -129,6 +129,10 @@ namespace StarterAssets
 			if(Input.GetKeyDown(KeyCode.Mouse0)) {
 				Attack();
 			}
+			else if(Input.GetKeyDown(KeyCode.L)) {
+				Roll();
+				Debug.Log("ROOLLLLLLL");
+			}
 			else if(Input.GetKeyDown(KeyCode.Mouse1)) {
 				Block();
 			}
@@ -249,6 +253,10 @@ namespace StarterAssets
 		private void Attack() 
 		{
 			_animator.SetTrigger("Attack");
+		}
+		private void Roll() 
+		{
+			_animator.SetTrigger("Roll");
 		}
 
 		private void Block() 
