@@ -59,6 +59,9 @@ namespace StarterAssets
 		[Tooltip("For locking the camera position on all axis")]
 		public bool LockCameraPosition = false;
 
+		[Header("pauseMenu")]
+		[SerializeField] private PauseMenuScript pauseMenu = null; 
+
 		// cinemachine
 		private float _cinemachineTargetYaw;
 		private float _cinemachineTargetPitch;
@@ -126,19 +129,23 @@ namespace StarterAssets
 			if(!_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && !_animator.GetCurrentAnimatorStateInfo(0).IsName("Block"))
 				Move();
 
-			if(Input.GetKeyDown(KeyCode.Mouse0)) {
-				Attack();
-			}
-			else if(Input.GetKeyDown(KeyCode.L)) {
-				Roll();
-				Debug.Log("ROOLLLLLLL");
-			}
-			else if(Input.GetKeyDown(KeyCode.Mouse1)) {
-				Block();
-			}
-			if(Input.GetKeyUp(KeyCode.Mouse1)) {
-				StopBlock();
-			}
+            if (!pauseMenu.isGamePaused())
+            {
+				if(Input.GetKeyDown(KeyCode.Mouse0)) {
+						Attack();
+					}
+					else if(Input.GetKeyDown(KeyCode.L)) {
+						Roll();
+						Debug.Log("ROOLLLLLLL");
+					}
+					else if(Input.GetKeyDown(KeyCode.Mouse1)) {
+						Block();
+					}
+					if(Input.GetKeyUp(KeyCode.Mouse1)) {
+						StopBlock();
+					}
+            }
+			
 		}
 
 		private void LateUpdate()

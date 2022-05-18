@@ -11,7 +11,7 @@ public class PauseMenuScript : MonoBehaviour
     [SerializeField] private bool isPaused = false;
 
     //[SerializeField] private GameObject camera = null;
-    [SerializeField] private CinemachineBrain camera = null;
+    [SerializeField] private CinemachineVirtualCamera camera = null;
     [SerializeField] private bool isCameraOn = true; 
 
     [Space(10)]
