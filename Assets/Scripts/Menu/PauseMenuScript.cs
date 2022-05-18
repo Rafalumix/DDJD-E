@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; 
-using TMPro; 
+using TMPro;
+using Cinemachine;
 
 public class PauseMenuScript : MonoBehaviour
 {
     [SerializeField] private GameObject PauseMenu = null;
-    [SerializeField] private bool isPaused = false; 
+    [SerializeField] private bool isPaused = false;
+
+    //[SerializeField] private GameObject camera = null;
+    [SerializeField] private CinemachineBrain camera = null;
+    [SerializeField] private bool isCameraOn = true; 
 
     [Space(10)]
 
@@ -62,6 +67,9 @@ public class PauseMenuScript : MonoBehaviour
         Cursor.visible = true;
         updateStats();
 
+        isCameraOn = false; 
+        camera.gameObject.SetActive(false); 
+
         Time.timeScale = Mathf.Epsilon;
         AudioListener.pause = true; 
         PauseMenu.SetActive(true);
@@ -71,6 +79,9 @@ public class PauseMenuScript : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        isCameraOn = true;
+        camera.gameObject.SetActive(true);
 
         Time.timeScale = 1;
         AudioListener.pause = false;
