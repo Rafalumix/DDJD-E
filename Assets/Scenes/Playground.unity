@@ -401,8 +401,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 173768315}
+  - component: {fileID: 173768317}
   - component: {fileID: 173768314}
-  - component: {fileID: 173768316}
   m_Layer: 0
   m_Name: fmod test
   m_TagString: Untagged
@@ -419,27 +419,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 173768313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c8585075f0e1f341a23dc02300f75af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1198788837
-      Data2: 1177438829
-      Data3: 1431117501
-      Data4: -326572916
-    Path: event:/Ambience/Forest
-  Event: 
-  PlayEvent: 1
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!4 &173768315
 Transform:
   m_ObjectHideFlags: 0
@@ -454,7 +436,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &173768316
+--- !u!114 &173768317
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -469,11 +451,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1231688000
-      Data2: 1196818040
-      Data3: -1869216072
-      Data4: 201092544
-    Path: snapshot:/Reverb/Cave Reverb
+      Data1: -1881043869
+      Data2: 1136507448
+      Data3: 1022860959
+      Data4: -384967341
+    Path: event:/Steps
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -482,8 +464,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &293626855
 GameObject:
   m_ObjectHideFlags: 0

@@ -461,12 +461,12 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
-  sourceProjectPath: Fmod/Examples.fspro
-  sourceBankPath: Fmod/Build
+  HasSourceProject: 0
+  HasPlatforms: 0
+  sourceProjectPath: ../../../Desktop/StepsWooD/StepsWooD.fspro
+  sourceBankPath: Fmod/Desktop
   SourceBankPathUnformatted: 
-  BankRefreshCooldown: -2
+  BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -488,14 +488,7 @@ MonoBehaviour:
   Plugins: []
   MasterBanks:
   - Master
-  Banks:
-  - Dialogue_CN
-  - Dialogue_EN
-  - Dialogue_JP
-  - Music
-  - SFX
-  - Vehicles
-  - VO
+  Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
