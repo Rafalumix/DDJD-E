@@ -5,12 +5,15 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     [SerializeField] private bool triggerActive = false;
+    [SerializeField] private GameObject PopupWindow = null; 
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             triggerActive = true;
+            PopupWindow.SetActive(true);
+            Debug.Log("You went in the trigger zone.");
         }
     }
 
@@ -19,7 +22,7 @@ public class Interactable : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             triggerActive = false;
-            //Close the menu/interface
+            PopupWindow.SetActive(false);
             Debug.Log("You went out from the trigger zone."); 
         }
     }

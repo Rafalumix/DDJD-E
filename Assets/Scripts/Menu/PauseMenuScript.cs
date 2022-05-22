@@ -12,7 +12,6 @@ public class PauseMenuScript : MonoBehaviour
 
     //[SerializeField] private GameObject camera = null;
     [SerializeField] private CinemachineVirtualCamera camera = null;
-    [SerializeField] private bool isCameraOn = true; 
 
     [Space(10)]
 
@@ -67,7 +66,6 @@ public class PauseMenuScript : MonoBehaviour
         Cursor.visible = true;
         updateStats();
 
-        isCameraOn = false; 
         camera.gameObject.SetActive(false); 
 
         Time.timeScale = Mathf.Epsilon;
@@ -80,7 +78,6 @@ public class PauseMenuScript : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        isCameraOn = true;
         camera.gameObject.SetActive(true);
 
         Time.timeScale = 1;
