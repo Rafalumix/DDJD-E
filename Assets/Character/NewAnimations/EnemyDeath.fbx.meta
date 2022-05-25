@@ -1,0 +1,1884 @@
+fileFormatVersion: 2
+guid: a2cb2e871150dfb4ca4a4deb3dd97692
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -3100184692791225855
+    second: Rib Cage|Clavicle And Shoulder.001Action
+  - first:
+      74: -6532230352226079627
+    second: Rib Cage|Clavicle And ShoulderAction
+  - first:
+      74: 2223565175415424936
+    second: Rib Cage|Cube.001Action
+  - first:
+      74: -8489698634296572209
+    second: Rib Cage|Cube.002Action
+  - first:
+      74: -3955248566876060138
+    second: Rib Cage|Cube.003Action
+  - first:
+      74: 46082831831969233
+    second: Rib Cage|Cube.004Action
+  - first:
+      74: 7136852418295684077
+    second: Rib Cage|Cube.005Action
+  - first:
+      74: 4053892697821235716
+    second: Rib Cage|CubeAction
+  - first:
+      74: 2978791018455999910
+    second: Rib Cage|Feet.001Action
+  - first:
+      74: 1683601658076751698
+    second: Rib Cage|FeetAction
+  - first:
+      74: -126772904078817525
+    second: Rib Cage|Femur.001Action
+  - first:
+      74: 4371874985028467328
+    second: Rib Cage|FemurAction
+  - first:
+      74: -1370941300220431796
+    second: Rib Cage|Humerus.001Action
+  - first:
+      74: 7476135022372368755
+    second: Rib Cage|HumerusAction
+  - first:
+      74: -1631732148307304745
+    second: Rib Cage|Ilium.001Action
+  - first:
+      74: -7147538418485754773
+    second: Rib Cage|IliumAction
+  - first:
+      74: 3648763222894534073
+    second: Rib Cage|metarigAction.003
+  - first:
+      74: 2483719295639948357
+    second: Rib Cage|Radius.001Action
+  - first:
+      74: -7661870856979026409
+    second: Rib Cage|Rib CageAction
+  - first:
+      74: -7089414747051522257
+    second: Rib Cage|SkullAction
+  - first:
+      74: -3963042126303653343
+    second: Rib Cage|spineAction
+  - first:
+      74: -5735051070618058739
+    second: Rib Cage|Tibia.001Action
+  - first:
+      74: -6087522256473388600
+    second: Rib Cage|TibiaAction
+  - first:
+      74: -213506058126638188
+    second: Rib Cage|UlnaAction
+  - first:
+      74: 4337926949980111897
+    second: spine|Clavicle And Shoulder.001Action
+  - first:
+      74: 1068915865252290957
+    second: spine|Clavicle And ShoulderAction
+  - first:
+      74: -733845034293168782
+    second: spine|Cube.001Action
+  - first:
+      74: -39943074201018066
+    second: spine|Cube.002Action
+  - first:
+      74: 1804348524935812048
+    second: spine|Cube.003Action
+  - first:
+      74: 7640133217987551021
+    second: spine|Cube.004Action
+  - first:
+      74: -3796638166725245368
+    second: spine|Cube.005Action
+  - first:
+      74: 5061545449634927599
+    second: spine|CubeAction
+  - first:
+      74: 9100318337066197559
+    second: spine|Feet.001Action
+  - first:
+      74: -2853427399016405190
+    second: spine|FeetAction
+  - first:
+      74: -5500322987524332988
+    second: spine|Femur.001Action
+  - first:
+      74: -3574738197542626210
+    second: spine|FemurAction
+  - first:
+      74: -5789804577563992106
+    second: spine|Humerus.001Action
+  - first:
+      74: -6753682939888925856
+    second: spine|HumerusAction
+  - first:
+      74: -3611040580016440755
+    second: spine|Ilium.001Action
+  - first:
+      74: 6167319566991292901
+    second: spine|IliumAction
+  - first:
+      74: -2007947233795516654
+    second: spine|metarigAction.003
+  - first:
+      74: 5553176853053522194
+    second: spine|Radius.001Action
+  - first:
+      74: 1146755440714249233
+    second: spine|Rib CageAction
+  - first:
+      74: 5910917867933061239
+    second: spine|SkullAction
+  - first:
+      74: -6355968211780367360
+    second: spine|spineAction
+  - first:
+      74: -3367849515553124237
+    second: spine|Tibia.001Action
+  - first:
+      74: -5371342644163180418
+    second: spine|TibiaAction
+  - first:
+      74: -8234150120024510846
+    second: spine|UlnaAction
+  - first:
+      74: -8435938960299109785
+    second: Humerus|Clavicle And Shoulder.001Action
+  - first:
+      74: 8811719528229812578
+    second: Humerus|Clavicle And ShoulderAction
+  - first:
+      74: 5853517496562642794
+    second: Humerus|Cube.001Action
+  - first:
+      74: 848919748753158004
+    second: Humerus|Cube.002Action
+  - first:
+      74: -5477738788071987137
+    second: Humerus|Cube.003Action
+  - first:
+      74: -6286277036086036875
+    second: Humerus|Cube.004Action
+  - first:
+      74: -3756395768100619050
+    second: Humerus|Cube.005Action
+  - first:
+      74: 4155416558017293568
+    second: Humerus|CubeAction
+  - first:
+      74: 4328528635303916434
+    second: Humerus|Feet.001Action
+  - first:
+      74: -6957514963329400368
+    second: Humerus|FeetAction
+  - first:
+      74: -862582587925610653
+    second: Humerus|Femur.001Action
+  - first:
+      74: -2197635869844137442
+    second: Humerus|FemurAction
+  - first:
+      74: -9161804948921174984
+    second: Humerus|Humerus.001Action
+  - first:
+      74: 8490208397927992801
+    second: Humerus|HumerusAction
+  - first:
+      74: 2269662143501657926
+    second: Humerus|Ilium.001Action
+  - first:
+      74: -5736659326235385397
+    second: Humerus|IliumAction
+  - first:
+      74: -8429569400299614716
+    second: Humerus|metarigAction.003
+  - first:
+      74: -2044956354218840907
+    second: Humerus|Radius.001Action
+  - first:
+      74: -5083952922096991050
+    second: Humerus|Rib CageAction
+  - first:
+      74: 4504902020141516033
+    second: Humerus|SkullAction
+  - first:
+      74: 2203328424580101793
+    second: Humerus|spineAction
+  - first:
+      74: -5681681038433108212
+    second: Humerus|Tibia.001Action
+  - first:
+      74: -277804577295502863
+    second: Humerus|TibiaAction
+  - first:
+      74: -1897589335737822404
+    second: Humerus|UlnaAction
+  - first:
+      74: -6686857126327210149
+    second: Ilium|Clavicle And Shoulder.001Action
+  - first:
+      74: -4875298608087361111
+    second: Ilium|Clavicle And ShoulderAction
+  - first:
+      74: -6253655806011927062
+    second: Ilium|Cube.001Action
+  - first:
+      74: -5653752138036853858
+    second: Ilium|Cube.002Action
+  - first:
+      74: -8180072382777402544
+    second: Ilium|Cube.003Action
+  - first:
+      74: -8895768628959936427
+    second: Ilium|Cube.004Action
+  - first:
+      74: -6813178522500147886
+    second: Ilium|Cube.005Action
+  - first:
+      74: -4053980900383011456
+    second: Ilium|CubeAction
+  - first:
+      74: -5400908366932638331
+    second: Ilium|Feet.001Action
+  - first:
+      74: -7688568737677662287
+    second: Ilium|FeetAction
+  - first:
+      74: -3026697701335612526
+    second: Ilium|Femur.001Action
+  - first:
+      74: 5894617204804204546
+    second: Ilium|FemurAction
+  - first:
+      74: 7881597511372825647
+    second: Ilium|Humerus.001Action
+  - first:
+      74: 5586711557140782370
+    second: Ilium|HumerusAction
+  - first:
+      74: -2492758447849444610
+    second: Ilium|Ilium.001Action
+  - first:
+      74: -4979397653131985407
+    second: Ilium|IliumAction
+  - first:
+      74: -2094774183951497020
+    second: Ilium|metarigAction.003
+  - first:
+      74: -3253605882897427801
+    second: Ilium|Radius.001Action
+  - first:
+      74: -5453841830020024788
+    second: Ilium|Rib CageAction
+  - first:
+      74: 9022411478969956787
+    second: Ilium|SkullAction
+  - first:
+      74: -3366618643291756038
+    second: Ilium|spineAction
+  - first:
+      74: -2925294122549257438
+    second: Ilium|Tibia.001Action
+  - first:
+      74: -1455951546795160713
+    second: Ilium|TibiaAction
+  - first:
+      74: -2966485253025969232
+    second: Ilium|UlnaAction
+  - first:
+      74: 6157018739342812434
+    second: Femur|Clavicle And Shoulder.001Action
+  - first:
+      74: 3572810647243236095
+    second: Femur|Clavicle And ShoulderAction
+  - first:
+      74: 6318371997899016564
+    second: Femur|Cube.001Action
+  - first:
+      74: 4892619652582017696
+    second: Femur|Cube.002Action
+  - first:
+      74: 7522573722691131214
+    second: Femur|Cube.003Action
+  - first:
+      74: -713048287377168259
+    second: Femur|Cube.004Action
+  - first:
+      74: 6196416977988353455
+    second: Femur|Cube.005Action
+  - first:
+      74: 3518090841577901452
+    second: Femur|CubeAction
+  - first:
+      74: -8348517851030052258
+    second: Femur|Feet.001Action
+  - first:
+      74: -5417809848148109384
+    second: Femur|FeetAction
+  - first:
+      74: 9211750296602459498
+    second: Femur|Femur.001Action
+  - first:
+      74: 482335818880580974
+    second: Femur|FemurAction
+  - first:
+      74: -8383509378759685483
+    second: Femur|Humerus.001Action
+  - first:
+      74: 5637245327539728982
+    second: Femur|HumerusAction
+  - first:
+      74: 6896608996621430252
+    second: Femur|Ilium.001Action
+  - first:
+      74: -5984751713752795568
+    second: Femur|IliumAction
+  - first:
+      74: 3104286061023504077
+    second: Femur|metarigAction.003
+  - first:
+      74: -7796337207566767689
+    second: Femur|Radius.001Action
+  - first:
+      74: -6119050808798324985
+    second: Femur|Rib CageAction
+  - first:
+      74: -6670158470986921984
+    second: Femur|SkullAction
+  - first:
+      74: 422898303887206101
+    second: Femur|spineAction
+  - first:
+      74: -1602412272654871880
+    second: Femur|Tibia.001Action
+  - first:
+      74: -3159491751590919945
+    second: Femur|TibiaAction
+  - first:
+      74: 235324327390341217
+    second: Femur|UlnaAction
+  - first:
+      74: 8893191264843839082
+    second: Skull|Clavicle And Shoulder.001Action
+  - first:
+      74: -5333633280927135547
+    second: Skull|Clavicle And ShoulderAction
+  - first:
+      74: -4512541460006386631
+    second: Skull|Cube.001Action
+  - first:
+      74: 7282634836724373685
+    second: Skull|Cube.002Action
+  - first:
+      74: 3626754450041667691
+    second: Skull|Cube.003Action
+  - first:
+      74: 7417452457898426458
+    second: Skull|Cube.004Action
+  - first:
+      74: 5597388122446369414
+    second: Skull|Cube.005Action
+  - first:
+      74: -2429625292955434675
+    second: Skull|CubeAction
+  - first:
+      74: -6706110382520582992
+    second: Skull|Feet.001Action
+  - first:
+      74: 1677973712434212190
+    second: Skull|FeetAction
+  - first:
+      74: 3486291285148636314
+    second: Skull|Femur.001Action
+  - first:
+      74: -909588612302901155
+    second: Skull|FemurAction
+  - first:
+      74: 3337942653400937227
+    second: Skull|Humerus.001Action
+  - first:
+      74: -2367959484700856404
+    second: Skull|HumerusAction
+  - first:
+      74: 1038357156339288748
+    second: Skull|Ilium.001Action
+  - first:
+      74: -776821277468756426
+    second: Skull|IliumAction
+  - first:
+      74: -5005426002432786445
+    second: Skull|metarigAction.003
+  - first:
+      74: 4754190640405647248
+    second: Skull|Radius.001Action
+  - first:
+      74: 7337781770697437334
+    second: Skull|Rib CageAction
+  - first:
+      74: 8438063162835525284
+    second: Skull|SkullAction
+  - first:
+      74: 693444323057859075
+    second: Skull|spineAction
+  - first:
+      74: 7469097600025431359
+    second: Skull|Tibia.001Action
+  - first:
+      74: 4309779250377670077
+    second: Skull|TibiaAction
+  - first:
+      74: 4691427108460819166
+    second: Skull|UlnaAction
+  - first:
+      74: -7433763973251201739
+    second: Ulna|Clavicle And Shoulder.001Action
+  - first:
+      74: 3715364376957796481
+    second: Ulna|Clavicle And ShoulderAction
+  - first:
+      74: 3495025607005501621
+    second: Ulna|Cube.001Action
+  - first:
+      74: 3665911619947432508
+    second: Ulna|Cube.002Action
+  - first:
+      74: -6982373529197098763
+    second: Ulna|Cube.003Action
+  - first:
+      74: -2925172898739367819
+    second: Ulna|Cube.004Action
+  - first:
+      74: -2108239769070523562
+    second: Ulna|Cube.005Action
+  - first:
+      74: 2820942688502934129
+    second: Ulna|CubeAction
+  - first:
+      74: -2897354220542998502
+    second: Ulna|Feet.001Action
+  - first:
+      74: 3747783417594218736
+    second: Ulna|FeetAction
+  - first:
+      74: -1196822154402698588
+    second: Ulna|Femur.001Action
+  - first:
+      74: -7889371283120428734
+    second: Ulna|FemurAction
+  - first:
+      74: 8045393011049067809
+    second: Ulna|Humerus.001Action
+  - first:
+      74: -2694680585654090441
+    second: Ulna|HumerusAction
+  - first:
+      74: -2740524183205091431
+    second: Ulna|Ilium.001Action
+  - first:
+      74: -8963685044404089676
+    second: Ulna|IliumAction
+  - first:
+      74: 1897396998591332542
+    second: Ulna|metarigAction.003
+  - first:
+      74: 8650488140982620318
+    second: Ulna|Radius.001Action
+  - first:
+      74: 5040198304281308231
+    second: Ulna|Rib CageAction
+  - first:
+      74: -3602386274365863267
+    second: Ulna|SkullAction
+  - first:
+      74: 5672888447565860525
+    second: Ulna|spineAction
+  - first:
+      74: 6490871180435574904
+    second: Ulna|Tibia.001Action
+  - first:
+      74: -6532702294938934918
+    second: Ulna|TibiaAction
+  - first:
+      74: -5610065318946239838
+    second: Ulna|UlnaAction
+  - first:
+      74: 253803760919652382
+    second: Clavicle And Shoulder|Clavicle And Shoulder.001Action
+  - first:
+      74: 1273728193756301863
+    second: Clavicle And Shoulder|Clavicle And ShoulderAction
+  - first:
+      74: -286654774515391674
+    second: Clavicle And Shoulder|Cube.001Action
+  - first:
+      74: -2422068326743917788
+    second: Clavicle And Shoulder|Cube.002Action
+  - first:
+      74: 683035390803950882
+    second: Clavicle And Shoulder|Cube.003Action
+  - first:
+      74: -368110962155688715
+    second: Clavicle And Shoulder|Cube.004Action
+  - first:
+      74: 899482572350676944
+    second: Clavicle And Shoulder|Cube.005Action
+  - first:
+      74: 883730427803050016
+    second: Clavicle And Shoulder|CubeAction
+  - first:
+      74: 3953343445896725478
+    second: Clavicle And Shoulder|Feet.001Action
+  - first:
+      74: -817899691140495159
+    second: Clavicle And Shoulder|FeetAction
+  - first:
+      74: -7240270669159165733
+    second: Clavicle And Shoulder|Femur.001Action
+  - first:
+      74: -3651442585704862620
+    second: Clavicle And Shoulder|FemurAction
+  - first:
+      74: 4956593678383445108
+    second: Clavicle And Shoulder|Humerus.001Action
+  - first:
+      74: -2133115516183522254
+    second: Clavicle And Shoulder|HumerusAction
+  - first:
+      74: 1019845062947057960
+    second: Clavicle And Shoulder|Ilium.001Action
+  - first:
+      74: 5036275067054675620
+    second: Clavicle And Shoulder|IliumAction
+  - first:
+      74: 4224654442955791752
+    second: Clavicle And Shoulder|metarigAction.003
+  - first:
+      74: -1344800418805310451
+    second: Clavicle And Shoulder|Radius.001Action
+  - first:
+      74: -207162437372978302
+    second: Clavicle And Shoulder|Rib CageAction
+  - first:
+      74: -7694129059378291337
+    second: Clavicle And Shoulder|SkullAction
+  - first:
+      74: -6323288233931063928
+    second: Clavicle And Shoulder|spineAction
+  - first:
+      74: -4239547834275019602
+    second: Clavicle And Shoulder|Tibia.001Action
+  - first:
+      74: 3445485998302682050
+    second: Clavicle And Shoulder|TibiaAction
+  - first:
+      74: -4529100600653679320
+    second: Clavicle And Shoulder|UlnaAction
+  - first:
+      74: -1845834982548774990
+    second: Feet|Clavicle And Shoulder.001Action
+  - first:
+      74: 1233335575376865684
+    second: Feet|Clavicle And ShoulderAction
+  - first:
+      74: -7145882271808438696
+    second: Feet|Cube.001Action
+  - first:
+      74: -4340789389585679559
+    second: Feet|Cube.002Action
+  - first:
+      74: -5873801439654932227
+    second: Feet|Cube.003Action
+  - first:
+      74: -3041237441074751227
+    second: Feet|Cube.004Action
+  - first:
+      74: 2623392705875168947
+    second: Feet|Cube.005Action
+  - first:
+      74: -7805041110121713520
+    second: Feet|CubeAction
+  - first:
+      74: 5367436140872483007
+    second: Feet|Feet.001Action
+  - first:
+      74: -2692004397569353056
+    second: Feet|FeetAction
+  - first:
+      74: -9125668823812076845
+    second: Feet|Femur.001Action
+  - first:
+      74: -8293627327976850370
+    second: Feet|FemurAction
+  - first:
+      74: -8353461031957277454
+    second: Feet|Humerus.001Action
+  - first:
+      74: -4229940188505961646
+    second: Feet|HumerusAction
+  - first:
+      74: -2215946479536081884
+    second: Feet|Ilium.001Action
+  - first:
+      74: 8295756215941455032
+    second: Feet|IliumAction
+  - first:
+      74: 5648263588231238696
+    second: Feet|metarigAction.003
+  - first:
+      74: 5615024312997410851
+    second: Feet|Radius.001Action
+  - first:
+      74: -4191713608678710787
+    second: Feet|Rib CageAction
+  - first:
+      74: 5409935799867266872
+    second: Feet|SkullAction
+  - first:
+      74: -8016608367673599712
+    second: Feet|spineAction
+  - first:
+      74: -7000148037276211089
+    second: Feet|Tibia.001Action
+  - first:
+      74: 5833157078768483435
+    second: Feet|TibiaAction
+  - first:
+      74: 400738863041641413
+    second: Feet|UlnaAction
+  - first:
+      74: 2503614335190578865
+    second: Cube|Clavicle And Shoulder.001Action
+  - first:
+      74: 7251612378919307639
+    second: Cube|Clavicle And ShoulderAction
+  - first:
+      74: 9036694105013053538
+    second: Cube|Cube.001Action
+  - first:
+      74: -8929536445494971869
+    second: Cube|Cube.002Action
+  - first:
+      74: -2252302417926332172
+    second: Cube|Cube.003Action
+  - first:
+      74: 5259475447914872051
+    second: Cube|Cube.004Action
+  - first:
+      74: -6079502761339426011
+    second: Cube|Cube.005Action
+  - first:
+      74: -3999578356269874737
+    second: Cube|CubeAction
+  - first:
+      74: -5186185809366659615
+    second: Cube|Feet.001Action
+  - first:
+      74: 6959529736104185953
+    second: Cube|FeetAction
+  - first:
+      74: 4212395669383484639
+    second: Cube|Femur.001Action
+  - first:
+      74: -475611251706610083
+    second: Cube|FemurAction
+  - first:
+      74: -5290161687700827143
+    second: Cube|Humerus.001Action
+  - first:
+      74: 7672523621109319905
+    second: Cube|HumerusAction
+  - first:
+      74: -6176202655133370539
+    second: Cube|Ilium.001Action
+  - first:
+      74: 1068515925454222069
+    second: Cube|IliumAction
+  - first:
+      74: -749969552242840398
+    second: Cube|metarigAction.003
+  - first:
+      74: -1689582715017121348
+    second: Cube|Radius.001Action
+  - first:
+      74: 8361510168692784855
+    second: Cube|Rib CageAction
+  - first:
+      74: 6460204095839002262
+    second: Cube|SkullAction
+  - first:
+      74: -5736896105266287787
+    second: Cube|spineAction
+  - first:
+      74: 1003232842727883863
+    second: Cube|Tibia.001Action
+  - first:
+      74: -8172587074819661220
+    second: Cube|TibiaAction
+  - first:
+      74: 7271162322868874526
+    second: Cube|UlnaAction
+  - first:
+      74: 1233800063955171871
+    second: Tibia|Clavicle And Shoulder.001Action
+  - first:
+      74: 3269860351975858652
+    second: Tibia|Clavicle And ShoulderAction
+  - first:
+      74: 283462248088368997
+    second: Tibia|Cube.001Action
+  - first:
+      74: -7455033293990712478
+    second: Tibia|Cube.002Action
+  - first:
+      74: -1861770539538929126
+    second: Tibia|Cube.003Action
+  - first:
+      74: -5905904599769334082
+    second: Tibia|Cube.004Action
+  - first:
+      74: 4951184199346002757
+    second: Tibia|Cube.005Action
+  - first:
+      74: -318084477901938465
+    second: Tibia|CubeAction
+  - first:
+      74: 3405363086229495951
+    second: Tibia|Feet.001Action
+  - first:
+      74: -503791053201213588
+    second: Tibia|FeetAction
+  - first:
+      74: -5163861947020022124
+    second: Tibia|Femur.001Action
+  - first:
+      74: 2913891935065261150
+    second: Tibia|FemurAction
+  - first:
+      74: -2717966651147443223
+    second: Tibia|Humerus.001Action
+  - first:
+      74: -433057218417540805
+    second: Tibia|HumerusAction
+  - first:
+      74: 1657777874199160512
+    second: Tibia|Ilium.001Action
+  - first:
+      74: -4780819099823310843
+    second: Tibia|IliumAction
+  - first:
+      74: -5515337161823821051
+    second: Tibia|metarigAction.003
+  - first:
+      74: 2577682140963924996
+    second: Tibia|Radius.001Action
+  - first:
+      74: -6372272417920813338
+    second: Tibia|Rib CageAction
+  - first:
+      74: -4658240218907472654
+    second: Tibia|SkullAction
+  - first:
+      74: -5715694593296296639
+    second: Tibia|spineAction
+  - first:
+      74: 1087631054559667885
+    second: Tibia|Tibia.001Action
+  - first:
+      74: -5373381371001259501
+    second: Tibia|TibiaAction
+  - first:
+      74: 5927515031201207533
+    second: Tibia|UlnaAction
+  - first:
+      74: 6181657566292343162
+    second: Cube.001|Clavicle And Shoulder.001Action
+  - first:
+      74: -7164204438328231334
+    second: Cube.001|Clavicle And ShoulderAction
+  - first:
+      74: -8515560403302317629
+    second: Cube.001|Cube.001Action
+  - first:
+      74: 8888790717876117480
+    second: Cube.001|Cube.002Action
+  - first:
+      74: 1779057065894527374
+    second: Cube.001|Cube.003Action
+  - first:
+      74: -8753955325409962159
+    second: Cube.001|Cube.004Action
+  - first:
+      74: -2493469826189662253
+    second: Cube.001|Cube.005Action
+  - first:
+      74: 17017395923089283
+    second: Cube.001|CubeAction
+  - first:
+      74: 3817251190578896424
+    second: Cube.001|Feet.001Action
+  - first:
+      74: -9200480377215745755
+    second: Cube.001|FeetAction
+  - first:
+      74: -3807740747110080446
+    second: Cube.001|Femur.001Action
+  - first:
+      74: -558461643326502947
+    second: Cube.001|FemurAction
+  - first:
+      74: -7257551018529239663
+    second: Cube.001|Humerus.001Action
+  - first:
+      74: -4780423419269916390
+    second: Cube.001|HumerusAction
+  - first:
+      74: -17391578161465307
+    second: Cube.001|Ilium.001Action
+  - first:
+      74: -916597202747074915
+    second: Cube.001|IliumAction
+  - first:
+      74: -2640205328690530310
+    second: Cube.001|metarigAction.003
+  - first:
+      74: -686754767643459664
+    second: Cube.001|Radius.001Action
+  - first:
+      74: 5825250161270380836
+    second: Cube.001|Rib CageAction
+  - first:
+      74: -655163283469320985
+    second: Cube.001|SkullAction
+  - first:
+      74: -3660538276693607024
+    second: Cube.001|spineAction
+  - first:
+      74: 6374388940530618454
+    second: Cube.001|Tibia.001Action
+  - first:
+      74: -5277779020909704077
+    second: Cube.001|TibiaAction
+  - first:
+      74: -5645405133246063543
+    second: Cube.001|UlnaAction
+  - first:
+      74: -738406654232984723
+    second: Radius.001|Clavicle And Shoulder.001Action
+  - first:
+      74: -731695044398686789
+    second: Radius.001|Clavicle And ShoulderAction
+  - first:
+      74: 6357414534403796575
+    second: Radius.001|Cube.001Action
+  - first:
+      74: 5764221567548125882
+    second: Radius.001|Cube.002Action
+  - first:
+      74: 1110578990027114747
+    second: Radius.001|Cube.003Action
+  - first:
+      74: 5988967379330475420
+    second: Radius.001|Cube.004Action
+  - first:
+      74: 286562290150844537
+    second: Radius.001|Cube.005Action
+  - first:
+      74: -8190275900944902628
+    second: Radius.001|CubeAction
+  - first:
+      74: -2618692703211390177
+    second: Radius.001|Feet.001Action
+  - first:
+      74: -3702532664663866449
+    second: Radius.001|FeetAction
+  - first:
+      74: 1492132841468746593
+    second: Radius.001|Femur.001Action
+  - first:
+      74: 8875736499593147678
+    second: Radius.001|FemurAction
+  - first:
+      74: -2902500502613319026
+    second: Radius.001|Humerus.001Action
+  - first:
+      74: 3165331205012921015
+    second: Radius.001|HumerusAction
+  - first:
+      74: -9175457524108731914
+    second: Radius.001|Ilium.001Action
+  - first:
+      74: -7823441797253227866
+    second: Radius.001|IliumAction
+  - first:
+      74: -9203875163350086227
+    second: Radius.001|metarigAction.003
+  - first:
+      74: 1582938746908363444
+    second: Radius.001|Radius.001Action
+  - first:
+      74: -3644046783754882937
+    second: Radius.001|Rib CageAction
+  - first:
+      74: -2807595287066308895
+    second: Radius.001|SkullAction
+  - first:
+      74: 1530794708105846662
+    second: Radius.001|spineAction
+  - first:
+      74: -7446558991331313163
+    second: Radius.001|Tibia.001Action
+  - first:
+      74: 1014832534584713757
+    second: Radius.001|TibiaAction
+  - first:
+      74: -2457054140608006714
+    second: Radius.001|UlnaAction
+  - first:
+      74: 7803180834802895278
+    second: Humerus.001|Clavicle And Shoulder.001Action
+  - first:
+      74: -2899612617287731385
+    second: Humerus.001|Clavicle And ShoulderAction
+  - first:
+      74: -6067814291343605841
+    second: Humerus.001|Cube.001Action
+  - first:
+      74: -300579219753347870
+    second: Humerus.001|Cube.002Action
+  - first:
+      74: 6194321831327503982
+    second: Humerus.001|Cube.003Action
+  - first:
+      74: 6537674121071521852
+    second: Humerus.001|Cube.004Action
+  - first:
+      74: -9064766779507394590
+    second: Humerus.001|Cube.005Action
+  - first:
+      74: -3225351764955750798
+    second: Humerus.001|CubeAction
+  - first:
+      74: -8590179548997622237
+    second: Humerus.001|Feet.001Action
+  - first:
+      74: -625442859071800745
+    second: Humerus.001|FeetAction
+  - first:
+      74: -2581569059454487713
+    second: Humerus.001|Femur.001Action
+  - first:
+      74: -8945225724133169197
+    second: Humerus.001|FemurAction
+  - first:
+      74: -4632884607482483565
+    second: Humerus.001|Humerus.001Action
+  - first:
+      74: -4157195827000119555
+    second: Humerus.001|HumerusAction
+  - first:
+      74: -2281720555533843110
+    second: Humerus.001|Ilium.001Action
+  - first:
+      74: 7180558462298229607
+    second: Humerus.001|IliumAction
+  - first:
+      74: -6196751349557417823
+    second: Humerus.001|metarigAction.003
+  - first:
+      74: 6904284126990682656
+    second: Humerus.001|Radius.001Action
+  - first:
+      74: 6656837248318735016
+    second: Humerus.001|Rib CageAction
+  - first:
+      74: -3726831124883310407
+    second: Humerus.001|SkullAction
+  - first:
+      74: 8779735366287410729
+    second: Humerus.001|spineAction
+  - first:
+      74: -3332352697184219075
+    second: Humerus.001|Tibia.001Action
+  - first:
+      74: -212633048627736530
+    second: Humerus.001|TibiaAction
+  - first:
+      74: -4405368789811633528
+    second: Humerus.001|UlnaAction
+  - first:
+      74: -5183737255098517509
+    second: Clavicle And Shoulder.001|Clavicle And Shoulder.001Action
+  - first:
+      74: -7559136621249319923
+    second: Clavicle And Shoulder.001|Clavicle And ShoulderAction
+  - first:
+      74: 4327868941820614096
+    second: Clavicle And Shoulder.001|Cube.001Action
+  - first:
+      74: -3961803173299154992
+    second: Clavicle And Shoulder.001|Cube.002Action
+  - first:
+      74: -2227411603418716111
+    second: Clavicle And Shoulder.001|Cube.003Action
+  - first:
+      74: 3519181139837592773
+    second: Clavicle And Shoulder.001|Cube.004Action
+  - first:
+      74: 1687751261906460286
+    second: Clavicle And Shoulder.001|Cube.005Action
+  - first:
+      74: -2346704862415520967
+    second: Clavicle And Shoulder.001|CubeAction
+  - first:
+      74: -4276537161715621795
+    second: Clavicle And Shoulder.001|Feet.001Action
+  - first:
+      74: 5685275532846681229
+    second: Clavicle And Shoulder.001|FeetAction
+  - first:
+      74: 1592666581525372452
+    second: Clavicle And Shoulder.001|Femur.001Action
+  - first:
+      74: -1748407771791540518
+    second: Clavicle And Shoulder.001|FemurAction
+  - first:
+      74: -8259292584066605955
+    second: Clavicle And Shoulder.001|Humerus.001Action
+  - first:
+      74: -2299277563613967072
+    second: Clavicle And Shoulder.001|HumerusAction
+  - first:
+      74: 6189262713158205327
+    second: Clavicle And Shoulder.001|Ilium.001Action
+  - first:
+      74: 5546711271923276995
+    second: Clavicle And Shoulder.001|IliumAction
+  - first:
+      74: 2407043153002246512
+    second: Clavicle And Shoulder.001|metarigAction.003
+  - first:
+      74: 2113857077540511203
+    second: Clavicle And Shoulder.001|Radius.001Action
+  - first:
+      74: -2464685162754561404
+    second: Clavicle And Shoulder.001|Rib CageAction
+  - first:
+      74: -6926339503811195258
+    second: Clavicle And Shoulder.001|SkullAction
+  - first:
+      74: -1916752615635336901
+    second: Clavicle And Shoulder.001|spineAction
+  - first:
+      74: 5472016790238482387
+    second: Clavicle And Shoulder.001|Tibia.001Action
+  - first:
+      74: 5407211259620604668
+    second: Clavicle And Shoulder.001|TibiaAction
+  - first:
+      74: -8830921263120168383
+    second: Clavicle And Shoulder.001|UlnaAction
+  - first:
+      74: -5439344126817635317
+    second: Ilium.001|Clavicle And Shoulder.001Action
+  - first:
+      74: 9123843655041467894
+    second: Ilium.001|Clavicle And ShoulderAction
+  - first:
+      74: 8544107007713965552
+    second: Ilium.001|Cube.001Action
+  - first:
+      74: 2656582784660772575
+    second: Ilium.001|Cube.002Action
+  - first:
+      74: 1815749195135076212
+    second: Ilium.001|Cube.003Action
+  - first:
+      74: -4803322730892209588
+    second: Ilium.001|Cube.004Action
+  - first:
+      74: -7034352242667588923
+    second: Ilium.001|Cube.005Action
+  - first:
+      74: -7609337347034198705
+    second: Ilium.001|CubeAction
+  - first:
+      74: 2698062093246809440
+    second: Ilium.001|Feet.001Action
+  - first:
+      74: 6828658440059168007
+    second: Ilium.001|FeetAction
+  - first:
+      74: 3824268541371147530
+    second: Ilium.001|Femur.001Action
+  - first:
+      74: 6054501684818467479
+    second: Ilium.001|FemurAction
+  - first:
+      74: 5996867198286116959
+    second: Ilium.001|Humerus.001Action
+  - first:
+      74: -2916907411392145734
+    second: Ilium.001|HumerusAction
+  - first:
+      74: 3312113216833304933
+    second: Ilium.001|Ilium.001Action
+  - first:
+      74: 8776954919950148077
+    second: Ilium.001|IliumAction
+  - first:
+      74: 5383463327132903341
+    second: Ilium.001|metarigAction.003
+  - first:
+      74: 278685147587173628
+    second: Ilium.001|Radius.001Action
+  - first:
+      74: -8269932325664153487
+    second: Ilium.001|Rib CageAction
+  - first:
+      74: -8518471004768785769
+    second: Ilium.001|SkullAction
+  - first:
+      74: -5006464562720556972
+    second: Ilium.001|spineAction
+  - first:
+      74: -8488068971621590149
+    second: Ilium.001|Tibia.001Action
+  - first:
+      74: -2209039462030009448
+    second: Ilium.001|TibiaAction
+  - first:
+      74: 6360193874391004464
+    second: Ilium.001|UlnaAction
+  - first:
+      74: -4317093260478337520
+    second: Feet.001|Clavicle And Shoulder.001Action
+  - first:
+      74: 7613322587324778542
+    second: Feet.001|Clavicle And ShoulderAction
+  - first:
+      74: -620334021390879244
+    second: Feet.001|Cube.001Action
+  - first:
+      74: -5777394267167724360
+    second: Feet.001|Cube.002Action
+  - first:
+      74: -6749358681308103179
+    second: Feet.001|Cube.003Action
+  - first:
+      74: -6297027576303318098
+    second: Feet.001|Cube.004Action
+  - first:
+      74: 4829976572450828082
+    second: Feet.001|Cube.005Action
+  - first:
+      74: -2710002473252753775
+    second: Feet.001|CubeAction
+  - first:
+      74: 477394219881702027
+    second: Feet.001|Feet.001Action
+  - first:
+      74: -1878784429940062739
+    second: Feet.001|FeetAction
+  - first:
+      74: 4156772957003093504
+    second: Feet.001|Femur.001Action
+  - first:
+      74: -890403031232925492
+    second: Feet.001|FemurAction
+  - first:
+      74: -9039755554272229733
+    second: Feet.001|Humerus.001Action
+  - first:
+      74: -1927341176432395229
+    second: Feet.001|HumerusAction
+  - first:
+      74: -5692362443890424958
+    second: Feet.001|Ilium.001Action
+  - first:
+      74: -7307222171442528757
+    second: Feet.001|IliumAction
+  - first:
+      74: -7892527509090497380
+    second: Feet.001|metarigAction.003
+  - first:
+      74: -3813791552364008899
+    second: Feet.001|Radius.001Action
+  - first:
+      74: 807381418561983918
+    second: Feet.001|Rib CageAction
+  - first:
+      74: -4856507447859857809
+    second: Feet.001|SkullAction
+  - first:
+      74: 3850497506995485405
+    second: Feet.001|spineAction
+  - first:
+      74: -8446033365704234347
+    second: Feet.001|Tibia.001Action
+  - first:
+      74: 5026850379414836575
+    second: Feet.001|TibiaAction
+  - first:
+      74: -1002735724593659895
+    second: Feet.001|UlnaAction
+  - first:
+      74: -3043986629903815219
+    second: Femur.001|Clavicle And Shoulder.001Action
+  - first:
+      74: -3839005715649298673
+    second: Femur.001|Clavicle And ShoulderAction
+  - first:
+      74: -5572580075564331603
+    second: Femur.001|Cube.001Action
+  - first:
+      74: 8597832735395805194
+    second: Femur.001|Cube.002Action
+  - first:
+      74: -3943680137364929605
+    second: Femur.001|Cube.003Action
+  - first:
+      74: -7491660798016965332
+    second: Femur.001|Cube.004Action
+  - first:
+      74: 677193140367605716
+    second: Femur.001|Cube.005Action
+  - first:
+      74: -3686587200309441863
+    second: Femur.001|CubeAction
+  - first:
+      74: 80874297202622790
+    second: Femur.001|Feet.001Action
+  - first:
+      74: -5697580069955128103
+    second: Femur.001|FeetAction
+  - first:
+      74: 3727902959351272769
+    second: Femur.001|Femur.001Action
+  - first:
+      74: -726604872582577419
+    second: Femur.001|FemurAction
+  - first:
+      74: 3505524911656872667
+    second: Femur.001|Humerus.001Action
+  - first:
+      74: -7891657047789966024
+    second: Femur.001|HumerusAction
+  - first:
+      74: 85624564634741753
+    second: Femur.001|Ilium.001Action
+  - first:
+      74: 6970527677113342457
+    second: Femur.001|IliumAction
+  - first:
+      74: 2412116128229721717
+    second: Femur.001|metarigAction.003
+  - first:
+      74: -4886738266097256879
+    second: Femur.001|Radius.001Action
+  - first:
+      74: -2435371905061186186
+    second: Femur.001|Rib CageAction
+  - first:
+      74: 4301122630788640901
+    second: Femur.001|SkullAction
+  - first:
+      74: 4098037307340713672
+    second: Femur.001|spineAction
+  - first:
+      74: -7160120643097265232
+    second: Femur.001|Tibia.001Action
+  - first:
+      74: -6742231262348571499
+    second: Femur.001|TibiaAction
+  - first:
+      74: -8299112883019763009
+    second: Femur.001|UlnaAction
+  - first:
+      74: 7321031527935433137
+    second: Tibia.001|Clavicle And Shoulder.001Action
+  - first:
+      74: -7239433086263023555
+    second: Tibia.001|Clavicle And ShoulderAction
+  - first:
+      74: 1714449405439447116
+    second: Tibia.001|Cube.001Action
+  - first:
+      74: -5251716729978721225
+    second: Tibia.001|Cube.002Action
+  - first:
+      74: -5949785825567842285
+    second: Tibia.001|Cube.003Action
+  - first:
+      74: -3008657473995776972
+    second: Tibia.001|Cube.004Action
+  - first:
+      74: -1135455383615380932
+    second: Tibia.001|Cube.005Action
+  - first:
+      74: 3715428478761174396
+    second: Tibia.001|CubeAction
+  - first:
+      74: -3598558874089614261
+    second: Tibia.001|Feet.001Action
+  - first:
+      74: -6294890621169555964
+    second: Tibia.001|FeetAction
+  - first:
+      74: -3548757811595698980
+    second: Tibia.001|Femur.001Action
+  - first:
+      74: 6265868567693888400
+    second: Tibia.001|FemurAction
+  - first:
+      74: -4014236782983417558
+    second: Tibia.001|Humerus.001Action
+  - first:
+      74: 4730910287738117773
+    second: Tibia.001|HumerusAction
+  - first:
+      74: 8020951633720265851
+    second: Tibia.001|Ilium.001Action
+  - first:
+      74: 2568624570018821724
+    second: Tibia.001|IliumAction
+  - first:
+      74: 987898123502136568
+    second: Tibia.001|metarigAction.003
+  - first:
+      74: -5280286059509589892
+    second: Tibia.001|Radius.001Action
+  - first:
+      74: -6075054138564859318
+    second: Tibia.001|Rib CageAction
+  - first:
+      74: -4811365677199005060
+    second: Tibia.001|SkullAction
+  - first:
+      74: -6412228262551193162
+    second: Tibia.001|spineAction
+  - first:
+      74: -9035387138414268791
+    second: Tibia.001|Tibia.001Action
+  - first:
+      74: 1246115730437843756
+    second: Tibia.001|TibiaAction
+  - first:
+      74: -3372622418843472044
+    second: Tibia.001|UlnaAction
+  - first:
+      74: 8826484946731131311
+    second: Cube.002|Clavicle And Shoulder.001Action
+  - first:
+      74: 6071760996536814905
+    second: Cube.002|Clavicle And ShoulderAction
+  - first:
+      74: 978295544477664516
+    second: Cube.002|Cube.001Action
+  - first:
+      74: 6712369695479197947
+    second: Cube.002|Cube.002Action
+  - first:
+      74: -7944832092688391277
+    second: Cube.002|Cube.003Action
+  - first:
+      74: 9117891803251970930
+    second: Cube.002|Cube.004Action
+  - first:
+      74: 2589519420398832599
+    second: Cube.002|Cube.005Action
+  - first:
+      74: -2569477126889815120
+    second: Cube.002|CubeAction
+  - first:
+      74: -7216475991686396492
+    second: Cube.002|Feet.001Action
+  - first:
+      74: 1265890896808019144
+    second: Cube.002|FeetAction
+  - first:
+      74: 4045779611078434454
+    second: Cube.002|Femur.001Action
+  - first:
+      74: 3473804223586609188
+    second: Cube.002|FemurAction
+  - first:
+      74: 9102208296461234623
+    second: Cube.002|Humerus.001Action
+  - first:
+      74: 4825361226824632246
+    second: Cube.002|HumerusAction
+  - first:
+      74: 2246715888195760724
+    second: Cube.002|Ilium.001Action
+  - first:
+      74: -6377483393689091206
+    second: Cube.002|IliumAction
+  - first:
+      74: -5077547663225570574
+    second: Cube.002|metarigAction.003
+  - first:
+      74: -614498866732530059
+    second: Cube.002|Radius.001Action
+  - first:
+      74: -2817502593726522321
+    second: Cube.002|Rib CageAction
+  - first:
+      74: 5216061655703495620
+    second: Cube.002|SkullAction
+  - first:
+      74: 5100506862434548642
+    second: Cube.002|spineAction
+  - first:
+      74: 5026373410252796022
+    second: Cube.002|Tibia.001Action
+  - first:
+      74: -3231361437188652501
+    second: Cube.002|TibiaAction
+  - first:
+      74: -5660315953009531812
+    second: Cube.002|UlnaAction
+  - first:
+      74: -6036168234715668414
+    second: Cube.003|Clavicle And Shoulder.001Action
+  - first:
+      74: -8574814143202983187
+    second: Cube.003|Clavicle And ShoulderAction
+  - first:
+      74: -4805450742491024743
+    second: Cube.003|Cube.001Action
+  - first:
+      74: 3244617880250996793
+    second: Cube.003|Cube.002Action
+  - first:
+      74: -8906869970063597199
+    second: Cube.003|Cube.003Action
+  - first:
+      74: 2465649831543542797
+    second: Cube.003|Cube.004Action
+  - first:
+      74: -4916936998134895019
+    second: Cube.003|Cube.005Action
+  - first:
+      74: -1327517643594879202
+    second: Cube.003|CubeAction
+  - first:
+      74: 6269784470457822054
+    second: Cube.003|Feet.001Action
+  - first:
+      74: -1748346826199001746
+    second: Cube.003|FeetAction
+  - first:
+      74: -3061650985194667481
+    second: Cube.003|Femur.001Action
+  - first:
+      74: 5592170216319483899
+    second: Cube.003|FemurAction
+  - first:
+      74: 3748570656267483107
+    second: Cube.003|Humerus.001Action
+  - first:
+      74: 3060449780799497372
+    second: Cube.003|HumerusAction
+  - first:
+      74: -1093530135761567049
+    second: Cube.003|Ilium.001Action
+  - first:
+      74: 5591737437683809518
+    second: Cube.003|IliumAction
+  - first:
+      74: -3079532338960642640
+    second: Cube.003|metarigAction.003
+  - first:
+      74: 3625610020298926515
+    second: Cube.003|Radius.001Action
+  - first:
+      74: 5793451324261267636
+    second: Cube.003|Rib CageAction
+  - first:
+      74: -7359079803930665704
+    second: Cube.003|SkullAction
+  - first:
+      74: 3430120766727428352
+    second: Cube.003|spineAction
+  - first:
+      74: -4629607002142519298
+    second: Cube.003|Tibia.001Action
+  - first:
+      74: -1141199277342235199
+    second: Cube.003|TibiaAction
+  - first:
+      74: 3845405829999538898
+    second: Cube.003|UlnaAction
+  - first:
+      74: 5871674090134304393
+    second: Cube.004|Clavicle And Shoulder.001Action
+  - first:
+      74: -4907997640373857306
+    second: Cube.004|Clavicle And ShoulderAction
+  - first:
+      74: 194676454379394236
+    second: Cube.004|Cube.001Action
+  - first:
+      74: 3668844931122048522
+    second: Cube.004|Cube.002Action
+  - first:
+      74: 462318446980670716
+    second: Cube.004|Cube.003Action
+  - first:
+      74: -5755876124362903034
+    second: Cube.004|Cube.004Action
+  - first:
+      74: -7712969636887564349
+    second: Cube.004|Cube.005Action
+  - first:
+      74: 6069470996275563646
+    second: Cube.004|CubeAction
+  - first:
+      74: -1080951870276401267
+    second: Cube.004|Feet.001Action
+  - first:
+      74: 4604213190977021902
+    second: Cube.004|FeetAction
+  - first:
+      74: -7453868815860518300
+    second: Cube.004|Femur.001Action
+  - first:
+      74: -1988194609031203426
+    second: Cube.004|FemurAction
+  - first:
+      74: 1163412868167061342
+    second: Cube.004|Humerus.001Action
+  - first:
+      74: -7421743985403958677
+    second: Cube.004|HumerusAction
+  - first:
+      74: 5426958437204316990
+    second: Cube.004|Ilium.001Action
+  - first:
+      74: 6144919897176113805
+    second: Cube.004|IliumAction
+  - first:
+      74: 5157466687644844648
+    second: Cube.004|metarigAction.003
+  - first:
+      74: 2938753985524831865
+    second: Cube.004|Radius.001Action
+  - first:
+      74: -532830789067027446
+    second: Cube.004|Rib CageAction
+  - first:
+      74: 2734794434742323724
+    second: Cube.004|SkullAction
+  - first:
+      74: 1774505719147682007
+    second: Cube.004|spineAction
+  - first:
+      74: -854517015691961510
+    second: Cube.004|Tibia.001Action
+  - first:
+      74: -6303163727829256732
+    second: Cube.004|TibiaAction
+  - first:
+      74: 2505606131852253758
+    second: Cube.004|UlnaAction
+  - first:
+      74: 1441768603405950731
+    second: Cube.005|Clavicle And Shoulder.001Action
+  - first:
+      74: -563170497115117619
+    second: Cube.005|Clavicle And ShoulderAction
+  - first:
+      74: 2927015479693793665
+    second: Cube.005|Cube.001Action
+  - first:
+      74: 7250341002990162127
+    second: Cube.005|Cube.002Action
+  - first:
+      74: 9146543417632441198
+    second: Cube.005|Cube.003Action
+  - first:
+      74: -8772235445958307840
+    second: Cube.005|Cube.004Action
+  - first:
+      74: 2108944049028585761
+    second: Cube.005|Cube.005Action
+  - first:
+      74: -5789953865155344605
+    second: Cube.005|CubeAction
+  - first:
+      74: 4460140058334739950
+    second: Cube.005|Feet.001Action
+  - first:
+      74: 6340799858633507320
+    second: Cube.005|FeetAction
+  - first:
+      74: -7701010821012432605
+    second: Cube.005|Femur.001Action
+  - first:
+      74: 2688956597747028384
+    second: Cube.005|FemurAction
+  - first:
+      74: -2684495805530240441
+    second: Cube.005|Humerus.001Action
+  - first:
+      74: 7730639955196637828
+    second: Cube.005|HumerusAction
+  - first:
+      74: 4541296068456178054
+    second: Cube.005|Ilium.001Action
+  - first:
+      74: 6317626587495219947
+    second: Cube.005|IliumAction
+  - first:
+      74: -6557864956872117434
+    second: Cube.005|metarigAction.003
+  - first:
+      74: -7727969385333783994
+    second: Cube.005|Radius.001Action
+  - first:
+      74: 1848174932864558749
+    second: Cube.005|Rib CageAction
+  - first:
+      74: -7407172916907954053
+    second: Cube.005|SkullAction
+  - first:
+      74: -1789131193105796573
+    second: Cube.005|spineAction
+  - first:
+      74: -6275272695287958847
+    second: Cube.005|Tibia.001Action
+  - first:
+      74: -5420046454569341563
+    second: Cube.005|TibiaAction
+  - first:
+      74: 3016728658972301368
+    second: Cube.005|UlnaAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: EnemyDeath(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rib Cage
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.052371986, y: 2.6447306, z: -0.024743369}
+      rotation: {x: -0.6512206, y: 0.27552077, z: -0.27552062, w: 0.6512207}
+      scale: {x: 3.058204, y: 3.058205, z: 3.058204}
+    - name: spine
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.053665645, y: 1.903447, z: -0.027073493}
+      rotation: {x: -0.72732335, y: 4.5550136e-18, z: -4.5550123e-18, w: 0.6862949}
+      scale: {x: 6.200228, y: 6.2002287, z: 6.2002287}
+    - name: Spine2.001
+      parentName: spine
+      position: {x: 0.0013512236, y: 0.00055844843, z: 0.021535585}
+      rotation: {x: -5.2793777e-27, y: -4.3827098e-10, z: -4.3827086e-10, w: 1}
+      scale: {x: 0.99356073, y: 0.9935609, z: 0.9935608}
+    - name: Humerus
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.32687625, y: 2.4761784, z: -0.04611399}
+      rotation: {x: 0.14870135, y: 0.6701983, z: 0.71524346, w: 0.13095436}
+      scale: {x: 1.83548, y: 1.3753941, z: 1.8342175}
+    - name: Ilium
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.05868555, y: 1.8086113, z: 0.09169355}
+      rotation: {x: -0.31079152, y: 0.06860319, z: 0.20433962, w: 0.9257147}
+      scale: {x: 1.7349226, y: 1.7349224, z: 1.7349219}
+    - name: Femur
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.13860488, y: 1.3319743, z: -0.014750022}
+      rotation: {x: 0.6390213, y: -0.40968177, z: 0.4352311, w: 0.4841349}
+      scale: {x: 3.1401978, y: 3.1401975, z: 3.1401975}
+    - name: Skull
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.06526674, y: 3.1404238, z: 0.15786389}
+      rotation: {x: 0.09450043, y: 3.4574977e-24, z: 2.098332e-17, w: 0.9955248}
+      scale: {x: 8.36011, y: 8.360106, z: 8.360106}
+    - name: Ulna
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.5104943, y: 1.8907319, z: -0.011386666}
+      rotation: {x: -0.5903893, y: -0.30395836, z: 0.45559597, w: 0.59285927}
+      scale: {x: 2.2300658, y: 2.230064, z: 2.2300649}
+    - name: Clavicle And Shoulder
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.12822734, y: 2.6447306, z: -0.24418934}
+      rotation: {x: -0.6512207, y: 0.27552065, z: -0.27552053, w: 0.65122074}
+      scale: {x: 3.058204, y: 3.058205, z: 3.058204}
+    - name: Feet
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.2008873, y: 0.05737555, z: -0.10862086}
+      rotation: {x: 2.968891e-14, y: 1, z: -0.00000008146034, w: 0.00000019470718}
+      scale: {x: 2.484441, y: 3.139257, z: 2.484441}
+    - name: Cube
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.7509361, y: 1.617804, z: 0.04442129}
+      rotation: {x: 0.10872838, y: -0.641036, z: 0.71815604, w: -0.24799787}
+      scale: {x: 3.0953388, y: 0.89236027, z: 3.1161385}
+    - name: Tibia
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.06878327, y: 0.29951784, z: -0.042241}
+      rotation: {x: -0.6869022, y: 0, z: -0, w: 0.72674984}
+      scale: {x: 1.6432285, y: 1.1993331, z: 2.4943306}
+    - name: Cube.001
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.7509361, y: 1.617804, z: 0.04442129}
+      rotation: {x: 0.10872838, y: -0.641036, z: 0.71815604, w: -0.24799787}
+      scale: {x: 3.0953388, y: 0.89236027, z: 3.1161385}
+    - name: Radius.001
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.47833052, y: 2.1274223, z: -0.044550255}
+      rotation: {x: -0.5638258, y: -0.3368271, z: 0.48808566, w: 0.57482207}
+      scale: {x: 2.1683524, y: 2.168352, z: 2.1683517}
+    - name: Humerus.001
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.32687625, y: 2.4761784, z: -0.04611399}
+      rotation: {x: 0.14870135, y: 0.6701983, z: 0.71524346, w: 0.13095436}
+      scale: {x: 1.83548, y: 1.3753941, z: 1.8342175}
+    - name: Clavicle And Shoulder.001
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.12822734, y: 2.6447306, z: -0.24418934}
+      rotation: {x: -0.6512207, y: 0.27552065, z: -0.27552053, w: 0.65122074}
+      scale: {x: 3.058204, y: 3.058205, z: 3.058204}
+    - name: Ilium.001
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.05868555, y: 1.8086113, z: 0.09169355}
+      rotation: {x: -0.31079152, y: 0.06860319, z: 0.20433962, w: 0.9257147}
+      scale: {x: 1.7349226, y: 1.7349224, z: 1.7349219}
+    - name: Feet.001
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.2008873, y: 0.05737555, z: -0.10862086}
+      rotation: {x: 2.968891e-14, y: 1, z: -0.00000008146034, w: 0.00000019470718}
+      scale: {x: 2.484441, y: 3.139257, z: 2.484441}
+    - name: Femur.001
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.13860488, y: 1.3319743, z: -0.014750022}
+      rotation: {x: 0.6390213, y: -0.40968177, z: 0.4352311, w: 0.4841349}
+      scale: {x: 3.1401978, y: 3.1401975, z: 3.1401975}
+    - name: Tibia.001
+      parentName: EnemyDeath(Clone)
+      position: {x: -0.06878327, y: 0.29951784, z: -0.042241}
+      rotation: {x: -0.6869022, y: 0, z: -0, w: 0.72674984}
+      scale: {x: 1.6432285, y: 1.1993331, z: 2.4943306}
+    - name: Cube.002
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.7509361, y: 1.617804, z: 0.04442129}
+      rotation: {x: 0.10872838, y: -0.641036, z: 0.71815604, w: -0.24799787}
+      scale: {x: 3.0953388, y: 0.89236027, z: 3.1161385}
+    - name: Cube.003
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.7509361, y: 1.617804, z: 0.04442129}
+      rotation: {x: 0.10872838, y: -0.641036, z: 0.71815604, w: -0.24799787}
+      scale: {x: 3.0953388, y: 0.89236027, z: 3.1161385}
+    - name: Cube.004
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.7509361, y: 1.617804, z: 0.04442129}
+      rotation: {x: 0.10872838, y: -0.641036, z: 0.71815604, w: -0.24799787}
+      scale: {x: 3.0953388, y: 0.89236027, z: 3.1161385}
+    - name: Cube.005
+      parentName: EnemyDeath(Clone)
+      position: {x: 0.7509361, y: 1.617804, z: 0.04442129}
+      rotation: {x: 0.10872838, y: -0.641036, z: 0.71815604, w: -0.24799787}
+      scale: {x: 3.0953388, y: 0.89236027, z: 3.1161385}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
