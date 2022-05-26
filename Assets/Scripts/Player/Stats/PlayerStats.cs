@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class PlayerStats
 {
-    public static string name = RandomNameGenerator.getRandomName();
+    public static string name = "Burhiua the Old";
     //Family 
     public static int numberOfGenerations = 1;     
     

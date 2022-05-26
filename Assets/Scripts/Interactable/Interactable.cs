@@ -5,7 +5,9 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     [SerializeField] private bool triggerActive = false;
+    [SerializeField] private bool isActivated = false;
     [SerializeField] private GameObject PopupWindow = null; 
+
 
     public void OnTriggerEnter(Collider other)
     {
@@ -17,10 +19,11 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    public void OnTriggerExit(Collider other)
+    virtual public void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            isActivated = false; 
             triggerActive = false;
             PopupWindow.SetActive(false);
             Debug.Log("You went out from the trigger zone."); 
@@ -31,9 +34,14 @@ public class Interactable : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (triggerActive)
+            if (triggerActive && !isActivated)
             {
+                isActivated = true; 
                 doActionOnClick(); 
+            } else if (triggerActive && isActivated)
+            {
+                isActivated = false;
+                stopActionOnClick(); 
             } else
             {
                 Debug.Log("Not in range"); 
@@ -44,6 +52,11 @@ public class Interactable : MonoBehaviour
     virtual protected void doActionOnClick()
     {
         Debug.Log("You touched " + gameObject.name);
+    }
+
+    virtual protected void stopActionOnClick()
+    {
+        Debug.Log("You finished touching " + gameObject.name);
     }
 
 

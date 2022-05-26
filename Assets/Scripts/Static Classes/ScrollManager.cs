@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class ScrollsController
+public static class ScrollManager
 {
     private static int actualCounter = 0;
     private static string[] messages = {"Welcome to the tutorial room! During your long journey, you can find some pages very similar to the ones you are reading. Reading them you will be able to get to know the history of this majestic castle of Arnithlond in depth. Have fun out there!",
@@ -20,28 +20,33 @@ public static class ScrollsController
     "He is here, coming to the doors of my room. I don't know if I'll be able to resist. Forgive me my queen if I have failed.",
     };
     private static string[] titles = {"",
-    "The Origins",
-    "The Young King",
-    "The Alliances",
-    "The First Queen",
-    "The Lady that married her Kingdom",
-    "About me",
-    "Court Problems",
-    "The Poisoning",
-    "The Promise",
-    "The Lie",
-    "The End",
+    "1. The Origins",
+    "2. The Young King",
+    "3. The Alliances",
+    "4. The First Queen",
+    "5. The Wife of the Kingdom",
+    "6. About me",
+    "7. Court Problems",
+    "8. The Poisoning",
+    "9. The Promise",
+    "10. The Lie",
+    "11. The End",
     "",
     };
 
-    public static void readTutorialText(string title, string message)
+    public static void readTutorialText()
     {
         
     }
-    public static void readText(string title, string message)
+    public static string readTitle(int actualRoom)
     {
-        actualCounter++; 
-
+        return titles[actualCounter]; 
+    }
+    public static string readText(int actualRoom)
+    {
+        string text = messages[actualCounter]; 
+        actualCounter++;
+        return text; 
     }
 
     public static bool isUnlockedSecretEnding()
