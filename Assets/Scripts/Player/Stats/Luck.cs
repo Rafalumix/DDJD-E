@@ -18,7 +18,8 @@ public class Luck : Stat
         Debug.Log("Player's crit chance is now " + critChance + "%");
     }
 
-    public int getCrit(){ return critChance;}
+    public int getCrit(){ return critChance; }
+    public void setCrit(int value) { critChance = value; }
     
 
     

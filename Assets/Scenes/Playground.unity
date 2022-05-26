@@ -5319,6 +5319,7 @@ MonoBehaviour:
   PauseMenu: {fileID: 2026673040}
   isPaused: 0
   camera: {fileID: 857600308}
+  UI: {fileID: 1347132862}
   nameLabel: {fileID: 1802548793}
   levelLabel: {fileID: 553840062}
   lifeLabel: {fileID: 1138104087}

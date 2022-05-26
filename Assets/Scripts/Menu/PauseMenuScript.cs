@@ -12,6 +12,8 @@ public class PauseMenuScript : MonoBehaviour
 
     //[SerializeField] private GameObject camera = null;
     [SerializeField] private CinemachineVirtualCamera camera = null;
+    [SerializeField] private GameObject UI = null;
+
 
     [Space(10)]
 
@@ -64,6 +66,7 @@ public class PauseMenuScript : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        UI.SetActive(false); 
         updateStats();
 
         camera.gameObject.SetActive(false); 
@@ -77,6 +80,8 @@ public class PauseMenuScript : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        UI.SetActive(true);
+
 
         camera.gameObject.SetActive(true);
 

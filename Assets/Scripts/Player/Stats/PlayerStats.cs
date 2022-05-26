@@ -6,7 +6,8 @@ public static class PlayerStats
 {
     public static string name = "Burhiua the Old";
     //Family 
-    public static int numberOfGenerations = 1;     
+    public static int numberOfGenerations = 1;
+    public static int actualRoomNumber = 0; 
     
     //Potions
     public static int nPotionsMax = 1;
@@ -31,10 +32,33 @@ public static class PlayerStats
         PlayerStats.evasion, PlayerStats.luck, PlayerStats.speed
     };
 
+    public static void newGame()
+    {
+        name = "Burhiua the Old";
+        numberOfGenerations = 1;
+        actualRoomNumber = 0;
+
+        //Potions
+        nPotionsMax = 1;
+        nPotionsActual = nPotionsMax;
+        potionHealingAmount = 10;
+
+        //Stats
+        xpNeededToLvlUp = 10;
+        level = 1;
+
+        life = new Life(1);
+        endurance = new Endurance(1);
+        vigor = new Vigor(1);
+        evasion = new Evasion(1);
+        luck = new Luck(1);
+        speed = new Speed(1);
+}
     //NEW HEIR GENERATOR FUNCTIONS
     public static void generateNewHeir()
     {
         PlayerStats.numberOfGenerations++;
+        PlayerStats.actualRoomNumber = 0; 
         PlayerStats.name = RandomNameGenerator.getRandomName(); 
         PlayerStats.life.fullHeal();
         PlayerStats.nPotionsActual = PlayerStats.nPotionsMax;

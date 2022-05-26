@@ -118,17 +118,18 @@ public class MainMenuController : MonoBehaviour
     }*/
     public void restartLevel()
     {
-        PlayerStats.generateNewHeir(); 
+        PlayerStats.newGame(); 
         Debug.Log("Restart level."); 
         SceneManager.LoadScene(GetSceneName.firstRoom); 
     }
 
     public void loadLevel()
     {
-        if (PlayerPrefs.HasKey("SavedLevel"))
+        if (SaveSystem.isGameSaved())
         {
-            levelToLoad = PlayerPrefs.GetString("SavedLevel");
-            SceneManager.LoadScene(levelToLoad); 
+            PlayerData data = SaveSystem.LoadData();
+            data.LoadSavedDataInGame(); 
+            SceneManager.LoadScene(2); 
         } else
         {
             noSavedGameDialog.SetActive(true); 
