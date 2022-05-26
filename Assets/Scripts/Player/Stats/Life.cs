@@ -48,6 +48,11 @@ public class Life : Stat
         currentHealth = Mathf.Max(0,currentHealth-damage);
         if (currentHealth==0) isDead=true;
     }
+
+    public float getPercentageofHealth()
+    {
+        return (float)currentHealth / (float)maxHealth;
+    }
     
 
     

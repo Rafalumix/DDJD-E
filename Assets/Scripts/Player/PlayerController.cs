@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private UIScript UIScript = null;
+
     private void Update()
     {
             if (Input.GetKeyDown(KeyCode.X))
@@ -81,7 +83,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             bool isDefending = false; //TODO NEED TO OBTAIN
-            PlayerStats.life.removeHealth(PlayerStats.endurance.endureDamage(enemyFlatDamage, isDefending));
+            changeLife(false, PlayerStats.endurance.endureDamage(enemyFlatDamage, isDefending)); 
             if (PlayerStats.life.getDead())
             {
                 die();
@@ -122,9 +124,9 @@ public class PlayerController : MonoBehaviour
         if (PlayerStats.nPotionsActual > 0)
         {
             PlayerStats.nPotionsActual--;
+            UIScript.updatePotionValue();
             Debug.Log("Potion used, now you have " + PlayerStats.nPotionsActual + " potion(s).");
-            PlayerStats.life.heal(PlayerStats.potionHealingAmount);
-            Debug.Log(transform.name + " now have " + PlayerStats.life.getHealth() + " life points.");
+            changeLife(true, PlayerStats.potionHealingAmount);            
         }
         else
         {
@@ -139,5 +141,19 @@ public class PlayerController : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    private void changeLife(bool isHealing, int amount)
+    {
+        if (isHealing)
+        {
+            PlayerStats.life.heal(amount);
+        }
+        else
+        {
+            PlayerStats.life.removeHealth(amount);
+        }
+        Debug.Log(transform.name + " now have " + PlayerStats.life.getHealth() + " life points.");
+        UIScript.updateHealthBarValue();
     }
 }
