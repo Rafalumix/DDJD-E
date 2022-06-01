@@ -451,11 +451,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1881043869
-      Data2: 1136507448
-      Data3: 1022860959
-      Data4: -384967341
-    Path: event:/Steps
+      Data1: 1730343264
+      Data2: 1081379309
+      Data3: 1280921782
+      Data4: -1874558921
+    Path: event:/FOOTSTEPS_STONE
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -1932,8 +1932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 41, y: 0}
-  m_SizeDelta: {x: 124.62811, y: 127.3645}
+  m_AnchoredPosition: {x: 25.821, y: 0}
+  m_SizeDelta: {x: 170.4675, y: 180.2561}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &831440972
 MonoBehaviour:
@@ -1955,7 +1955,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9c7af31f9182c714e81aebda9bf9d3de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -9,7 +9,7 @@ public class Steps : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            instance = FMODUnity.RuntimeManager.CreateInstance("event:/Steps");
+            instance = FMODUnity.RuntimeManager.CreateInstance("event:/FOOTSTEPS_STONE");
             instance.start();
         }
 
