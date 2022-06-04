@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void takeDamage(int enemyFlatDamage)
+    public void takeDamage(int enemyFlatDamage)
     {
         if (chanceHit(PlayerStats.evasion.getDodgeChance()))
         {
@@ -84,6 +84,7 @@ public class PlayerController : MonoBehaviour
             PlayerStats.life.removeHealth(PlayerStats.endurance.endureDamage(enemyFlatDamage, isDefending));
             if (PlayerStats.life.getDead())
             {
+                Debug.Log("I'm dead"); 
                 die();
             }
 

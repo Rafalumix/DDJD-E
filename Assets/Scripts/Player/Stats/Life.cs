@@ -46,7 +46,7 @@ public class Life : Stat
 
     public void removeHealth(int damage){
         currentHealth = Mathf.Max(0,currentHealth-damage);
-        if (currentHealth==0) isDead=true;
+        if(currentHealth <= 0) { isDead = true;  }
     }
     
 
