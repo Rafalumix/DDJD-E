@@ -21,8 +21,9 @@ public class EnemyIA : MonoBehaviour
     {
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
-        controller = GetComponent<EnemyController>(); 
-        TryGetComponent(out _animator);
+        controller = GetComponent<EnemyController>();
+        _animator = GetComponent<Animator>(); 
+        //TryGetComponent(out _animator);
     }
 
     // Update is called once per frame

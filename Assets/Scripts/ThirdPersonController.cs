@@ -59,11 +59,6 @@ namespace StarterAssets
 		[Tooltip("For locking the camera position on all axis")]
 		public bool LockCameraPosition = false;
 
-		[Header("pauseMenu")]
-		[SerializeField] private PauseMenuScript pauseMenu = null;
-
-		[Header("weapons")]
-		[SerializeField] private Collider sword = null; 
 
 		// cinemachine
 		private float _cinemachineTargetYaw;

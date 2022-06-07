@@ -309,6 +309,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickConfirmButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &17048646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1929,6 +1941,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &263878365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3161,6 +3185,18 @@ MonoBehaviour:
           m_StringArgument: Audio
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &428069828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3803,6 +3839,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &465122507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4041,6 +4089,18 @@ MonoBehaviour:
       - m_Target: {fileID: 556067604}
         m_TargetAssemblyTypeName: TextScript, Assembly-CSharp
         m_MethodName: ExitUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4289,6 +4349,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4897,7 +4969,6 @@ GameObject:
   m_Component:
   - component: {fileID: 668541942}
   - component: {fileID: 668541941}
-  - component: {fileID: 668541940}
   - component: {fileID: 668541944}
   - component: {fileID: 668541943}
   m_Layer: 0
@@ -4907,14 +4978,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &668541940
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668541939}
-  m_Enabled: 1
 --- !u!20 &668541941
 Camera:
   m_ObjectHideFlags: 0
@@ -5181,6 +5244,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &670772208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5407,6 +5482,18 @@ MonoBehaviour:
       - m_Target: {fileID: 340832661}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: volumeApply
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickConfirmButtonSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5872,6 +5959,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &796869862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6306,6 +6405,18 @@ MonoBehaviour:
           m_StringArgument: Graphics
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &929093543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6628,6 +6739,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &992988899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6871,6 +6994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042867533}
   - component: {fileID: 1042867532}
+  - component: {fileID: 1042867534}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -6897,7 +7021,7 @@ MonoBehaviour:
       Data2: 1215132367
       Data3: -1787899518
       Data4: -1483836360
-    Path: event:/MENU_MUSIC_AMBIENCE
+    Path: event:/Pablo/MENU_MUSIC_AMBIENCE
   Event: 
   PlayEvent: 1
   StopEvent: 2
@@ -6922,6 +7046,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1042867534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042867531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0baae3ba572d1747b4f41fb2d5e75c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1046953369
 GameObject:
   m_ObjectHideFlags: 0
@@ -7608,6 +7744,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1148953962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8142,6 +8290,18 @@ MonoBehaviour:
       - m_Target: {fileID: 340832661}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: volumeApply
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9352,6 +9512,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1366644800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9735,6 +9907,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1388057693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9968,6 +10152,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Gameplay
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1400474597
@@ -10819,6 +11015,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1555289142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11334,6 +11542,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1606305539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11680,6 +11900,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1675013320}
         m_TargetAssemblyTypeName: TextScript, Assembly-CSharp
         m_MethodName: ExitUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12252,6 +12484,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickConfirmButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1850384221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12746,6 +12990,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1904896607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13125,6 +13381,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1958815606}
         m_TargetAssemblyTypeName: TextScript, Assembly-CSharp
         m_MethodName: ExitUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1042867534}
+        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
+        m_MethodName: clickConfirmButtonSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
