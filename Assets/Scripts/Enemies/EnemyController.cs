@@ -9,12 +9,14 @@ public class EnemyController : MonoBehaviour
 
     PlayerController mainCharacter;
 
+    Collider _collider; 
     Animator _animator; 
 
     void Start()
     {
         mainCharacter = GameObject.Find("MainCharacter").GetComponent<PlayerController>();
-        _animator = GetComponent<Animator>(); 
+        _animator = GetComponent<Animator>();
+        _collider = GetComponentInChildren<Collider>(); 
     }
 
     public void attack()
@@ -38,6 +40,7 @@ public class EnemyController : MonoBehaviour
     {
         if (!_animator.GetBool("isDead"))
         {
+            _collider.enabled = false; 
             _animator.SetBool("isDead", true); 
             //Destroy(this.gameObject); 
         }
