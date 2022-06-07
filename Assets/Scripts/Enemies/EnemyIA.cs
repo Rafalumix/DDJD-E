@@ -28,30 +28,33 @@ public class EnemyIA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(target.transform.position, transform.position);
-
-        if (distance < stoppingDistanceFromThePlayer)
+        if (!_animator.GetBool("isDead"))
         {
-            FaceTarget();
-            stopEnemy();
-            _animator.SetBool("Moving", false);
+            float distance = Vector3.Distance(target.transform.position, transform.position);
 
-            if (canAttack)
+            if (distance < stoppingDistanceFromThePlayer)
             {
-                controller.attack(); 
-                StartCoroutine(waitForNextAttack());
+                FaceTarget();
+                stopEnemy();
+                _animator.SetBool("Moving", false);
+
+                if (canAttack)
+                {
+                    controller.attack();
+                    StartCoroutine(waitForNextAttack());
+                }
+            }
+            else if (distance <= lookRadius)
+            {
+                goToTarget();
+                _animator.SetBool("Moving", true);
+            }
+            else if (!agent.hasPath && distance > lookRadius)
+            {
+                _animator.SetBool("Moving", true);
+                agent.SetDestination(getPoint.Instance.GetRandomPoint(transform, randomWalkRadius));
             }
         }
-        else if (distance <= lookRadius)
-        {
-            goToTarget();
-            _animator.SetBool("Moving", true);
-        }
-        else if (!agent.hasPath && distance > lookRadius)
-        {
-            _animator.SetBool("Moving", true);
-            agent.SetDestination(getPoint.Instance.GetRandomPoint(transform, randomWalkRadius)); 
-        } 
     }
 
     private void goToTarget()

@@ -60,7 +60,10 @@ namespace StarterAssets
 		public bool LockCameraPosition = false;
 
 		[Header("pauseMenu")]
-		[SerializeField] private PauseMenuScript pauseMenu = null; 
+		[SerializeField] private PauseMenuScript pauseMenu = null;
+
+		[Header("weapons")]
+		[SerializeField] private Collider sword = null; 
 
 		// cinemachine
 		private float _cinemachineTargetYaw;

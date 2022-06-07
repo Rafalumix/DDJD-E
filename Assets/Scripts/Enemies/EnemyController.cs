@@ -7,16 +7,22 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private int lifePoints = 100;
     [SerializeField] private int damage = 20;
 
-    PlayerController mainCharacter; 
+    PlayerController mainCharacter;
+
+    Animator _animator; 
 
     void Start()
     {
         mainCharacter = GameObject.Find("MainCharacter").GetComponent<PlayerController>();
+        _animator = GetComponent<Animator>(); 
     }
 
     public void attack()
     {
-        mainCharacter.takeDamage(damage);
+        if (!_animator.GetBool("isDead"))
+        {
+            mainCharacter.takeDamage(damage);
+        }
     }
 
     public void takeDamage(int damage)
@@ -30,6 +36,11 @@ public class EnemyController : MonoBehaviour
 
     private void die()
     {
-        Destroy(this.gameObject); 
+        if (!_animator.GetBool("isDead"))
+        {
+            _animator.SetBool("isDead", true); 
+            //Destroy(this.gameObject); 
+        }
+       
     }
 }
