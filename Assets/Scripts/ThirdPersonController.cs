@@ -16,7 +16,7 @@ namespace StarterAssets
 	{
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
-		public float MoveSpeed = 2.0f;
+		public float MoveSpeed = 1.0f;
 		[Tooltip("Sprint speed of the character in m/s")]
 		public float SprintSpeed = 5.335f;
 		[Tooltip("How fast the character turns to face movement direction")]
@@ -135,9 +135,11 @@ namespace StarterAssets
 			}
 			else if(Input.GetKeyDown(KeyCode.Mouse1)) {
 				Block();
+				Debug.Log("DOWN");
 			}
 			if(Input.GetKeyUp(KeyCode.Mouse1)) {
 				StopBlock();
+				Debug.Log("UP");
 			}
 		}
 
