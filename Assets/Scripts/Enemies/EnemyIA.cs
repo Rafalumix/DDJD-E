@@ -10,6 +10,8 @@ public class EnemyIA : MonoBehaviour
     [SerializeField] private float lookRadius = 10f;
 
     private bool canAttack = true;
+    private Animator _animator;
+
 
     Transform target;
     NavMeshAgent agent;
@@ -20,6 +22,7 @@ public class EnemyIA : MonoBehaviour
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
         controller = GetComponent<EnemyController>(); 
+        TryGetComponent(out _animator);
     }
 
     // Update is called once per frame
@@ -31,6 +34,7 @@ public class EnemyIA : MonoBehaviour
         {
             FaceTarget();
             stopEnemy();
+            _animator.SetBool("Moving", false);
 
             if (canAttack)
             {
@@ -41,9 +45,11 @@ public class EnemyIA : MonoBehaviour
         else if (distance <= lookRadius)
         {
             goToTarget();
+            _animator.SetBool("Moving", true);
         }
         else if (!agent.hasPath && distance > lookRadius)
         {
+            _animator.SetBool("Moving", true);
             agent.SetDestination(getPoint.Instance.GetRandomPoint(transform, randomWalkRadius)); 
         } 
     }

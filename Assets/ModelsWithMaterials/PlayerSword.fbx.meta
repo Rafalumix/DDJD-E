@@ -1,59 +1,8 @@
 fileFormatVersion: 2
-guid: 152a527681c94ed44b73aeebfa87c284
+guid: 3bff1a758e6d40b45bbe8535c858e7d2
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      74: 8834334771749571796
-    second: Idle|Cube.002|Cube.002|Cube.001Action.001|Cube.002|Cube.001Action.00
-  - first:
-      74: 5544239588033153316
-    second: Idle|Cube.002|Cube.002|Cube.001Action|Cube.002|Cube.001Action
-  - first:
-      74: 5728354892860085578
-    second: Idle|Cube.002|Cube.002|Cube|Cube|CubeAction|Cube|CubeAction|Cube.002
-  - first:
-      74: 4733424828082720499
-    second: Idle|Cube|Cube|CubeAction|Cube|CubeAction
-  - first:
-      74: 891901545121230148
-    second: Idle|metarigAction.003
-  - first:
-      74: -4486660813155197361
-    second: rig|Cube.002|Cube.002|Cube.001Action.001|Cube.002|Cube.001Action.00
-  - first:
-      74: -7068425792022957007
-    second: rig|Cube.002|Cube.002|Cube.001Action|Cube.002|Cube.001Action
-  - first:
-      74: 2339680782581625183
-    second: rig|Cube.002|Cube.002|Cube|Cube|CubeAction|Cube|CubeAction|Cube.002
-  - first:
-      74: -31895356049172366
-    second: rig|Cube|Cube|CubeAction|Cube|CubeAction
-  - first:
-      74: 3410999725791443491
-    second: Cube|Cube.002|Cube.002|Cube.001Action.001|Cube.002|Cube.001Action.00
-  - first:
-      74: -6879630044359298848
-    second: Cube|Cube.002|Cube.002|Cube.001Action|Cube.002|Cube.001Action
-  - first:
-      74: -3671822463724586246
-    second: Cube|Cube.002|Cube.002|Cube|Cube|CubeAction|Cube|CubeAction|Cube.002
-  - first:
-      74: 8365637861176052714
-    second: Cube|Cube|Cube|CubeAction|Cube|CubeAction
-  - first:
-      74: 5816661835973754319
-    second: Cube.002|Cube.002|Cube.002|Cube.001Action.001|Cube.002|Cube.001Action.00
-  - first:
-      74: 6697268451975154455
-    second: Cube.002|Cube.002|Cube.002|Cube.001Action|Cube.002|Cube.001Action
-  - first:
-      74: -6390430564579701843
-    second: Cube.002|Cube.002|Cube.002|Cube|Cube|CubeAction|Cube|CubeAction|Cube.002
-  - first:
-      74: -6218099192313252307
-    second: Cube.002|Cube|Cube|CubeAction|Cube|CubeAction
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -74,7 +23,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -139,13 +88,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 3
+  animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 

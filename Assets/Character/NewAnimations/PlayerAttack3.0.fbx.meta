@@ -1,59 +1,56 @@
 fileFormatVersion: 2
-guid: 152a527681c94ed44b73aeebfa87c284
+guid: 3a6755dddccac16468ac522627de112e
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 8834334771749571796
-    second: Idle|Cube.002|Cube.002|Cube.001Action.001|Cube.002|Cube.001Action.00
+      74: 6695840823731455181
+    second: Shield Up|Cube.048Action.001
   - first:
-      74: 5544239588033153316
-    second: Idle|Cube.002|Cube.002|Cube.001Action|Cube.002|Cube.001Action
+      74: 1228445041561830179
+    second: Shield Up|Cube.049Action.001
   - first:
-      74: 5728354892860085578
-    second: Idle|Cube.002|Cube.002|Cube|Cube|CubeAction|Cube|CubeAction|Cube.002
+      74: 4520621766498024217
+    second: Shield Up|CylinderAction
   - first:
-      74: 4733424828082720499
-    second: Idle|Cube|Cube|CubeAction|Cube|CubeAction
+      74: 2301841133694229821
+    second: Shield Low|Cube.048Action.001
   - first:
-      74: 891901545121230148
-    second: Idle|metarigAction.003
+      74: -7521400311953746773
+    second: Shield Low|Cube.049Action.001
   - first:
-      74: -4486660813155197361
-    second: rig|Cube.002|Cube.002|Cube.001Action.001|Cube.002|Cube.001Action.00
+      74: -2303772253190270172
+    second: Shield Low|CylinderAction
   - first:
-      74: -7068425792022957007
-    second: rig|Cube.002|Cube.002|Cube.001Action|Cube.002|Cube.001Action
+      74: 4253687390951247011
+    second: metarig|Cube.048Action.001
   - first:
-      74: 2339680782581625183
-    second: rig|Cube.002|Cube.002|Cube|Cube|CubeAction|Cube|CubeAction|Cube.002
+      74: 5432647717929859177
+    second: metarig|Cube.049Action.001
   - first:
-      74: -31895356049172366
-    second: rig|Cube|Cube|CubeAction|Cube|CubeAction
+      74: -1907765259568191608
+    second: metarig|CylinderAction
   - first:
-      74: 3410999725791443491
-    second: Cube|Cube.002|Cube.002|Cube.001Action.001|Cube.002|Cube.001Action.00
+      74: -887982601649841707
+    second: metarig|metarigAction
   - first:
-      74: -6879630044359298848
-    second: Cube|Cube.002|Cube.002|Cube.001Action|Cube.002|Cube.001Action
+      74: -3711009101199902937
+    second: Cube.059|Cube.048Action.001
   - first:
-      74: -3671822463724586246
-    second: Cube|Cube.002|Cube.002|Cube|Cube|CubeAction|Cube|CubeAction|Cube.002
+      74: 221367584532844485
+    second: Cube.059|Cube.049Action.001
   - first:
-      74: 8365637861176052714
-    second: Cube|Cube|Cube|CubeAction|Cube|CubeAction
+      74: 2353567568211845494
+    second: Cube.059|CylinderAction
   - first:
-      74: 5816661835973754319
-    second: Cube.002|Cube.002|Cube.002|Cube.001Action.001|Cube.002|Cube.001Action.00
+      74: -8181058009621292262
+    second: Cylinder|Cube.048Action.001
   - first:
-      74: 6697268451975154455
-    second: Cube.002|Cube.002|Cube.002|Cube.001Action|Cube.002|Cube.001Action
+      74: 1837131971511850770
+    second: Cylinder|Cube.049Action.001
   - first:
-      74: -6390430564579701843
-    second: Cube.002|Cube.002|Cube.002|Cube|Cube|CubeAction|Cube|CubeAction|Cube.002
-  - first:
-      74: -6218099192313252307
-    second: Cube.002|Cube|Cube|CubeAction|Cube|CubeAction
+      74: -88723805440604879
+    second: Cylinder|CylinderAction
   externalObjects: {}
   materials:
     materialImportMode: 2
