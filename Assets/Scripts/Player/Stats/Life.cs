@@ -33,20 +33,22 @@ public class Life : Stat
         isDead=state;
     }
 
-    public bool getDead(){return isDead;}
+    public bool getDead(){ return isDead; }
 
-    public int getHealth(){
-        return currentHealth;
-    }
+    public int getHealth(){ return currentHealth; }
+    public void setHealth(int value) { currentHealth = value; }
 
-    public int getMaxHealth()
-    {
-        return maxHealth; 
-    }
+    public int getMaxHealth(){ return maxHealth; }
+    public void setMaxHealth(int value) { maxHealth = value; }
 
     public void removeHealth(int damage){
         currentHealth = Mathf.Max(0,currentHealth-damage);
         if(currentHealth <= 0) { isDead = true;  }
+    }
+
+    public float getPercentageofHealth()
+    {
+        return (float)currentHealth / (float)maxHealth;
     }
     
 

@@ -18,8 +18,8 @@ public class Speed : Stat
         Debug.Log("Player's speed multiplier is now " + speedMultiplier );
     }
 
-    public float getMoveSpeedMultiplier() {return speedMultiplier;}
-    
+    public float getMoveSpeedMultiplier() { return speedMultiplier; }
+    public void setMoveSpeedMultiplier(float value) { speedMultiplier = value; }
 
     
 }

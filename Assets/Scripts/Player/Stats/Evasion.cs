@@ -20,6 +20,7 @@ public class Evasion : Stat
     }
     
     public int getDodgeChance(){return dodgeChance;}
+    public void setDodgeChance(int value) { dodgeChance = value; }
 
     
 }

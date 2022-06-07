@@ -3,35 +3,41 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private UIScript UIScript = null;
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                gainXp(30);
+            }
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                printStats();
+            }
+            if (Input.GetKeyDown(KeyCode.Y))
+            {
+                levelUp();
+            }
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                takeDamage(30);
+            }
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                calculateOutgoingDamage();
+            }
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                takePotion();
+            }
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                die();
+            }    
+            if (Input.GetKeyDown(KeyCode.Comma))
         {
-            gainXp(30);
-        }
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            printStats();
-        }
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            levelUp();
-        }
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            takeDamage(30);
-        }
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            calculateOutgoingDamage();
-        }
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            takePotion();
-        }
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            die();
+            SaveSystem.SavePlayer(); 
         }
     }
 
@@ -39,7 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         PlayerStats.life.setDead(true);
         Debug.Log(transform.name + " died.");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void gainXp(int amount)
@@ -81,7 +87,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             bool isDefending = false; //TODO NEED TO OBTAIN
-            PlayerStats.life.removeHealth(PlayerStats.endurance.endureDamage(enemyFlatDamage, isDefending));
+            changeLife(false, PlayerStats.endurance.endureDamage(enemyFlatDamage, isDefending)); 
             if (PlayerStats.life.getDead())
             {
                 Debug.Log("I'm dead"); 
@@ -123,9 +129,9 @@ public class PlayerController : MonoBehaviour
         if (PlayerStats.nPotionsActual > 0)
         {
             PlayerStats.nPotionsActual--;
+            UIScript.updatePotionValue();
             Debug.Log("Potion used, now you have " + PlayerStats.nPotionsActual + " potion(s).");
-            PlayerStats.life.heal(PlayerStats.potionHealingAmount);
-            Debug.Log(transform.name + " now have " + PlayerStats.life.getHealth() + " life points.");
+            changeLife(true, PlayerStats.potionHealingAmount);            
         }
         else
         {
@@ -140,5 +146,19 @@ public class PlayerController : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    private void changeLife(bool isHealing, int amount)
+    {
+        if (isHealing)
+        {
+            PlayerStats.life.heal(amount);
+        }
+        else
+        {
+            PlayerStats.life.removeHealth(amount);
+        }
+        Debug.Log(transform.name + " now have " + PlayerStats.life.getHealth() + " life points.");
+        UIScript.updateHealthBarValue();
     }
 }

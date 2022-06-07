@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable] //Fields inside this class will show up in the inspector 
 public class Vigor : Stat
 {
-    public int flatDamage;
+    private int flatDamage;
     public Vigor(int start_level){
         name = "Vigor";
         level = start_level;
@@ -18,6 +18,7 @@ public class Vigor : Stat
         flatDamage = 20 + (level-1)*10;
     }
 
-    public int getFlatDamage(){return flatDamage;}
+    public int getFlatDamage(){ return flatDamage; }
+    public void setFlatDamage(int value) { flatDamage = value; }
 }
 

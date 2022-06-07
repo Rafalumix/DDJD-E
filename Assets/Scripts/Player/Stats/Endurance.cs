@@ -25,8 +25,10 @@ public class Endurance : Stat
     }
 
     public int getArmor(){return armor;}
+    public void setArmor(int value){ armor = value; }
 
     public float getReduction(){return defensiveReduction;}
+    public void setReduction(float value) { defensiveReduction = value; }
 
     public int endureDamage(int flatDamage, bool defending){
         int result = flatDamage - armor;
