@@ -101,7 +101,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 1.8
   m_Radius: 0.28
-  m_SlopeLimit: 45
+  m_SlopeLimit: 140
   m_StepOffset: 0.25
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
@@ -137,6 +137,7 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
+  pauseMenu: {fileID: 0}
 --- !u!114 &407041335596743690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,6 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6e817a6d48f57469d9ab04de46ff1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIScript: {fileID: 0}
 --- !u!1001 &1595749771945566924
 PrefabInstance:
   m_ObjectHideFlags: 0
