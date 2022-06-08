@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class sword : MonoBehaviour
 {
-    [SerializeField] private Animator _animator;
+    private attackAnimationController _attackAnimator;
 
     private EnemyController enemyController;
+
+    private void Awake()
+    {
+        _attackAnimator = GetComponentInParent<attackAnimationController>(); 
+    }
 
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Entered in a collider!");
-
-        if (other.tag == "enemy")
+        if (_attackAnimator.isAttacking())
         {
-                Debug.Log("Enemy hitted!");
-                enemyController = other.GetComponent<EnemyController>();
-                enemyController.takeDamage(PlayerStats.vigor.getFlatDamage()); 
+            if (other.tag == "enemy")
+                    {
+                            Debug.Log("Enemy hitted!");
+                            enemyController = other.GetComponent<EnemyController>();
+                            enemyController.takeDamage(PlayerStats.vigor.getFlatDamage()); 
             
+                    }
         }
+        
     }
 
 }

@@ -85,6 +85,7 @@ namespace StarterAssets
 
 		private PlayerInput _playerInput;
 		private Animator _animator;
+		private attackAnimationController _attackAnimator; 
 		private CharacterController _controller;
 		private StarterAssetsInputs _input;
 		private GameObject _mainCamera;
@@ -107,6 +108,7 @@ namespace StarterAssets
 		private void Start()
 		{
 			_hasAnimator = TryGetComponent(out _animator);
+			_attackAnimator = GetComponent<attackAnimationController>(); 
 			_controller = GetComponent<CharacterController>();
 			_input = GetComponent<StarterAssetsInputs>();
 			_playerInput = GetComponent<PlayerInput>();
@@ -124,12 +126,12 @@ namespace StarterAssets
 			
 			JumpAndGravity();
 			GroundedCheck();
-			if(!_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && !_animator.GetCurrentAnimatorStateInfo(0).IsName("Block"))
+			if(!_animator.GetCurrentAnimatorStateInfo(0).IsName("Block"))
+            {
 				Move();
+            }
+				
 
-			if(Input.GetKeyDown(KeyCode.Mouse0)) {
-				Attack();
-			}
 			else if(Input.GetKeyDown(KeyCode.L)) {
 				Roll();
 				Debug.Log("ROOLLLLLLL");
@@ -253,10 +255,7 @@ namespace StarterAssets
 				_animator.SetFloat(_animIDMotionSpeed, inputMagnitude);
 			}
 		}
-		private void Attack() 
-		{
-			_animator.SetTrigger("Attack");
-		}
+
 		private void Roll() 
 		{
 			_animator.SetTrigger("Roll");

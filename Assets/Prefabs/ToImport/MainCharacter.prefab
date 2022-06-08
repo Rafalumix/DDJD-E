@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 886564227642749963}
   - component: {fileID: 3522917010254080123}
   - component: {fileID: 8903502295764793098}
+  - component: {fileID: 3258860396581955409}
   m_Layer: 7
   m_Name: MainCharacter
   m_TagString: Player
@@ -107,8 +108,6 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
-  pauseMenu: {fileID: 0}
-  sword: {fileID: 0}
 --- !u!114 &6630289326546338439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,6 +255,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIScript: {fileID: 0}
+--- !u!114 &3258860396581955409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522917010254080119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a55c2401f11614b998ca4cf0d7df64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownTime: 1
+  maxComboDelay: 0.7
 --- !u!1 &9085433281701597484
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,7 +435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 132218b4aea2ddb438f361a34617ddc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 0}
+  _attackAnimator: {fileID: 0}
 --- !u!1001 &7722342275448796729
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -6162,6 +6162,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3258860396581955409, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: maxComboDelay
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 3522917010254080119, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
       propertyPath: m_Name
       value: MainCharacter
@@ -6761,6 +6765,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 918586045228221008, guid: 4f2f5cf75ff0d9f4f8966d2f7a928cc9, type: 3}
   m_PrefabInstance: {fileID: 530377853}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &813119958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 103179631561798250, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+  m_PrefabInstance: {fileID: 721284331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &813119964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813119958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a604753ffaf289b4c85d634bca552994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &823330986
 GameObject:
   m_ObjectHideFlags: 0
