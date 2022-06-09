@@ -18,7 +18,8 @@ public class enemySounds : MonoBehaviour
     }
     public void monsterGetHitSound()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/GROAN_BIG 3D");
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/SkeletonGetHit");
         instance.start();
     }
+
 }

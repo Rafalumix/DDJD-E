@@ -5,6 +5,13 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private UIScript UIScript = null;
 
+    private SoundCharacter _sound;
+
+    private void Awake()
+    {
+        _sound = GetComponent<SoundCharacter>(); 
+    }
+
     private void Update()
     {
             if (Input.GetKeyDown(KeyCode.X))
@@ -66,6 +73,7 @@ public class PlayerController : MonoBehaviour
     private void levelUp()
     {
         Debug.Log(transform.name + " level up!");
+        _sound.levelUpSound(); 
         PlayerStats.level++;
         PlayerStats.life.levelUp();
         PlayerStats.endurance.levelUp();
@@ -81,12 +89,23 @@ public class PlayerController : MonoBehaviour
     {
         if (chanceHit(PlayerStats.evasion.getDodgeChance()))
         {
+            _sound.dodgeSound(); 
             Debug.Log("The player dodged an attack");
             return;
         }
         else
         {
             bool isDefending = false; //TODO NEED TO OBTAIN
+            if (isDefending)
+            {
+                
+            } else if (PlayerStats.life.getHealth() > 50)
+            {
+                _sound.getHitSound(); 
+            } else
+            {
+                _sound.getCriticalHitSound(); 
+            }
             changeLife(false, PlayerStats.endurance.endureDamage(enemyFlatDamage, isDefending)); 
             if (PlayerStats.life.getDead())
             {
@@ -128,6 +147,7 @@ public class PlayerController : MonoBehaviour
     {
         if (PlayerStats.nPotionsActual > 0)
         {
+            _sound.dringPotionSound(); 
             PlayerStats.nPotionsActual--;
             UIScript.updatePotionValue();
             Debug.Log("Potion used, now you have " + PlayerStats.nPotionsActual + " potion(s).");

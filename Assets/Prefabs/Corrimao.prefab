@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: -8537687494673343312}
   m_Layer: 0
   m_Name: Corrimao
-  m_TagString: Untagged
+  m_TagString: wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

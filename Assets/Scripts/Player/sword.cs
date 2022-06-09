@@ -6,6 +6,8 @@ public class sword : MonoBehaviour
 {
     private attackAnimationController _attackAnimator;
 
+    private SwordSounds _sound; 
+
     private EnemyController enemyController;
 
     private void Awake()
@@ -18,6 +20,7 @@ public class sword : MonoBehaviour
     {
         if (_attackAnimator.isAttacking())
         {
+            Debug.Log("attacking");
             if (other.tag == "enemy")
                     {
                             Debug.Log("Enemy hitted!");
@@ -25,6 +28,20 @@ public class sword : MonoBehaviour
                             enemyController.takeDamage(PlayerStats.vigor.getFlatDamage()); 
             
                     }
+            else if(other.tag == "wall")
+            {
+                _sound.hitWallSound(); 
+                Debug.Log("wall");
+            }
+            else if (other.tag == "wood")
+            {
+                _sound.hitWoodSound(); 
+                Debug.Log("wood"); 
+            } else if (other.tag == "metal")
+            {
+                _sound.hitMetalSound(); 
+                Debug.Log("metal");
+            }
         }
         
     }

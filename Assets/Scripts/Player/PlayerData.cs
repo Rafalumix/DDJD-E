@@ -9,6 +9,7 @@ public class PlayerData
     //Family 
     private int numberOfGenerations;
     private int actualRoomNumber;
+    private int lastNoteRead; 
 
     //Potions
     private int nPotionsMax;
@@ -44,6 +45,7 @@ public class PlayerData
         name = PlayerStats.name;
         numberOfGenerations = PlayerStats.numberOfGenerations;
         actualRoomNumber = PlayerStats.actualRoomNumber;
+        lastNoteRead = PlayerStats.lastNoteRead; 
         nPotionsMax = PlayerStats.nPotionsMax;
         nPotionsActual = PlayerStats.nPotionsActual; 
         potionHealingAmount = PlayerStats.potionHealingAmount;
@@ -64,6 +66,7 @@ public class PlayerData
         PlayerStats.name = name;
         PlayerStats.numberOfGenerations = numberOfGenerations;
         PlayerStats.actualRoomNumber = actualRoomNumber;
+        PlayerStats.lastNoteRead = lastNoteRead; 
         PlayerStats.nPotionsMax = nPotionsMax; 
         PlayerStats.nPotionsActual = nPotionsActual;
         PlayerStats.potionHealingAmount = potionHealingAmount;

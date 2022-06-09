@@ -7,19 +7,20 @@ public class DoorController : Interactable
 {
     [SerializeField] private int destinationSceneIndex;
 
-    private Sounds sounds = null;
+    private Sounds _sound = null;
 
     private void Awake()
     {
-        sounds = GameObject.Find("Music").GetComponent<Sounds>(); 
+        _sound = GameObject.Find("Music").GetComponent<Sounds>(); 
     }
     override protected void doActionOnClick()
     {
         Debug.Log("You touched " + gameObject.name);
+        PlayerStats.actualRoomNumber++; 
         SceneManager.LoadScene(destinationSceneIndex); 
-        if(sounds != null)
+        if(_sound != null)
         {
-            sounds.openDoorSound(); 
+            _sound.openDoorSound(); 
         }
     }
 }

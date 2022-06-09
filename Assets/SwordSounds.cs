@@ -10,14 +10,19 @@ public class SwordSounds : MonoBehaviour
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(instance, GetComponent<Transform>(), GetComponentInChildren<Rigidbody>());
     }
 
-    public void monsterSound()
+    public void hitWoodSound()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/GROAN_SMALL 3D");
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/swordHitWoord");
         instance.start();
     }
-    public void monsterGetHitSound()
+    public void hitWallSound()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/GROAN_BIG 3D");
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/SwordScrashWall");
+        instance.start();
+    }
+    public void hitMetalSound()
+    {
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/swordHitMetal");
         instance.start();
     }
 }

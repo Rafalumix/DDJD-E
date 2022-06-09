@@ -4,7 +4,6 @@ using UnityEngine;
 
 public static class ScrollManager
 {
-    private static int actualCounter = 0;
     private static string[] messages = {"Welcome to the tutorial room! During your long journey, you can find some pages very similar to the ones you are reading. Reading them you will be able to get to know the history of this majestic castle of Arnithlond in depth. Have fun out there!",
     "The majestic castle of the Arnithlond was finished in the year 725 of the fourth moon. The castle was built by the Arnmulfs' first ancestor, Tephye, a great king who has always been admired for the long period of peace and wealth he managed to bring within the region.",
     "The first heir to the throne, Witheard, reigned very little due to an illness that struck him as a young man and being late to the throne due to the longevity of the previous king, Tephye. He, therefore, ascended the throne to his son, very young, Symath.",
@@ -38,20 +37,18 @@ public static class ScrollManager
     {
         
     }
-    public static string readTitle(int actualRoom)
+    public static string readTitle(int n)
     {
-        return titles[actualCounter]; 
+        return titles[n]; 
     }
-    public static string readText(int actualRoom)
+    public static string readText(int n)
     {
-        string text = messages[actualCounter]; 
-        actualCounter++;
-        return text; 
+        return messages[n]; 
     }
 
     public static bool isUnlockedSecretEnding()
     {
-        if (actualCounter >= 12)
+        if (PlayerStats.lastNoteRead >= 12)
         {
             return true; 
         } return false; 

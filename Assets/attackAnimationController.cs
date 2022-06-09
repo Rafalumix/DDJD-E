@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class attackAnimationController : MonoBehaviour
 {
-    [SerializeField] private float cooldownTime = 2f;
     [SerializeField] private float maxComboDelay = 1f;
 
     private float nextFireTime = 0f;
@@ -47,7 +46,6 @@ public class attackAnimationController : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 OnClick();
-
             }
         }
     }

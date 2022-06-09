@@ -3819,7 +3819,7 @@ GameObject:
   - component: {fileID: 9067768305429678932}
   m_Layer: 0
   m_Name: Bookshelf
-  m_TagString: Untagged
+  m_TagString: wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

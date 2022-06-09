@@ -7,7 +7,8 @@ public static class PlayerStats
     public static string name = "Burhiua the Old";
     //Family 
     public static int numberOfGenerations = 1;
-    public static int actualRoomNumber = 0; 
+    public static int actualRoomNumber = 0;
+    public static int lastNoteRead = 0; 
     
     //Potions
     public static int nPotionsMax = 1;

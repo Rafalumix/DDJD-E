@@ -6,7 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField] private int lifePoints = 100;
     [SerializeField] private int damage = 20;
-    private bool canEmitSound = true;
+    //private bool canEmitSound = true;
 
 
     PlayerController mainCharacter;
@@ -28,10 +28,11 @@ public class EnemyController : MonoBehaviour
         if (!_animator.GetBool("isDead"))
         {
             mainCharacter.takeDamage(damage);
+            /*
             if (canEmitSound == true)
             {
                 StartCoroutine(randomGroan());
-            }
+            }*/
         }
     }
 
@@ -44,7 +45,7 @@ public class EnemyController : MonoBehaviour
             die(); 
         }
     }
-    private IEnumerator randomGroan()
+    /*private IEnumerator randomGroan()
     {
         int n = Random.Range(5, 15);
         canEmitSound = false;
@@ -56,7 +57,7 @@ public class EnemyController : MonoBehaviour
         {
             _sound.monsterSound();
         }
-    }
+    }*/
     private void die()
     {
         if (!_animator.GetBool("isDead"))
