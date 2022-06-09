@@ -10,8 +10,6 @@ public class PauseMenuScript : MonoBehaviour
     [SerializeField] private GameObject PauseMenu = null;
     [SerializeField] private bool isPaused = false;
 
-    //[SerializeField] private GameObject camera = null;
-    [SerializeField] private CinemachineVirtualCamera camera = null;
     [SerializeField] private GameObject UI = null;
 
 
@@ -69,8 +67,6 @@ public class PauseMenuScript : MonoBehaviour
         UI.SetActive(false); 
         updateStats();
 
-        camera.gameObject.SetActive(false); 
-
         Time.timeScale = Mathf.Epsilon;
         AudioListener.pause = true; 
         PauseMenu.SetActive(true);
@@ -81,9 +77,6 @@ public class PauseMenuScript : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         UI.SetActive(true);
-
-
-        camera.gameObject.SetActive(true);
 
         Time.timeScale = 1;
         AudioListener.pause = false;
