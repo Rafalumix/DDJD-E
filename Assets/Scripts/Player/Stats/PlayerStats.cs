@@ -40,8 +40,8 @@ public static class PlayerStats
         actualRoomNumber = 0;
 
         //Potions
-        nPotionsMax = 1;
-        nPotionsActual = nPotionsMax;
+        nPotionsMax = 2;
+        refillPotions();
         potionHealingAmount = 10;
 
         //Stats
@@ -62,14 +62,24 @@ public static class PlayerStats
         PlayerStats.actualRoomNumber = 0; 
         PlayerStats.name = RandomNameGenerator.getRandomName(); 
         PlayerStats.life.fullHeal();
-        PlayerStats.nPotionsActual = PlayerStats.nPotionsMax;
+        refillPotions(); 
 
         generateNewStats();
         evaluateLevel();
 
         PlayerStats.life.setDead(false);
     }
-
+    public static void levelUp()
+    {
+        PlayerStats.level++;
+        PlayerStats.life.levelUp();
+        PlayerStats.endurance.levelUp();
+        PlayerStats.vigor.levelUp();
+        PlayerStats.evasion.levelUp();
+        PlayerStats.luck.levelUp();
+        PlayerStats.speed.levelUp();
+        PlayerStats.xpNeededToLvlUp = PlayerStats.level * 10;
+    }
     public static void generateNewStats()
     {
         int points = 0;
@@ -96,5 +106,9 @@ public static class PlayerStats
             temp += PlayerStats.stats[i].getValue();
         }
         PlayerStats.level = (temp) / 4;
+    }
+    public static void refillPotions()
+    {
+        PlayerStats.nPotionsActual = PlayerStats.nPotionsMax; 
     }
 }

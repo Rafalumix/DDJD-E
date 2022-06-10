@@ -4,9 +4,9 @@ using UnityEngine;
 
 public static class GetSceneName
 {
-    public static string mainMenu = "Scenes/Menu/MainMenu";
-    public static string DeathMenu = "Scenes/Menu/DeathMenu";
+    public static string mainMenu = "MainMenu";
+    public static string DeathMenu = "DeathMenu";
 
-    public static string firstRoom = "Scenes/Room #1";
-    public static string testRoom = "Scenes/test"; 
+    public static string firstRoom = "Room #1";
+    public static string testRoom = "test"; 
 }

@@ -33,10 +33,6 @@ public static class ScrollManager
     "",
     };
 
-    public static void readTutorialText()
-    {
-        
-    }
     public static string readTitle(int n)
     {
         return titles[n]; 

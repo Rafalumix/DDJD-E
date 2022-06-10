@@ -73,15 +73,8 @@ public class PlayerController : MonoBehaviour
     private void levelUp()
     {
         Debug.Log(transform.name + " level up!");
-        _sound.levelUpSound(); 
-        PlayerStats.level++;
-        PlayerStats.life.levelUp();
-        PlayerStats.endurance.levelUp();
-        PlayerStats.vigor.levelUp();
-        PlayerStats.evasion.levelUp();
-        PlayerStats.luck.levelUp();
-        PlayerStats.speed.levelUp();
-        PlayerStats.xpNeededToLvlUp = PlayerStats.level * 10;
+        _sound.levelUpSound();
+        PlayerStats.levelUp();
     }
 
 

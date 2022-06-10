@@ -9,7 +9,7 @@ public class Interactable : MonoBehaviour
     [SerializeField] private GameObject PopupWindow = null; 
 
 
-    public void OnTriggerEnter(Collider other)
+    virtual protected void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -19,7 +19,7 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    virtual public void OnTriggerExit(Collider other)
+    virtual protected void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {

@@ -48,7 +48,7 @@ public class ScrollInteraction : Interactable
         alreadyReadInThisRoom = true;
     }
 
-    public override void OnTriggerExit(Collider other)
+    protected override void OnTriggerExit(Collider other)
     {
         base.OnTriggerExit(other);
         if (other.CompareTag("Player"))

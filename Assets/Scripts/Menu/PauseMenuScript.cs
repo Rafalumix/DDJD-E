@@ -8,6 +8,7 @@ using Cinemachine;
 public class PauseMenuScript : MonoBehaviour
 {
     [SerializeField] private GameObject PauseMenu = null;
+    [SerializeField] private GameObject backToMainMenuPopup = null;
     [SerializeField] private bool isPaused = false;
 
     [SerializeField] private GameObject UI = null;
@@ -64,7 +65,7 @@ public class PauseMenuScript : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        UI.SetActive(false); 
+        UI.SetActive(false);
         updateStats();
 
         Time.timeScale = Mathf.Epsilon;
@@ -81,6 +82,7 @@ public class PauseMenuScript : MonoBehaviour
         Time.timeScale = 1;
         AudioListener.pause = false;
         PauseMenu.SetActive(false);
+        backToMainMenuPopup.SetActive(false); 
         isPaused = false;
     }
     public void returnToMenu()
