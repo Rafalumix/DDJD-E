@@ -250,13 +250,55 @@ ModelImporter:
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 1
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: Step
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: f28426204b8c51a449746a52352cae67, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.15976332
+        functionName: Step
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: f28426204b8c51a449746a52352cae67, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.32544377
+        functionName: Step
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: f28426204b8c51a449746a52352cae67, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.47928992
+        functionName: Step
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: f28426204b8c51a449746a52352cae67, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.65088755
+        functionName: Step
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: f28426204b8c51a449746a52352cae67, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8224852
+        functionName: Step
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: f28426204b8c51a449746a52352cae67, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

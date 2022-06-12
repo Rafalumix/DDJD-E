@@ -5,6 +5,11 @@ using UnityEngine;
 public class SoundCharacter : MonoBehaviour
 {
     private FMOD.Studio.EventInstance instance;
+    private Animator animator;
+
+    private void Start() {
+        animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -39,6 +44,15 @@ public class SoundCharacter : MonoBehaviour
     {
         instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/Coins");
         instance.start();
+    }
+
+    public void Step() 
+    {
+        if(animator.GetFloat("Speed") >= 0.1) 
+        {
+            instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/FOOTSTEPS_STONE");
+            instance.start();
+        }
     }
 
 }
