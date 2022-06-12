@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class attackAnimationController : MonoBehaviour
 {
-    [SerializeField] private float maxComboDelay = 1f;
-
-    private float nextFireTime = 0f;
-    public static int noOfClicks = 0;
-    private float lastClickedTime = 0;
 
     private Animator _animator;
 
@@ -18,66 +13,53 @@ public class attackAnimationController : MonoBehaviour
     }
     void Update()
     {
-
-        if (_animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && _animator.GetCurrentAnimatorStateInfo(0).IsName("hit1"))
+        // Check for mouse input
+        if (Input.GetMouseButton(0))
         {
-            _animator.SetBool("hit1", false);
-        }
-        if (_animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && _animator.GetCurrentAnimatorStateInfo(0).IsName("hit2"))
-        {
-            _animator.SetBool("hit2", false);
-        }
-        if (_animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && _animator.GetCurrentAnimatorStateInfo(0).IsName("hit3"))
-        {
-            _animator.SetBool("hit3", false);
-            noOfClicks = 0;
+            OnClick();
         }
 
-
-        if (Time.time - lastClickedTime > maxComboDelay)
-        {
-            noOfClicks = 0;
-        }
-
-        //cooldown time
-        if (Time.time > nextFireTime)
-        {
-            // Check for mouse input
-            if (Input.GetMouseButtonDown(0))
-            {
-                OnClick();
-            }
-        }
     }
 
     void OnClick()
     {
-        //so it looks at how many clicks have been made and if one animation has finished playing starts another one.
-        lastClickedTime = Time.time;
-        noOfClicks++;
-        if (noOfClicks == 1)
+        //First attack
+        if(!isAttacking() && !_animator.GetBool("canCombo"))
         {
-            _animator.SetBool("hit1", true);
+            _animator.SetBool("isAttacking",true);
+            _animator.SetTrigger("swing");
+            _animator.SetBool("canCombo", false);
         }
-        noOfClicks = Mathf.Clamp(noOfClicks, 0, 3);
-
-        if (noOfClicks >= 2 && _animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && _animator.GetCurrentAnimatorStateInfo(0).IsName("hit1"))
+        //Next attack
+        else if(!isAttacking() && _animator.GetBool("canCombo"))
         {
-            _animator.SetBool("hit1", false);
-            _animator.SetBool("hit2", true);
-        }
-        if (noOfClicks >= 3 && _animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && _animator.GetCurrentAnimatorStateInfo(0).IsName("hit2"))
-        {
-            _animator.SetBool("hit2", false);
-            _animator.SetBool("hit3", true);
+            StopCoroutine("ComboWindow");
+            _animator.SetBool("isAttacking",true);
+            _animator.SetTrigger("swing");
+            _animator.SetBool("canCombo", false);
         }
     }
+
     public bool isAttacking()
     {
-        if(_animator.GetBool("hit1") || _animator.GetBool("hit2") || _animator.GetBool("hit3"))
-        {
-            return true; 
-        }
-        return false;
+        return _animator.GetBool("isAttacking");
+    }
+
+    public void SetupCombo() 
+    {
+        _animator.SetBool("isAttacking", false);
+        _animator.SetBool("canCombo", true);
+        StartCoroutine(ComboWindow());
+    }
+
+    IEnumerator ComboWindow()
+    {
+        yield return new WaitForSeconds(1.0f);
+        _animator.SetBool("canCombo", false);
+    }
+
+    public void EndAttack() 
+    {
+        _animator.SetBool("isAttacking", false);
     }
 }
