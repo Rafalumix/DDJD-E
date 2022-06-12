@@ -12,7 +12,7 @@ public class SwordSounds : MonoBehaviour
 
     public void hitWoodSound()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/swordHitWoord");
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/swordHitWood");
         instance.start();
     }
     public void hitWallSound()

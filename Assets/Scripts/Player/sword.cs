@@ -13,11 +13,13 @@ public class sword : MonoBehaviour
     private void Awake()
     {
         _attackAnimator = GetComponentInParent<attackAnimationController>(); 
+        _sound = GetComponent<SwordSounds>();
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other);
         if (_attackAnimator.isAttacking())
         {
             Debug.Log("attacking");

@@ -132,7 +132,7 @@ namespace StarterAssets
             }
 				
 
-			else if(Input.GetKeyDown(KeyCode.L)) {
+			if(Input.GetKeyDown(KeyCode.L)) {
 				Roll();
 				Debug.Log("ROOLLLLLLL");
 			}
