@@ -11170,6 +11170,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 103179631561798250, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699754914044358131, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3258860396581955409, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
       propertyPath: maxComboDelay
       value: 0.7
@@ -11189,6 +11197,10 @@ PrefabInstance:
     - target: {fileID: 3522917010254080125, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
       propertyPath: m_SlopeLimit
       value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896712091692026492, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4298750679336383181, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
       propertyPath: m_RootOrder
@@ -11245,6 +11257,22 @@ PrefabInstance:
     - target: {fileID: 4298750679336383181, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5593493375792963436, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671345679147688122, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109861485385347238, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122550176256737142, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8903502295764793098, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
       propertyPath: UIScript
@@ -12104,6 +12132,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 103179631561798250, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
   m_PrefabInstance: {fileID: 721284331}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &813119960
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813119958}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &813119964
 MonoBehaviour:
   m_ObjectHideFlags: 0

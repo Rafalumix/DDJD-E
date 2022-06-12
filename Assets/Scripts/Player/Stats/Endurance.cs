@@ -19,7 +19,7 @@ public class Endurance : Stat
     public override void levelUp()
     {
         base.levelUp();
-        armor = (level-1)*5;
+        armor = (level-1)*2;
         defensiveReduction = ((int)(level/5) / 10) + 0.5f;
         Debug.Log("Player's defensive reduction is now " + defensiveReduction);
     }

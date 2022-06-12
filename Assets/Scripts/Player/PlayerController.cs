@@ -6,10 +6,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private UIScript UIScript = null;
 
     private SoundCharacter _sound;
+    private Animator _animator; 
 
     private void Awake()
     {
-        _sound = GetComponent<SoundCharacter>(); 
+        _sound = GetComponent<SoundCharacter>();
+        _animator = GetComponent<Animator>(); 
     }
 
     private void Update()
@@ -88,10 +90,10 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            bool isDefending = false; //TODO NEED TO OBTAIN
+            bool isDefending = _animator.GetBool("Block");
             if (isDefending)
             {
-                
+                _sound.blockSound(); 
             } else if (PlayerStats.life.getHealth() > 50)
             {
                 _sound.getHitSound(); 

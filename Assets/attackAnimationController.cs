@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class attackAnimationController : MonoBehaviour
 {
+    [SerializeField]private float timeWindow = 0.3f; 
 
     private Animator _animator;
 
@@ -54,7 +55,7 @@ public class attackAnimationController : MonoBehaviour
 
     IEnumerator ComboWindow()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(timeWindow);
         _animator.SetBool("canCombo", false);
     }
 
