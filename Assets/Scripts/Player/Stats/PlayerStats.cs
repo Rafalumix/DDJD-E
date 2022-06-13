@@ -8,7 +8,8 @@ public static class PlayerStats
     //Family 
     public static int numberOfGenerations = 1;
     public static int actualRoomNumber = 0;
-    public static int lastNoteRead = 0; 
+    public static int lastNoteRead = 0;
+    public static string actualRoomID = GetSceneName.firstRoom; 
     
     //Potions
     public static int nPotionsMax = 1;
@@ -38,6 +39,7 @@ public static class PlayerStats
         name = "Burhiua the Old";
         numberOfGenerations = 1;
         actualRoomNumber = 0;
+        actualRoomID = GetSceneName.firstRoom; 
 
         //Potions
         nPotionsMax = 2;
@@ -59,7 +61,8 @@ public static class PlayerStats
     public static void generateNewHeir()
     {
         PlayerStats.numberOfGenerations++;
-        PlayerStats.actualRoomNumber = 0; 
+        PlayerStats.actualRoomNumber = 0;
+        actualRoomID = GetSceneName.firstRoom;
         PlayerStats.name = RandomNameGenerator.getRandomName(); 
         PlayerStats.life.fullHeal();
         refillPotions(); 
@@ -87,7 +90,7 @@ public static class PlayerStats
         for (int i = 0; i != PlayerStats.stats.Length; i++)
         {
             points += (PlayerStats.stats[i].getValue() - 1) / 3;
-            PlayerStats.stats[i].setStat((PlayerStats.stats[i].getValue() / 3) + 1);
+            PlayerStats.stats[i].setStat((PlayerStats.stats[i].getValue() / 4) + 1);
         }
 
         while (points != 0)  //assign randomly the following points 
@@ -105,7 +108,7 @@ public static class PlayerStats
         {
             temp += PlayerStats.stats[i].getValue();
         }
-        PlayerStats.level = (temp) / 4;
+        PlayerStats.level = ((temp) / 4) + 1;
     }
     public static void refillPotions()
     {

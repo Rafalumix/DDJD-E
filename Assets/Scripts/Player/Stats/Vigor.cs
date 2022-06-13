@@ -9,13 +9,13 @@ public class Vigor : Stat
     public Vigor(int start_level){
         name = "Vigor";
         level = start_level;
-        flatDamage = 20 + (level-1)*10;
+        flatDamage = 15 + (level-1)*5;
         
     }
 
     public override void levelUp(){
         base.levelUp();
-        flatDamage = 20 + (level-1)*10;
+        flatDamage = 15 + (level-1)*5;
     }
 
     public int getFlatDamage(){ return flatDamage; }

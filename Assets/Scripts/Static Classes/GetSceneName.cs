@@ -8,5 +8,5 @@ public static class GetSceneName
     public static string DeathMenu = "DeathMenu";
 
     public static string firstRoom = "Room #1";
-    public static string testRoom = "test"; 
+    public static string testRoom = "testRoom"; 
 }

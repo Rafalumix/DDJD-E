@@ -9,12 +9,12 @@ public class Luck : Stat
     public Luck(int start_level){
         name = "Luck";
         level = start_level;
-        critChance = level * 5;
+        critChance = level * 3;
     }
 
     public override void levelUp(){
         base.levelUp();
-        critChance = level * 5;
+        critChance = level * 3;
         Debug.Log("Player's crit chance is now " + critChance + "%");
     }
 

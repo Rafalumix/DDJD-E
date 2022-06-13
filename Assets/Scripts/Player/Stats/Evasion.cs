@@ -9,13 +9,13 @@ public class Evasion : Stat
     public Evasion(int start_level){
         name = "Evasion";
         level = start_level;
-        dodgeChance = level * 5;
+        dodgeChance = level * 3;
         
     }   
 
     public override void levelUp(){
         base.levelUp();
-        dodgeChance = level * 5;
+        dodgeChance = level * 3;
         Debug.Log("Player's dodge chance is now " + dodgeChance + "%");
     }
     

@@ -129,7 +129,7 @@ public class MainMenuController : MonoBehaviour
         {
             PlayerData data = SaveSystem.LoadData();
             data.LoadSavedDataInGame(); 
-            SceneManager.LoadScene(2); 
+            SceneManager.LoadScene(PlayerStats.actualRoomID); 
         } else
         {
             noSavedGameDialog.SetActive(true); 
