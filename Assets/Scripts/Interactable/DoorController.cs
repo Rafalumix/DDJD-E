@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class DoorController : Interactable
 {
     [SerializeField] private int destinationSceneIndex;
+    [SerializeField] private GameObject relativePainting = null; 
 
     RoomManager roomManager;
 
@@ -18,6 +19,13 @@ public class DoorController : Interactable
         numberOfPowerUp = RoomPowerups.getRandomBoost();
         roomManager = GameObject.Find("GameManager").GetComponent<RoomManager>();
 
+        if (relativePainting != null)
+        {
+            string name = RoomPowerups.getTextureName(numberOfPowerUp);
+            Material tex = (Material)Resources.Load(name, typeof(Material));
+            relativePainting.GetComponent<Renderer>().material = tex; 
+        }
+        
 
         _sound = GameObject.Find("Music").GetComponent<Sounds>(); 
     }

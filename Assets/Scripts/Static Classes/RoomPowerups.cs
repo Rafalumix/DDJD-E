@@ -21,6 +21,17 @@ public static class RoomPowerups
     "Refill potions",
     "Potion Healing up!",
     };
+    private static string[] textures = {"Potion Number Up Icon.mat",
+    "Level Up Icon.mat",
+    "Life Up Icon.mat",
+    "Endurance Up Icon.mat",
+    "Vigor Up Icon.mat",
+    "Evasion Up Icon.mat",
+    "Luck Up Icon.mat",
+    "Speed Up Icon.mat",
+    "Refill Potion Icon.mat",
+    "Potion Healing Up Icon.mat",
+    };
     public static int getRandomBoost()
     {
         c = b;
@@ -52,6 +63,10 @@ public static class RoomPowerups
     public static string getName(int n)
     {
         return powerups[n]; 
+    }
+    public static string getTextureName(int n)
+    {
+        return textures[n]; 
     }
     public static void applyPowerUp(int n)
     {
