@@ -30,7 +30,7 @@ public static class RoomPowerups
     "Materials/Luck Up Icon",
     "Materials/Speed Up Icon",
     "Materials/Refill Potions Icon",
-    "Materials/Potion Healing Up Icon",
+    "Materials/Potions Healing Up Icon",
     };
     public static int getRandomBoost()
     {
