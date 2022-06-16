@@ -22,8 +22,8 @@ public class DoorController : Interactable
         if (relativePainting != null)
         {
             string name = RoomPowerups.getTextureName(numberOfPowerUp);
-            Material tex = (Material)Resources.Load(name, typeof(Material));
-            relativePainting.GetComponent<Renderer>().material = tex; 
+            Material mat = (Material)Resources.Load(name, typeof(Material));
+            relativePainting.GetComponent<Renderer>().material = mat; 
         }
         
 

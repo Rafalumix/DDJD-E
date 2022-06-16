@@ -21,16 +21,16 @@ public static class RoomPowerups
     "Refill potions",
     "Potion Healing up!",
     };
-    private static string[] textures = {"Potion Number Up Icon.mat",
-    "Level Up Icon.mat",
-    "Life Up Icon.mat",
-    "Endurance Up Icon.mat",
-    "Vigor Up Icon.mat",
-    "Evasion Up Icon.mat",
-    "Luck Up Icon.mat",
-    "Speed Up Icon.mat",
-    "Refill Potion Icon.mat",
-    "Potion Healing Up Icon.mat",
+    private static string[] textures = {"Materials/Potion Number Up Icon",
+    "Materials/Level Up Icon",
+    "Materials/Life Up Icon",
+    "Materials/Endurance Up Icon",
+    "Materials/Vigor Up Icon",
+    "Materials/Evasion Up Icon",
+    "Materials/Luck Up Icon",
+    "Materials/Speed Up Icon",
+    "Materials/Refill Potions Icon",
+    "Materials/Potion Healing Up Icon",
     };
     public static int getRandomBoost()
     {
