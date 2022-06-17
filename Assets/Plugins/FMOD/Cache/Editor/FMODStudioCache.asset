@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: -945438785
     Data4: 1331871312
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -46,7 +46,7 @@ MonoBehaviour:
     Data3: 148240047
     Data4: 1604237100
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -73,7 +73,7 @@ MonoBehaviour:
     Data3: -1466692961
     Data4: -1077639653
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -81,24 +81,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-8989691219195602524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Gabriel.bank
-  m_EditorClassIdentifier: 
-  Path: Fmod/Desktop/Gabriel.bank
-  Name: Gabriel
-  StudioPath: bank:/Gabriel
-  lastModified: 637906765899882692
-  FileSizes: []
-  Exists: 1
 --- !u!114 &-8978846813342541469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,7 +100,7 @@ MonoBehaviour:
     Data3: -1233858936
     Data4: 1400488874
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -145,7 +127,34 @@ MonoBehaviour:
     Data3: -177559377
     Data4: -184373145
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8873012770897257640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton Groan_2_3d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton Groan_2_3d
+  Guid:
+    Data1: -1730482393
+    Data2: 1154804512
+    Data3: 731360958
+    Data4: -1603113223
+  Banks:
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -172,7 +181,7 @@ MonoBehaviour:
     Data3: -1688346975
     Data4: -917257754
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -199,7 +208,7 @@ MonoBehaviour:
     Data3: -963019131
     Data4: -964220270
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -207,26 +216,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-8042818427632910185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Pablo.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Fmod/Desktop/Pablo.strings.bank
-  Name: Pablo.strings
-  StudioPath: bank:/Pablo.strings
-  lastModified: 637906765901012729
-  FileSizes:
-  - Name: 
-    Value: 2566
-  Exists: 1
 --- !u!114 &-7588255472428351934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,7 +235,7 @@ MonoBehaviour:
     Data3: 1633514932
     Data4: 612996919
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -273,7 +262,7 @@ MonoBehaviour:
     Data3: -982939007
     Data4: -1798801792
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -281,24 +270,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-6454229214707252301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Pablo.bank
-  m_EditorClassIdentifier: 
-  Path: Fmod/Desktop/Pablo.bank
-  Name: Pablo
-  StudioPath: bank:/Pablo
-  lastModified: 637906765900997710
-  FileSizes: []
-  Exists: 1
 --- !u!114 &-6239255682801256238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +289,7 @@ MonoBehaviour:
     Data3: -470057797
     Data4: 136309879
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -326,6 +297,71 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6118292389130767948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Pablo.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod/Desktop/Desktop/Pablo.strings.bank
+  Name: Desktop/Pablo.strings
+  StudioPath: bank:/Pablo.strings
+  lastModified: 637909930057842318
+  FileSizes:
+  - Name: 
+    Value: 3002
+  Exists: 1
+--- !u!114 &-5833625482065209817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton_Groan_3_2d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton_Groan_3_2d
+  Guid:
+    Data1: -163271025
+    Data2: 1119253529
+    Data3: 1109182604
+    Data4: -1348165356
+  Banks:
+  - {fileID: 8225463129253055471}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5734449215904211204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Gabriel.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod/Desktop/Desktop/Gabriel.bank
+  Name: Desktop/Gabriel
+  StudioPath: bank:/Gabriel
+  lastModified: 637909930056097012
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5449893853427496588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +381,7 @@ MonoBehaviour:
     Data3: -116975223
     Data4: 1466953202
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -372,7 +408,7 @@ MonoBehaviour:
     Data3: -1901240674
     Data4: -304033599
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -399,7 +435,7 @@ MonoBehaviour:
     Data3: 224764034
     Data4: -371128783
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -426,13 +462,40 @@ MonoBehaviour:
     Data3: 865632927
     Data4: -849048026
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+  Length: 0
+--- !u!114 &-3890517515736365935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton_Groan_4_2d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton_Groan_4_2d
+  Guid:
+    Data1: -1711248996
+    Data2: 1148855740
+    Data3: -1195956843
+    Data4: -507622349
+  Banks:
+  - {fileID: 8225463129253055471}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
   Length: 0
 --- !u!114 &-3735823871502005023
 MonoBehaviour:
@@ -453,7 +516,7 @@ MonoBehaviour:
     Data3: -257664586
     Data4: -1992369957
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -480,7 +543,34 @@ MonoBehaviour:
     Data3: 533413040
     Data4: -3367861
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2300184646660495849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton Groan_4_3d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton Groan_4_3d
+  Guid:
+    Data1: 1240729479
+    Data2: 1114855139
+    Data3: -562729830
+    Data4: -1413090559
+  Banks:
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -507,7 +597,34 @@ MonoBehaviour:
     Data3: 1566364808
     Data4: 1175750676
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-352534497284073902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton Groan_3_3d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton Groan_3_3d
+  Guid:
+    Data1: -1275837028
+    Data2: 1286282893
+    Data3: 258656415
+    Data4: 499298455
+  Banks:
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -528,9 +645,9 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8042818427632910185}
-  - {fileID: -8989691219195602524}
-  - {fileID: -6454229214707252301}
+  - {fileID: -6118292389130767948}
+  - {fileID: -5734449215904211204}
+  - {fileID: 8225463129253055471}
   EditorEvents:
   - {fileID: -4228936419710350223}
   - {fileID: 5216879376746582233}
@@ -571,12 +688,22 @@ MonoBehaviour:
   - {fileID: 3032607280339250402}
   - {fileID: -8978846813342541469}
   - {fileID: 3951600665855644900}
+  - {fileID: 5687620322944570527}
+  - {fileID: 443503900196734157}
+  - {fileID: -8873012770897257640}
+  - {fileID: 726521560781495158}
+  - {fileID: -2300184646660495849}
+  - {fileID: -5833625482065209817}
+  - {fileID: -352534497284073902}
+  - {fileID: -3890517515736365935}
+  - {fileID: 1258801153121146082}
+  - {fileID: 4486058041410911053}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   StringsBanks:
-  - {fileID: -8042818427632910185}
-  cacheTime: 637906765901012729
+  - {fileID: -6118292389130767948}
+  cacheTime: 637909930057842318
   cacheVersion: 10
 --- !u!114 &91891721411215967
 MonoBehaviour:
@@ -597,7 +724,7 @@ MonoBehaviour:
     Data3: -1821022320
     Data4: 594023855
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -624,9 +751,36 @@ MonoBehaviour:
     Data3: -1934904437
     Data4: -1228516426
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
   IsStream: 0
   Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &443503900196734157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton_Groan_2_2d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton_Groan_2_2d
+  Guid:
+    Data1: 257476873
+    Data2: 1236607276
+    Data3: 492756377
+    Data4: 1784157280
+  Banks:
+  - {fileID: 8225463129253055471}
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -651,7 +805,61 @@ MonoBehaviour:
     Data3: -820380767
     Data4: 878403955
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &726521560781495158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton Groan_1_3d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton Groan_1_3d
+  Guid:
+    Data1: 125026690
+    Data2: 1199119890
+    Data3: -321817446
+    Data4: -1777941187
+  Banks:
+  - {fileID: 8225463129253055471}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1258801153121146082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/LEVEL UP
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/LEVEL UP
+  Guid:
+    Data1: 1764854722
+    Data2: 1328068845
+    Data3: -714980687
+    Data4: -1839397143
+  Banks:
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -678,7 +886,7 @@ MonoBehaviour:
     Data3: 457057696
     Data4: -1315887967
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -705,7 +913,7 @@ MonoBehaviour:
     Data3: 32125619
     Data4: -1981447467
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -732,7 +940,7 @@ MonoBehaviour:
     Data3: -1856224626
     Data4: -1884064053
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -759,7 +967,7 @@ MonoBehaviour:
     Data3: -1787899518
     Data4: -1483836360
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -786,7 +994,7 @@ MonoBehaviour:
     Data3: -265317745
     Data4: -2089452222
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -813,10 +1021,37 @@ MonoBehaviour:
     Data3: -310065779
     Data4: 500982005
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4486058041410911053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton_Groan_1_2d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton_Groan_1_2d
+  Guid:
+    Data1: -154590228
+    Data2: 1092918104
+    Data3: -681484404
+    Data4: 828352996
+  Banks:
+  - {fileID: 8225463129253055471}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -840,7 +1075,7 @@ MonoBehaviour:
     Data3: 524310172
     Data4: 1629343028
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -867,7 +1102,7 @@ MonoBehaviour:
     Data3: 2110562464
     Data4: -1995135413
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -894,7 +1129,7 @@ MonoBehaviour:
     Data3: -2131289168
     Data4: -269361808
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -921,7 +1156,7 @@ MonoBehaviour:
     Data3: -368855914
     Data4: 2041025648
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -948,7 +1183,7 @@ MonoBehaviour:
     Data3: -1550463095
     Data4: 1470556626
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -975,7 +1210,34 @@ MonoBehaviour:
     Data3: -31943528
     Data4: -73296858
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5687620322944570527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/SwordHitWoodHeavy
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/SwordHitWoodHeavy
+  Guid:
+    Data1: -1263939552
+    Data2: 1263799313
+    Data3: 109204908
+    Data4: 811474855
+  Banks:
+  - {fileID: -5734449215904211204}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1002,7 +1264,7 @@ MonoBehaviour:
     Data3: 826385297
     Data4: 2084091090
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1029,7 +1291,7 @@ MonoBehaviour:
     Data3: 1280921782
     Data4: -1874558921
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1037,6 +1299,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &8225463129253055471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Pablo.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod/Desktop/Desktop/Pablo.bank
+  Name: Desktop/Pablo
+  StudioPath: bank:/Pablo
+  lastModified: 637909930057812400
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8316821371436486786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1056,7 +1336,7 @@ MonoBehaviour:
     Data3: 1038428084
     Data4: 1598599719
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1083,7 +1363,7 @@ MonoBehaviour:
     Data3: -1558450549
     Data4: 1027320264
   Banks:
-  - {fileID: -8989691219195602524}
+  - {fileID: -5734449215904211204}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1110,7 +1390,7 @@ MonoBehaviour:
     Data3: 2143801018
     Data4: 1353748306
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1137,7 +1417,7 @@ MonoBehaviour:
     Data3: 398100615
     Data4: -1505738069
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1164,7 +1444,7 @@ MonoBehaviour:
     Data3: -1597676868
     Data4: -406783196
   Banks:
-  - {fileID: -6454229214707252301}
+  - {fileID: 8225463129253055471}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1

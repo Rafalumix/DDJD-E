@@ -7,6 +7,8 @@ public static class GetSceneName
     public static string mainMenu = "MainMenu";
     public static string DeathMenu = "DeathMenu";
 
+    public static string InitialVideo = "Initial Video"; 
+
     public static string firstRoom = "Room #1";
     public static string testRoom = "testRoom"; 
 }

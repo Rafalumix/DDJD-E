@@ -120,7 +120,7 @@ public class MainMenuController : MonoBehaviour
     {
         PlayerStats.newGame(); 
         Debug.Log("Restart level."); 
-        SceneManager.LoadScene(GetSceneName.firstRoom); 
+        SceneManager.LoadScene(GetSceneName.InitialVideo); 
     }
 
     public void loadLevel()
