@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 7603347614529896676}
   - component: {fileID: 5820775205027598124}
   m_Layer: 0
-  m_Name: TorchWithFlames
+  m_Name: TorchWithPurpleFlames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269,7 +269,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3865443920006410632}
   m_LocalRotation: {x: -0, y: 0.70119226, z: -0, w: 0.7129722}
-  m_LocalPosition: {x: -79.05673, y: 34.52, z: 138.16}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 765232594175504471}
@@ -350,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4135915320214192612}
   m_LocalRotation: {x: -0.70111054, y: 0.099186584, z: 0.065932535, w: 0.7030356}
-  m_LocalPosition: {x: 0.01, y: 0.61999893, z: 0.291}
+  m_LocalPosition: {x: 0.009, y: 0.667, z: 0.245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4135915321836395117}
@@ -546,7 +546,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.8301887, g: 0.7183674, b: 0, a: 1}
+      maxColor: {r: 1, g: 0.56037736, b: 0.91070163, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1628,7 +1628,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 1
+    enabled: 0
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -1636,8 +1636,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.8692064, b: 0, a: 0}
-        key1: {r: 0.9433962, g: 0.4609533, b: 0, a: 1}
+        key0: {r: 0.8396226, g: 0.47842646, b: 0.7649755, a: 0}
+        key1: {r: 0.9433962, g: 0.8668565, b: 0.92758906, a: 1}
         key2: {r: 1, g: 1, b: 1, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1645,7 +1645,7 @@ ParticleSystem:
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 6939
-        ctime1: 23708
+        ctime1: 28142
         ctime2: 65535
         ctime3: 0
         ctime4: 0
@@ -1653,9 +1653,9 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 193
-        atime1: 13878
+        atime1: 8867
         atime2: 65535
-        atime3: 0
+        atime3: 65535
         atime4: 0
         atime5: 0
         atime6: 0
@@ -5179,7 +5179,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.754717, g: 0.5238076, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.56078434, b: 0.9098039, a: 1}
   m_Intensity: 15
   m_Range: 50
   m_SpotAngle: 30
