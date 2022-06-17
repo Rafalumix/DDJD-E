@@ -50,12 +50,12 @@ public static class PlayerStats
         xpNeededToLvlUp = 10;
         level = 1;
 
-        life = new Life(1);
-        endurance = new Endurance(1);
-        vigor = new Vigor(1);
-        evasion = new Evasion(1);
-        luck = new Luck(1);
-        speed = new Speed(1);
+        life.setStat(1);
+        endurance.setStat(1);
+        vigor.setStat(1);
+        evasion.setStat(1);
+        luck.setStat(1);
+        speed.setStat(1);
 }
     //NEW HEIR GENERATOR FUNCTIONS
     public static void generateNewHeir()
