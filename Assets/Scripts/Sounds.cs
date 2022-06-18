@@ -20,8 +20,12 @@ public class Sounds : MonoBehaviour
     }
     public void openDoorSound()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/DOOR_OPEN 3D");
-        instance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.allCameras[0].transform.position)); 
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/DOOR OPEN");
         instance.start();
     }
+    public void roomCompletedSound()
+    {
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/CHEST");
+        instance.start();
     }
+}

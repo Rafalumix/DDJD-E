@@ -46,10 +46,6 @@ public class PlayerController : MonoBehaviour
             {
                 die();
             }    
-            if (Input.GetKeyDown(KeyCode.Comma))
-        {
-            SaveSystem.SavePlayer(); 
-        }
     }
 
     public void die()

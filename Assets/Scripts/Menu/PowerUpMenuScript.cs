@@ -8,22 +8,27 @@ public class PowerUpMenuScript : MonoBehaviour
 
     [SerializeField] private GameObject PowerUpPopup = null;
     [SerializeField] private GameObject UI = null;
+    UIScript UIscript = null; 
+
+    Sounds _sounds = null; 
 
     private bool isPopupOpen = false; 
     private void Awake()
     {
-        gamePaused = GetComponent<GamePaused>(); 
+        UIscript = UI.GetComponent<UIScript>();
+
+        gamePaused = GetComponent<GamePaused>();
+        _sounds = GameObject.Find("Music").GetComponent<Sounds>(); 
     }
     public void openPowerUpMenu()
     {
-        UI.SetActive(false);
-        PowerUpPopup.SetActive(true);
-
-        isPopupOpen = true;
-        gamePaused.changePause();
+        StartCoroutine(openMenu());
     }
     public void closePowerUpMenu()
     {
+        UIscript.updateHealthBarValue(); 
+        UIscript.updatePotionValue(); 
+
         UI.SetActive(true);
         PowerUpPopup.SetActive(false);
 
@@ -33,5 +38,18 @@ public class PowerUpMenuScript : MonoBehaviour
     public bool isPowerupPopupOpen()
     {
         return isPopupOpen; 
+    }
+
+    private IEnumerator openMenu()
+    {
+        yield return new WaitForSeconds(2);
+        _sounds.roomCompletedSound(); 
+        yield return new WaitForSeconds(2);
+
+        UI.SetActive(false);
+        PowerUpPopup.SetActive(true);
+
+        isPopupOpen = true;
+        gamePaused.changePause();
     }
 }

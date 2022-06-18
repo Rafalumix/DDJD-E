@@ -6,25 +6,25 @@ using UnityEngine.SceneManagement;
 public class DoorController : Interactable
 {
     [SerializeField] private int destinationSceneIndex;
-    [SerializeField] private GameObject relativePainting = null; 
+    //[SerializeField] private GameObject relativePainting = null; 
 
     RoomManager roomManager;
 
-    private int numberOfPowerUp; 
+    //private int numberOfPowerUp; 
 
     private Sounds _sound = null;
 
     private void Awake()
     {
-        numberOfPowerUp = RoomPowerups.getRandomBoost();
+        //numberOfPowerUp = RoomPowerups.getRandomBoost();
         roomManager = GameObject.Find("GameManager").GetComponent<RoomManager>();
 
-        if (relativePainting != null)
+        /*if (relativePainting != null)
         {
             string name = RoomPowerups.getTextureName(numberOfPowerUp);
             Material mat = (Material)Resources.Load(name, typeof(Material));
             relativePainting.GetComponent<Renderer>().material = mat; 
-        }
+        }*/
         
 
         _sound = GameObject.Find("Music").GetComponent<Sounds>(); 
@@ -35,10 +35,10 @@ public class DoorController : Interactable
         {
             base.OnTriggerEnter(other);
 
-            if (SceneManager.GetActiveScene().name != GetSceneName.firstRoom)
+            /*if (SceneManager.GetActiveScene().name != GetSceneName.firstRoom)
             {
                  Debug.Log(RoomPowerups.getName(numberOfPowerUp));
-            } 
+            } */
         }
         
     }
@@ -54,10 +54,10 @@ public class DoorController : Interactable
             {
                 _sound.openDoorSound();
             }
-            if (SceneManager.GetActiveScene().name != GetSceneName.firstRoom)
+            /*if (SceneManager.GetActiveScene().name != GetSceneName.firstRoom)
             {
                 RoomPowerups.applyPowerUp(numberOfPowerUp);
-            }
+            }*/
         }
     }
 }
