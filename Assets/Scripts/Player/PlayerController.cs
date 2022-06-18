@@ -1,9 +1,11 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private UIScript UIScript = null;
+    [SerializeField] private GameObject LevelUpPopup = null; 
 
     private SoundCharacter _sound;
     private Animator _animator; 
@@ -44,10 +46,6 @@ public class PlayerController : MonoBehaviour
             {
                 die();
             }    
-            if (Input.GetKeyDown(KeyCode.Comma))
-        {
-            SaveSystem.SavePlayer(); 
-        }
     }
 
     public void die()
@@ -75,11 +73,16 @@ public class PlayerController : MonoBehaviour
     private void levelUp()
     {
         Debug.Log(transform.name + " level up!");
+        StartCoroutine(ConfirmationBox());
         _sound.levelUpSound();
         PlayerStats.levelUp();
     }
-
-
+    public IEnumerator ConfirmationBox()
+    {
+        LevelUpPopup.SetActive(true);
+        yield return new WaitForSeconds(2);
+        LevelUpPopup.SetActive(false);
+    }
     public void takeDamage(int enemyFlatDamage)
     {
         if (chanceHit(PlayerStats.evasion.getDodgeChance()))

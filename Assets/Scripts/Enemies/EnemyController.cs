@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] private int lifePoints = 100;
-    [SerializeField] private int damage = 20;
+    [SerializeField] private int lifePoints = 50;
+    [SerializeField] private int damage = 10;
+    [SerializeField] private int givenXP = 6;
+    [SerializeField] private int fromWhichDepthItAppears = 0;
+    
     //private bool canEmitSound = true;
 
 
     PlayerController mainCharacter;
+    RoomManager roomManager; 
 
     Collider _collider; 
     Animator _animator;
@@ -18,9 +22,20 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         mainCharacter = GameObject.Find("MainCharacter").GetComponent<PlayerController>();
-        _animator = GetComponent<Animator>();
-        _collider = GetComponentInChildren<Collider>();
-        _sound = GetComponent<enemySounds>(); 
+        roomManager = GameObject.Find("GameManager").GetComponent<RoomManager>();
+
+        if (PlayerStats.actualRoomNumber >= fromWhichDepthItAppears)
+        {
+            lifePoints += PlayerStats.actualRoomNumber * 10;
+            damage += PlayerStats.actualRoomNumber * 3; 
+            _animator = GetComponent<Animator>();
+            _collider = GetComponentInChildren<Collider>();
+            _sound = GetComponent<enemySounds>();
+        } else
+        {
+            roomManager.reduceEnemies();
+            Destroy(this.gameObject); 
+        }
     }
 
     public void attack()
@@ -62,8 +77,11 @@ public class EnemyController : MonoBehaviour
     {
         if (!_animator.GetBool("isDead"))
         {
+            mainCharacter.gainXp(givenXP); 
             _collider.enabled = false; 
-            _animator.SetBool("isDead", true); 
+            _animator.SetBool("isDead", true);
+            roomManager.reduceEnemies();
+            roomManager.checkOpenPowerUpWindow(); 
             //Destroy(this.gameObject); 
         }
        

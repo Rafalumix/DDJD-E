@@ -9,12 +9,17 @@ public class Speed : Stat
     public Speed(int start_level){
         name = "Speed";
         level = start_level;
-        speedMultiplier = (level-1)*5/100 + 1;;
+        updateStat();
+        
     }
 
-    public override void levelUp(){
-        base.levelUp();
-        speedMultiplier =  (level-1)*5/100 + 1;
+    public override void updateStat(){
+        speedMultiplier = (level-1)*5/100 + 1;
+    }
+
+    public override void levelUp(int n=1){
+        base.levelUp(n);
+        updateStat();
         Debug.Log("Player's speed multiplier is now " + speedMultiplier );
     }
 

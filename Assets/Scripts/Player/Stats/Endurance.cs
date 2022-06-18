@@ -12,15 +12,18 @@ public class Endurance : Stat
     public Endurance(int start_level){
         name = "Endurance";
         level = start_level;
-        armor = (level-1)*5;
-        defensiveReduction = 0.5f;
+        updateStat();
     }
 
-    public override void levelUp()
-    {
-        base.levelUp();
+    public override void updateStat(){
         armor = (level-1)*2;
         defensiveReduction = ((int)(level/5) / 10) + 0.5f;
+    }
+
+    public override void levelUp(int n=1)
+    {
+        base.levelUp(n);
+        updateStat();
         Debug.Log("Player's defensive reduction is now " + defensiveReduction);
     }
 

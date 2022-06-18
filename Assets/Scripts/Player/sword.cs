@@ -19,7 +19,7 @@ public class sword : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other);
+        //Debug.Log(other);
         if (_attackAnimator.isAttacking())
         {
             Debug.Log("attacking");
