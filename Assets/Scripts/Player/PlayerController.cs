@@ -93,6 +93,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            UIScript.gotHurt(); 
             bool isDefending = _animator.GetBool("Block");
             if (isDefending)
             {
@@ -145,6 +146,7 @@ public class PlayerController : MonoBehaviour
     {
         if (PlayerStats.nPotionsActual > 0)
         {
+            UIScript.gotHealed(); 
             _sound.dringPotionSound(); 
             PlayerStats.nPotionsActual--;
             UIScript.updatePotionValue();
