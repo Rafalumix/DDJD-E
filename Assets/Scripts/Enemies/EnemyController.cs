@@ -80,7 +80,8 @@ public class EnemyController : MonoBehaviour
             mainCharacter.gainXp(givenXP); 
             _collider.enabled = false; 
             _animator.SetBool("isDead", true);
-            roomManager.reduceEnemies(); 
+            roomManager.reduceEnemies();
+            roomManager.checkOpenPowerUpWindow(); 
             //Destroy(this.gameObject); 
         }
        

@@ -17145,7 +17145,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938860474}
-  m_LocalRotation: {x: -0.018141482, y: -0.000000034458935, z: 0.000000006519258, w: 0.9998355}
+  m_LocalRotation: {x: -0.018141482, y: 0.0000000055879354, z: -0.0000000011641532, w: 0.9998355}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -18487,6 +18487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   confirmationPrompt: {fileID: 2114918144}
+  powerUpMenuScript: {fileID: 0}
 --- !u!114 &4383877058986636462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18501,7 +18502,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PauseMenu: {fileID: 287778178}
   backToMainMenuPopup: {fileID: 1178955689}
-  isPaused: 0
   UI: {fileID: 824465779}
   nameLabel: {fileID: 823330988}
   levelLabel: {fileID: 172005998}
@@ -18608,6 +18608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6681063039798804732}
   - component: {fileID: 4383877058986636462}
+  - component: {fileID: 7527795904870253836}
   m_Layer: 0
   m_Name: PauseMenuController
   m_TagString: Untagged
@@ -18615,3 +18616,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7527795904870253836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7527795904870253835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec0bbfc0d367f047ae2d4c747cd43d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PowerUpPopup: {fileID: 595903172}
+  UI: {fileID: 824465779}

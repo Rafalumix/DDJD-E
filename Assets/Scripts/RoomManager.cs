@@ -7,6 +7,7 @@ public class RoomManager : MonoBehaviour
 {
     [Header("Confirmation")]
     [SerializeField] private GameObject confirmationPrompt = null;
+    [SerializeField] private PowerUpMenuScript powerUpMenuScript = null; 
 
     private int numberOfEnemies = 0; 
     void Start()
@@ -30,6 +31,13 @@ public class RoomManager : MonoBehaviour
         } else
         {
             return false; 
+        }
+    }
+    public void checkOpenPowerUpWindow()
+    {
+        if(numberOfEnemies <= 0)
+        {
+            powerUpMenuScript.openPowerUpMenu(); 
         }
     }
     public IEnumerator ConfirmationBox()
