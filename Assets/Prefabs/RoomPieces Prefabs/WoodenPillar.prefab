@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3750458141001921805}
   - component: {fileID: 5509777965148872152}
   - component: {fileID: 4496269530544135032}
+  - component: {fileID: 3681676320673838916}
   m_Layer: 0
   m_Name: WoodenPillar
   m_TagString: Untagged
@@ -95,3 +96,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.013154401, y: 0.012941443, z: 0.0801851}
   m_Center: {x: -0.03988954, y: 0.038176272, z: 0.040119633}
+--- !u!64 &3681676320673838916
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349976444919332321}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 322424749085830564, guid: 2ca714acaba928e49867bedd020f694a, type: 3}
