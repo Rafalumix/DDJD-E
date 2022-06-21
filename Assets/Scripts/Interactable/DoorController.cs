@@ -49,11 +49,19 @@ public class DoorController : Interactable
         if (roomManager.canGoInTheNextRoom())
         {
             PlayerStats.actualRoomNumber++;
-            SceneManager.LoadScene(destinationSceneIndex);
-            if (_sound != null)
-            {
+        if (_sound != null)
+           {
                 _sound.openDoorSound();
             }
+            if (PlayerStats.actualRoomNumber > 12)
+            {
+                SceneManager.LoadScene(GetSceneName.bossRoom); 
+            } else 
+            {
+                SceneManager.LoadScene(destinationSceneIndex);
+            }
+            
+            
             /*if (SceneManager.GetActiveScene().name != GetSceneName.firstRoom)
             {
                 RoomPowerups.applyPowerUp(numberOfPowerUp);

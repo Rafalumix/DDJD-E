@@ -9,6 +9,8 @@ public static class GetSceneName
 
     public static string InitialVideo = "Initial Video"; 
 
-    public static string firstRoom = "Room #1";
-    public static string testRoom = "testRoom"; 
+    public static string firstRoom = "Room Hallway";
+    public static string testRoom = "testRoom";
+
+    public static string bossRoom = "KingRoom"; 
 }

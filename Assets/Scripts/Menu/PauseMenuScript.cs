@@ -21,6 +21,7 @@ public class PauseMenuScript : MonoBehaviour
 
     [SerializeField] private TMP_Text nameLabel = null;
     [SerializeField] private TMP_Text levelLabel = null;
+    [SerializeField] private TMP_Text roomCounter = null;
     [Header("Stats")]
     [SerializeField] private TMP_Text lifeLabel = null;
     [SerializeField] private TMP_Text enduranceLabel = null;
@@ -35,6 +36,13 @@ public class PauseMenuScript : MonoBehaviour
         Cursor.visible = false;
         powerUpMenuScript = GetComponent<PowerUpMenuScript>();
         gamePaused = GetComponent<GamePaused>();
+        if(PlayerStats.actualRoomNumber <= 12)
+        {
+            roomCounter.text = PlayerStats.actualRoomNumber + "/12";
+        } else
+        {
+            roomCounter.text = "Boss";
+        }
         updateStats(); 
     }
 
