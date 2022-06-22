@@ -48,6 +48,7 @@ public class DoorController : Interactable
 
         if (roomManager.canGoInTheNextRoom())
         {
+            RoomPowerups.generateSetOfBoosts();
             PlayerStats.actualRoomNumber++;
         if (_sound != null)
            {

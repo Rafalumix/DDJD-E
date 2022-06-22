@@ -13,7 +13,7 @@ public class Vigor : Stat
     }
 
     public override void updateStat(){
-        flatDamage = 15 + (level-1)*5;
+        flatDamage = 15 + (level-1)*4;
     }
 
     public override void levelUp(int n=1){

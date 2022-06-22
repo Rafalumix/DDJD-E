@@ -7,13 +7,14 @@ public class PowerUpScript : MonoBehaviour
 {
     [SerializeField] private GameObject Image = null;
     [SerializeField] private TMP_Text Title = null;
+    [SerializeField] private int numberInTheMenu = 0; 
 
     private int numberOfPowerUp;
 
 
-    private void Awake()
+    private void Start()
     {
-        numberOfPowerUp = RoomPowerups.getRandomBoost();
+        numberOfPowerUp = RoomPowerups.getBoost(numberInTheMenu);
         string name = RoomPowerups.getTextureName(numberOfPowerUp);
         Sprite tex = Resources.Load<Sprite>(name);
         Image.GetComponent<Image>().sprite = tex;
