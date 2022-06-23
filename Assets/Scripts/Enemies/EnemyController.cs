@@ -80,7 +80,11 @@ public class EnemyController : MonoBehaviour
             roomManager.reduceEnemies();
             roomManager.checkOpenPowerUpWindow(); 
             //Destroy(this.gameObject); 
-        }
-       
+        }  
+    }
+    public void reborn()
+    {
+        _collider.enabled = true;
+        _animator.SetBool("isDead", false);
     }
 }

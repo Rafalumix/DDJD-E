@@ -23,6 +23,10 @@ public class RoomManager : MonoBehaviour
         numberOfEnemies--;
         Debug.Log("Actual number of enemies in the room: " + numberOfEnemies);
     }
+    public void bossRoundRefill()
+    {
+        numberOfEnemies = 4; 
+    }
     public bool canGoInTheNextRoom()
     {
         if (numberOfEnemies <= 0)
@@ -37,7 +41,10 @@ public class RoomManager : MonoBehaviour
     {
         if(numberOfEnemies <= 0)
         {
+            if (powerUpMenuScript != null)
+            {
             powerUpMenuScript.openPowerUpMenu(); 
+            }
         }
     }
     public IEnumerator ConfirmationBox()
