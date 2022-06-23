@@ -11,7 +11,9 @@ public class PauseMenuScript : MonoBehaviour
 
     [SerializeField] private GameObject PauseMenu = null;
     [SerializeField] private GameObject backToMainMenuPopup = null;
-    private PowerUpMenuScript powerUpMenuScript = null; 
+    private PowerUpMenuScript powerUpMenuScript = null;
+    private Sounds sounds = null;
+
     private bool isPaused = false;
 
     [SerializeField] private GameObject UI = null;
@@ -36,7 +38,8 @@ public class PauseMenuScript : MonoBehaviour
         Cursor.visible = false;
         powerUpMenuScript = GetComponent<PowerUpMenuScript>();
         gamePaused = GetComponent<GamePaused>();
-        if(PlayerStats.actualRoomNumber <= 12)
+        sounds = GameObject.Find("Music").GetComponent<Sounds>();
+        if (PlayerStats.actualRoomNumber <= 12)
         {
             roomCounter.text = PlayerStats.actualRoomNumber + "/12";
         } else
@@ -50,6 +53,7 @@ public class PauseMenuScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.M) && !powerUpMenuScript.isPowerupPopupOpen() && !isPaused)
         {
+            sounds.clickConfirmButtonSound();
             gamePaused.changePause();
             isPaused = !isPaused;
             if (isPaused)

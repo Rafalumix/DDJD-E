@@ -5,6 +5,8 @@ using UnityEngine;
 public class enemySounds : MonoBehaviour
 {
     private FMOD.Studio.EventInstance instance;
+    private string[] nameOfRandomGroans = { "Skeleton Groan_1_3d", "Skeleton Groan_2_3d",
+                                            "Skeleton Groan_3_3d", "Skeleton Groan_4_3d"}; 
 
     private void Update()
     {
@@ -13,7 +15,8 @@ public class enemySounds : MonoBehaviour
 
     public void monsterSound()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/GROAN_SMALL 3D");
+        int n = Random.Range(0, 4);
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/" + nameOfRandomGroans[n]);
         instance.start();
     }
     public void monsterGetHitSound()

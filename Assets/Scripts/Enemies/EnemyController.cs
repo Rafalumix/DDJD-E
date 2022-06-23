@@ -7,8 +7,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private int lifePoints = 50;
     [SerializeField] private int damage = 10;
     [SerializeField] private int givenXP = 6;
-    [SerializeField] private int fromWhichDepthItAppears = 0;
-    
+    [SerializeField] private int fromWhichDepthItAppears = 0;    
     //private bool canEmitSound = true;
 
 
@@ -17,12 +16,12 @@ public class EnemyController : MonoBehaviour
 
     Collider _collider; 
     Animator _animator;
-    enemySounds _sound; 
-
+    enemySounds _sound;
     void Start()
     {
         mainCharacter = GameObject.Find("MainCharacter").GetComponent<PlayerController>();
         roomManager = GameObject.Find("GameManager").GetComponent<RoomManager>();
+        StartCoroutine(randomGroan());
 
         if (PlayerStats.actualRoomNumber >= fromWhichDepthItAppears)
         {
@@ -43,8 +42,7 @@ public class EnemyController : MonoBehaviour
         if (!_animator.GetBool("isDead"))
         {
             mainCharacter.takeDamage(damage);
-            /*
-            if (canEmitSound == true)
+            /*if (canEmitSound == true)
             {
                 StartCoroutine(randomGroan());
             }*/
@@ -60,19 +58,18 @@ public class EnemyController : MonoBehaviour
             die(); 
         }
     }
-    /*private IEnumerator randomGroan()
+    private IEnumerator randomGroan()
     {
         int n = Random.Range(5, 15);
-        canEmitSound = false;
 
         yield return new WaitForSeconds(n);
 
-        canEmitSound = true;
         if (!_animator.GetBool("isDead"))
         {
             _sound.monsterSound();
         }
-    }*/
+        StartCoroutine(randomGroan()); 
+    }
     private void die()
     {
         if (!_animator.GetBool("isDead"))

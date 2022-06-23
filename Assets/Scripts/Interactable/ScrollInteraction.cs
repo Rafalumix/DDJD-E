@@ -11,7 +11,14 @@ public class ScrollInteraction : Interactable
     [SerializeField] TMP_Text Popuptext = null;
 
     private int n = 0; 
-    private bool alreadyReadInThisRoom = false; 
+    private bool alreadyReadInThisRoom = false;
+
+    private Sounds sounds = null;
+
+    private void Awake()
+    {
+        sounds = GameObject.Find("Music").GetComponent<Sounds>();
+    }
 
 
     override protected void doActionOnClick()
@@ -21,7 +28,8 @@ public class ScrollInteraction : Interactable
         {
             evaluateReadingPage(); 
         }
-        
+
+        sounds.ScrollReadingSound(); 
         string title = ScrollManager.readTitle(n);
         string text = ScrollManager.readText(n);
         Popuptitle.text = title;

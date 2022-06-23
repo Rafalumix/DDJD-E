@@ -487,9 +487,9 @@ MonoBehaviour:
   RealChannelSettings: []
   Plugins: []
   MasterBanks:
-  - Desktop/Pablo
+  - Pablo
   Banks:
-  - Desktop/Gabriel
+  - Gabriel
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

@@ -28,4 +28,9 @@ public class Sounds : MonoBehaviour
         instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/CHEST");
         instance.start();
     }
+    public void ScrollReadingSound()
+    {
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/BOOK_1");
+        instance.start();
+    }
 }

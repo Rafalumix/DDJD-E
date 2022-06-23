@@ -42,7 +42,7 @@ public class SoundCharacter : MonoBehaviour
     }
     public void levelUpSound()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/Coins");
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/LEVEL UP");
         instance.start();
     }
 
