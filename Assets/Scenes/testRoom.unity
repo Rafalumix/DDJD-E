@@ -1600,9 +1600,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 606941898208916500, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6415060842531754178, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
       propertyPath: lookRadius
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6415060842531754178, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
+      propertyPath: stoppingDistanceFromThePlayer
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 6415060842531754232, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
       propertyPath: m_Name
@@ -8697,6 +8705,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227207427}
     m_Modifications:
+    - target: {fileID: 6415060842531754178, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
+      propertyPath: stoppingDistanceFromThePlayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6415060842531754232, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
       propertyPath: m_Name
       value: Enemy (4)
@@ -10347,6 +10359,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227207427}
     m_Modifications:
+    - target: {fileID: 6415060842531754178, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
+      propertyPath: stoppingDistanceFromThePlayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6415060842531754232, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
       propertyPath: m_Name
       value: Enemy (5)
@@ -12382,6 +12398,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 7874568288417458359, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: c2c65122c67bb32429d81afb32ab3c35, type: 3}
     - target: {fileID: 8109861485385347238, guid: 96b1eb1a5a462954c85dc317b29aa118, type: 3}
       propertyPath: m_Layer
       value: 11
@@ -15788,6 +15808,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227207427}
     m_Modifications:
+    - target: {fileID: 6415060842531754178, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
+      propertyPath: stoppingDistanceFromThePlayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6415060842531754232, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
       propertyPath: m_Name
       value: Enemy (3)
@@ -22415,6 +22439,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227207427}
     m_Modifications:
+    - target: {fileID: 6415060842531754178, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
+      propertyPath: stoppingDistanceFromThePlayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6415060842531754232, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -31310,6 +31338,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227207427}
     m_Modifications:
+    - target: {fileID: 6415060842531754178, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
+      propertyPath: stoppingDistanceFromThePlayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6415060842531754232, guid: 80db8cef781dbce4bac29990b59a7797, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -33779,7 +33811,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938860474}
-  m_LocalRotation: {x: -0.018141447, y: -0, z: -0, w: 0.9998355}
+  m_LocalRotation: {x: -0.018141432, y: -0.00000011920929, z: 0.000000026077032, w: 0.9998355}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

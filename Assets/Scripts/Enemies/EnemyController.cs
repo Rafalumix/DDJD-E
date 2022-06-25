@@ -39,8 +39,10 @@ public class EnemyController : MonoBehaviour
 
     public void attack()
     {
+
         if (!_animator.GetBool("isDead"))
         {
+            _animator.SetTrigger("Attack");
             mainCharacter.takeDamage(damage);
             /*if (canEmitSound == true)
             {
@@ -51,8 +53,10 @@ public class EnemyController : MonoBehaviour
 
     public void takeDamage(int damage)
     {
+        _animator.SetTrigger("Hit");
         _sound.monsterGetHitSound(); 
         lifePoints -= damage;
+        Debug.Log(lifePoints);
         if (lifePoints <= 0)
         {
             die(); 
@@ -86,5 +90,15 @@ public class EnemyController : MonoBehaviour
     {
         _collider.enabled = true;
         _animator.SetBool("isDead", false);
+        }
+
+    public bool isAttacking()
+    {
+        return _animator.GetBool("isAttacking");
+    }
+
+    public void EndAttack() 
+    {
+        _animator.SetBool("isAttacking", false);
     }
 }

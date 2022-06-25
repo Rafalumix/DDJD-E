@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyIA : MonoBehaviour
 {
-    [SerializeField] private float stoppingDistanceFromThePlayer = 1f;
+    [SerializeField] private float stoppingDistanceFromThePlayer = 2000f;
     [SerializeField] private float randomWalkRadius = 5f;
     [SerializeField] private float lookRadius = 10f;
 
@@ -33,6 +33,7 @@ public class EnemyIA : MonoBehaviour
         {
             float distance = Vector3.Distance(target.transform.position, transform.position);
 
+            Debug.Log(distance);
             if (distance < stoppingDistanceFromThePlayer)
             {
                 FaceTarget();

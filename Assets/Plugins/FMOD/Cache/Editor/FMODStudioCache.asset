@@ -162,6 +162,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8858896721733188657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/exterior
+  m_EditorClassIdentifier: 
+  Path: snapshot:/exterior
+  Guid:
+    Data1: 710829498
+    Data2: 1259826009
+    Data3: 524310172
+    Data4: 1629343028
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-8540862982178318392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +216,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8294949951797708179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/MENU_VALIDATE
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/MENU_VALIDATE
+  Guid:
+    Data1: -910596217
+    Data2: 1330312619
+    Data3: -963019131
+    Data4: -964220270
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8189455986146484888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +263,33 @@ MonoBehaviour:
     Data4: -964220270
   Banks:
   - {fileID: 5499981103866335446}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7589422250127620455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/GROAN_SMALL
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/GROAN_SMALL
+  Guid:
+    Data1: -1443955985
+    Data2: 1159827893
+    Data3: -1233858936
+    Data4: 1400488874
+  Banks:
+  - {fileID: 1734377695481405874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -243,6 +324,114 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7557049479991250361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/CHEST
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/CHEST
+  Guid:
+    Data1: -1224528956
+    Data2: 1171297544
+    Data3: 826385297
+    Data4: 2084091090
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7517049009545500920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton_Groan_1_2d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton_Groan_1_2d
+  Guid:
+    Data1: -154590228
+    Data2: 1092918104
+    Data3: -681484404
+    Data4: 828352996
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7387834552401744618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/BELL_MEDIEVAL 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/BELL_MEDIEVAL 3D
+  Guid:
+    Data1: 1914473476
+    Data2: 1086728223
+    Data3: 1633514932
+    Data4: 612996919
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7346410759747024871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/DOOR CLOSE
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/DOOR CLOSE
+  Guid:
+    Data1: 781701088
+    Data2: 1294807230
+    Data3: -2131289168
+    Data4: -269361808
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7238383137546929266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,6 +452,33 @@ MonoBehaviour:
     Data4: -1798801792
   Banks:
   - {fileID: 1473671461468490269}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6551217344020815936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton Groan_2_3d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton Groan_2_3d
+  Guid:
+    Data1: -1730482393
+    Data2: 1154804512
+    Data3: 731360958
+    Data4: -1603113223
+  Banks:
+  - {fileID: 1734377695481405874}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -297,7 +513,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-5833625482065209817
+--- !u!114 &-6163058456415890077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton Groan_3_3d
+  m_EditorClassIdentifier: 
+  Path: Fmod/Desktop/Pablo.strings.bank
+  Name: Pablo.strings
+  StudioPath: bank:/Pablo.strings
+  lastModified: 637916943629148941
+  FileSizes:
+  - Name: 
+    Value: 3094
+  Exists: 1
+--- !u!114 &-3735823871502005023
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -324,6 +560,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5748584525432979240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/BELL
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/BELL
+  Guid:
+    Data1: -1117165263
+    Data2: 1216046908
+    Data3: -116975223
+    Data4: 1466953202
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5449893853427496588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,6 +607,189 @@ MonoBehaviour:
     Data4: 1466953202
   Banks:
   - {fileID: 5499981103866335446}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5411813646641550793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/MENU_SELECT
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/MENU_SELECT
+  Guid:
+    Data1: 1053583705
+    Data2: 1118003249
+    Data3: -820380767
+    Data4: 878403955
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5381681639764539105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/GATE
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/GATE
+  Guid:
+    Data1: 104471466
+    Data2: 1209873757
+    Data3: 2143801018
+    Data4: 1353748306
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -3834290943302668457}
+  - {fileID: 1473671461468490269}
+  - {fileID: 5499981103866335446}
+  EditorEvents:
+  - {fileID: -4228936419710350223}
+  - {fileID: 5216879376746582233}
+  - {fileID: -4496049150687968887}
+  - {fileID: -9165015915230825270}
+  - {fileID: 5650690984443451268}
+  - {fileID: -3067552795397246031}
+  - {fileID: -8540862982178318392}
+  - {fileID: -7238383137546929266}
+  - {fileID: -4362059796508613239}
+  - {fileID: 8350855724860816707}
+  - {fileID: 246872365330192665}
+  - {fileID: -7588255472428351934}
+  - {fileID: 1722139626724164152}
+  - {fileID: -9026355580859260584}
+  - {fileID: 91891721411215967}
+  - {fileID: -5449893853427496588}
+  - {fileID: 2016345475827013527}
+  - {fileID: 5499545882669541969}
+  - {fileID: 8316821371436486786}
+  - {fileID: 547456337448699444}
+  - {fileID: -9024934824206735991}
+  - {fileID: 7180608903410067727}
+  - {fileID: -8929853484707194433}
+  - {fileID: 5412443336263073369}
+  - {fileID: 5566814273905406477}
+  - {fileID: -8189455986146484888}
+  - {fileID: -6239255682801256238}
+  - {fileID: 1519624627856889645}
+  - {fileID: 8479875810936997763}
+  - {fileID: 9006541341339021585}
+  - {fileID: 6098540175219447352}
+  - {fileID: -1841845707560433902}
+  - {fileID: 5474414010494433714}
+  - {fileID: 8603394535402933531}
+  - {fileID: -3735823871502005023}
+  - {fileID: 2331488512342599117}
+  - {fileID: 3032607280339250402}
+  - {fileID: -8978846813342541469}
+  - {fileID: 3951600665855644900}
+  - {fileID: 5687620322944570527}
+  - {fileID: 443503900196734157}
+  - {fileID: -8873012770897257640}
+  - {fileID: 726521560781495158}
+  - {fileID: -2300184646660495849}
+  - {fileID: -5833625482065209817}
+  - {fileID: -352534497284073902}
+  - {fileID: -3890517515736365935}
+  - {fileID: 1258801153121146082}
+  - {fileID: 4486058041410911053}
+  - {fileID: -5019259711325613927}
+  - {fileID: 1022737291765404061}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 5499981103866335446}
+  StringsBanks:
+  - {fileID: -3834290943302668457}
+  cacheTime: 637916943629148941
+  cacheVersion: 10
+--- !u!114 &91891721411215967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/SwordHitWood
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/SwordHitWood
+  Guid:
+    Data1: 827145165
+    Data2: 1282818639
+    Data3: -1934904437
+    Data4: -1228516426
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5025409432227411045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/BELL_MEDIEVAL
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/BELL_MEDIEVAL
+  Guid:
+    Data1: 1939814419
+    Data2: 1206581758
+    Data3: 32125619
+    Data4: -1981447467
+  Banks:
+  - {fileID: 1734377695481405874}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -498,14 +944,93 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Pablo.strings.bank
   m_EditorClassIdentifier: 
-  Path: Fmod/Desktop/Pablo.strings.bank
-  Name: Pablo.strings
-  StudioPath: bank:/Pablo.strings
-  lastModified: 637916943629148941
-  FileSizes:
-  - Name: 
-    Value: 3094
+  Path: Fmod/Desktop/Gabriel.bank
+  Name: Gabriel
+  StudioPath: bank:/Gabriel
+  lastModified: 637916943627435121
+  FileSizes: []
   Exists: 1
+--- !u!114 &-3813359400959399285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/Coins
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/Coins
+  Guid:
+    Data1: -319746895
+    Data2: 1248055554
+    Data3: 533413040
+    Data4: -3367861
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3811865628135654739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/BELL_HEAVY
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/BELL_HEAVY
+  Guid:
+    Data1: -100334464
+    Data2: 1147117901
+    Data3: -1550463095
+    Data4: 1470556626
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3741727783589235357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/GATE 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/GATE 3D
+  Guid:
+    Data1: -8148593
+    Data2: 1171221934
+    Data3: 457057696
+    Data4: -1315887967
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3735823871502005023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,6 +1085,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2633342776138146418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/BOOK_1
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/BOOK_1
+  Guid:
+    Data1: -1670150280
+    Data2: 1248656538
+    Data3: -796325760
+    Data4: 1410054460
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2516727314851134613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/CHEST 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/CHEST 3D
+  Guid:
+    Data1: -1690386102
+    Data2: 1317073977
+    Data3: -368855914
+    Data4: 2041025648
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2300184646660495849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,6 +1161,60 @@ MonoBehaviour:
   - {fileID: 5499981103866335446}
   IsStream: 0
   Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2108567416954537781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/TORCH
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/TORCH
+  Guid:
+    Data1: 1270713578
+    Data2: 1319307714
+    Data3: -265317745
+    Data4: -2089452222
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1868177772096134847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/LEVEL UP
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/LEVEL UP
+  Guid:
+    Data1: 1764854722
+    Data2: 1328068845
+    Data3: -714980687
+    Data4: -1839397143
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -614,6 +1247,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1803848187082902425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/Coin
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/Coin
+  Guid:
+    Data1: 1978135224
+    Data2: 1339062171
+    Data3: -1558450549
+    Data4: 1027320264
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-853975429908665823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/SwordSlashAir
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/SwordSlashAir
+  Guid:
+    Data1: 772501100
+    Data2: 1223970473
+    Data3: -945438785
+    Data4: 1331871312
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-352534497284073902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,6 +1328,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-330554452768318420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/BOOK_2
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/BOOK_2
+  Guid:
+    Data1: 231476621
+    Data2: 1328130798
+    Data3: 1524359063
+    Data4: -309863142
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-131386277212111836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/SwordHitWoodHeavy
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/SwordHitWoodHeavy
+  Guid:
+    Data1: -1263939552
+    Data2: 1263799313
+    Data3: 109204908
+    Data4: 811474855
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,67 +1395,67 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -3834290943302668457}
-  - {fileID: 1473671461468490269}
-  - {fileID: 5499981103866335446}
+  - {fileID: 6212031079235756539}
+  - {fileID: 2296770057547262068}
+  - {fileID: 1734377695481405874}
   EditorEvents:
-  - {fileID: -4228936419710350223}
-  - {fileID: 5216879376746582233}
-  - {fileID: -4496049150687968887}
-  - {fileID: -9165015915230825270}
-  - {fileID: 5650690984443451268}
-  - {fileID: -3067552795397246031}
-  - {fileID: -8540862982178318392}
-  - {fileID: -7238383137546929266}
-  - {fileID: -4362059796508613239}
-  - {fileID: 8350855724860816707}
-  - {fileID: 246872365330192665}
-  - {fileID: -7588255472428351934}
-  - {fileID: 1722139626724164152}
-  - {fileID: -9026355580859260584}
-  - {fileID: 91891721411215967}
-  - {fileID: -5449893853427496588}
-  - {fileID: 2016345475827013527}
-  - {fileID: 5499545882669541969}
-  - {fileID: 8316821371436486786}
-  - {fileID: 547456337448699444}
-  - {fileID: -9024934824206735991}
-  - {fileID: 7180608903410067727}
-  - {fileID: -8929853484707194433}
-  - {fileID: 5412443336263073369}
-  - {fileID: 5566814273905406477}
-  - {fileID: -8189455986146484888}
-  - {fileID: -6239255682801256238}
-  - {fileID: 1519624627856889645}
-  - {fileID: 8479875810936997763}
-  - {fileID: 9006541341339021585}
-  - {fileID: 6098540175219447352}
-  - {fileID: -1841845707560433902}
-  - {fileID: 5474414010494433714}
-  - {fileID: 8603394535402933531}
-  - {fileID: -3735823871502005023}
-  - {fileID: 2331488512342599117}
-  - {fileID: 3032607280339250402}
-  - {fileID: -8978846813342541469}
-  - {fileID: 3951600665855644900}
-  - {fileID: 5687620322944570527}
-  - {fileID: 443503900196734157}
-  - {fileID: -8873012770897257640}
-  - {fileID: 726521560781495158}
-  - {fileID: -2300184646660495849}
-  - {fileID: -5833625482065209817}
-  - {fileID: -352534497284073902}
-  - {fileID: -3890517515736365935}
-  - {fileID: 1258801153121146082}
-  - {fileID: 4486058041410911053}
-  - {fileID: -5019259711325613927}
-  - {fileID: 1022737291765404061}
+  - {fileID: -131386277212111836}
+  - {fileID: 3584117270366964163}
+  - {fileID: -853975429908665823}
+  - {fileID: 6348822695698054341}
+  - {fileID: -3813359400959399285}
+  - {fileID: 8415091114002110759}
+  - {fileID: 4147711452089528065}
+  - {fileID: 798161259879292609}
+  - {fileID: -1803848187082902425}
+  - {fileID: -5331407605792932034}
+  - {fileID: -7387834552401744618}
+  - {fileID: 4927881045268802225}
+  - {fileID: -5025409432227411045}
+  - {fileID: 2236594204647494810}
+  - {fileID: -6551217344020815936}
+  - {fileID: 3777231353490288462}
+  - {fileID: -5748584525432979240}
+  - {fileID: 3018828771006473493}
+  - {fileID: -2516727314851134613}
+  - {fileID: 9102973855156999751}
+  - {fileID: -5411813646641550793}
+  - {fileID: 1353566016986830744}
+  - {fileID: 4489290580107183538}
+  - {fileID: 6019683468979716385}
+  - {fileID: 7674276238330268366}
+  - {fileID: -2633342776138146418}
+  - {fileID: 4866583748600615261}
+  - {fileID: -3811865628135654739}
+  - {fileID: 5056622358405880575}
+  - {fileID: 4420025913477452799}
+  - {fileID: -8294949951797708179}
+  - {fileID: 5990342637961353086}
+  - {fileID: -330554452768318420}
+  - {fileID: -3741727783589235357}
+  - {fileID: 8005526705031816687}
+  - {fileID: -6163058456415890077}
+  - {fileID: 3347633087589433406}
+  - {fileID: -5381681639764539105}
+  - {fileID: -8858896721733188657}
+  - {fileID: 9116742669746885005}
+  - {fileID: -1868177772096134847}
+  - {fileID: -7557049479991250361}
+  - {fileID: 4968114572202905780}
+  - {fileID: -7346410759747024871}
+  - {fileID: 3663810076723427101}
+  - {fileID: 2743173579182393599}
+  - {fileID: 8332625361785074370}
+  - {fileID: -2108567416954537781}
+  - {fileID: -7517049009545500920}
+  - {fileID: -7589422250127620455}
+  - {fileID: 5742887054629619317}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5499981103866335446}
+  - {fileID: 1734377695481405874}
   StringsBanks:
-  - {fileID: -3834290943302668457}
-  cacheTime: 637916943629148941
+  - {fileID: 6212031079235756539}
+  cacheTime: 637916814845735875
   cacheVersion: 10
 --- !u!114 &91891721411215967
 MonoBehaviour:
@@ -851,6 +1592,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &798161259879292609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/SwordScrashWall
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/SwordScrashWall
+  Guid:
+    Data1: 458660023
+    Data2: 1205332305
+    Data3: 224764034
+    Data4: -371128783
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1022737291765404061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -905,6 +1673,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1353566016986830744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/BELL 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/BELL 3D
+  Guid:
+    Data1: 898262364
+    Data2: 1167034465
+    Data3: -1466692961
+    Data4: -1077639653
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1473671461468490269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,7 +1715,7 @@ MonoBehaviour:
   Path: Fmod/Desktop/Gabriel.bank
   Name: Gabriel
   StudioPath: bank:/Gabriel
-  lastModified: 637916943627435121
+  lastModified: 637910700160000000
   FileSizes: []
   Exists: 1
 --- !u!114 &1519624627856889645
@@ -977,6 +1772,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1734377695481405874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Pablo.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod/Desktop/Pablo.bank
+  Name: Pablo
+  StudioPath: bank:/Pablo
+  lastModified: 637916814845710517
+  FileSizes: []
+  Exists: 1
 --- !u!114 &2016345475827013527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,6 +1817,51 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2236594204647494810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/AMBIENCE HEAVY
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/AMBIENCE HEAVY
+  Guid:
+    Data1: -1789719522
+    Data2: 1228776342
+    Data3: 148240047
+    Data4: 1604237100
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 233593
+--- !u!114 &2296770057547262068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Gabriel.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod/Desktop/Gabriel.bank
+  Name: Gabriel
+  StudioPath: bank:/Gabriel
+  lastModified: 637916814840329404
+  FileSizes: []
+  Exists: 1
 --- !u!114 &2331488512342599117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1025,6 +1883,60 @@ MonoBehaviour:
   Banks:
   - {fileID: 5499981103866335446}
   IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2743173579182393599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/DOOR OPEN
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/DOOR OPEN
+  Guid:
+    Data1: -434562334
+    Data2: 1108553683
+    Data3: -257664586
+    Data4: -1992369957
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3018828771006473493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/ARMOUR
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/ARMOUR
+  Guid:
+    Data1: -1454474687
+    Data2: 1117456041
+    Data3: -1856224626
+    Data4: -1884064053
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
@@ -1058,6 +1970,114 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3347633087589433406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton_Groan_4_2d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton_Groan_4_2d
+  Guid:
+    Data1: -1711248996
+    Data2: 1148855740
+    Data3: -1195956843
+    Data4: -507622349
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3584117270366964163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/Drinking
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/Drinking
+  Guid:
+    Data1: -774393812
+    Data2: 1120854946
+    Data3: -1901240674
+    Data4: -304033599
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3663810076723427101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/AMBIENCE
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/AMBIENCE
+  Guid:
+    Data1: 1889222625
+    Data2: 1142227731
+    Data3: 398100615
+    Data4: -1505738069
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 338561
+--- !u!114 &3777231353490288462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/DOOR_CLOSE 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/DOOR_CLOSE 3D
+  Guid:
+    Data1: 672936232
+    Data2: 1173061961
+    Data3: -1821022320
+    Data4: 594023855
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &3951600665855644900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1085,6 +2105,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &4147711452089528065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/SwordHitShield
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/SwordHitShield
+  Guid:
+    Data1: 2083494582
+    Data2: 1227160386
+    Data3: -982939007
+    Data4: -1798801792
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4420025913477452799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton Groan_4_3d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton Groan_4_3d
+  Guid:
+    Data1: 1240729479
+    Data2: 1114855139
+    Data3: -562729830
+    Data4: -1413090559
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4486058041410911053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1107,6 +2181,141 @@ MonoBehaviour:
   - {fileID: 5499981103866335446}
   IsStream: 0
   Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4489290580107183538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/FOOTSTEPS_STONE
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/FOOTSTEPS_STONE
+  Guid:
+    Data1: 1730343264
+    Data2: 1081379309
+    Data3: 1280921782
+    Data4: -1874558921
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4866583748600615261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Interior
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Interior
+  Guid:
+    Data1: 248524154
+    Data2: 1114500371
+    Data3: 865632927
+    Data4: -849048026
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4927881045268802225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton_Groan_2_2d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton_Groan_2_2d
+  Guid:
+    Data1: 257476873
+    Data2: 1236607276
+    Data3: 492756377
+    Data4: 1784157280
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4968114572202905780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/GROAN_BIG 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/GROAN_BIG 3D
+  Guid:
+    Data1: -1599233828
+    Data2: 1225591951
+    Data3: 1566364808
+    Data4: 1175750676
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5056622358405880575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton Groan_1_3d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton Groan_1_3d
+  Guid:
+    Data1: 125026690
+    Data2: 1199119890
+    Data3: -321817446
+    Data4: -1777941187
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1235,7 +2444,7 @@ MonoBehaviour:
   Path: Fmod/Desktop/Pablo.bank
   Name: Pablo
   StudioPath: bank:/Pablo
-  lastModified: 637916943629098934
+  lastModified: 637910700160000000
   FileSizes: []
   Exists: 1
 --- !u!114 &5566814273905406477
@@ -1319,6 +2528,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5742887054629619317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/SOUND UPON DEATH
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/SOUND UPON DEATH
+  Guid:
+    Data1: 1087777788
+    Data2: 1326775731
+    Data3: -310065779
+    Data4: 500982005
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5990342637961353086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/GROAN_BIG
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/GROAN_BIG
+  Guid:
+    Data1: -967373686
+    Data2: 1145132449
+    Data3: -470057797
+    Data4: 136309879
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6019683468979716385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/BELL_HEAVY 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/BELL_HEAVY 3D
+  Guid:
+    Data1: -861637011
+    Data2: 1148635530
+    Data3: -177559377
+    Data4: -184373145
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6098540175219447352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,6 +2636,51 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6212031079235756539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Pablo.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod/Desktop/Pablo.bank
+  Name: Pablo
+  StudioPath: bank:/Pablo
+  lastModified: 637916943629098934
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6348822695698054341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/SwordHitMetal
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/SwordHitMetal
+  Guid:
+    Data1: 139908760
+    Data2: 1287003599
+    Data3: -31943528
+    Data4: -73296858
+  Banks:
+  - {fileID: 2296770057547262068}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7180608903410067727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1366,6 +2701,60 @@ MonoBehaviour:
     Data4: -1874558921
   Banks:
   - {fileID: 5499981103866335446}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7674276238330268366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/GROAN_SMALL 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/GROAN_SMALL 3D
+  Guid:
+    Data1: -1075316109
+    Data2: 1205675736
+    Data3: 2110562464
+    Data4: -1995135413
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8005526705031816687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/Skeleton_Groan_3_2d
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/Skeleton_Groan_3_2d
+  Guid:
+    Data1: -163271025
+    Data2: 1119253529
+    Data3: 1109182604
+    Data4: -1348165356
+  Banks:
+  - {fileID: 1734377695481405874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1400,6 +2789,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &8332625361785074370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/MENU_MUSIC_AMBIENCE
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/MENU_MUSIC_AMBIENCE
+  Guid:
+    Data1: -1512094998
+    Data2: 1215132367
+    Data3: -1787899518
+    Data4: -1483836360
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8350855724860816707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,6 +2836,33 @@ MonoBehaviour:
     Data4: 1027320264
   Banks:
   - {fileID: 1473671461468490269}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8415091114002110759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gabriel/SkeletonGetHit
+  m_EditorClassIdentifier: 
+  Path: event:/Gabriel/SkeletonGetHit
+  Guid:
+    Data1: 667047348
+    Data2: 1219521105
+    Data3: -1688346975
+    Data4: -917257754
+  Banks:
+  - {fileID: 2296770057547262068}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1501,6 +2944,60 @@ MonoBehaviour:
     Data4: -406783196
   Banks:
   - {fileID: 5499981103866335446}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9102973855156999751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/DOOR_OPEN 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/DOOR_OPEN 3D
+  Guid:
+    Data1: -691048116
+    Data2: 1252252007
+    Data3: 1038428084
+    Data4: 1598599719
+  Banks:
+  - {fileID: 1734377695481405874}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9116742669746885005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pablo/TORCH 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Pablo/TORCH 3D
+  Guid:
+    Data1: -1793766206
+    Data2: 1212600785
+    Data3: -1597676868
+    Data4: -406783196
+  Banks:
+  - {fileID: 1734377695481405874}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
