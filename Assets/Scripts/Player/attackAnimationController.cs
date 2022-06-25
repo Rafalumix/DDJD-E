@@ -8,14 +8,17 @@ public class attackAnimationController : MonoBehaviour
 
     private Animator _animator;
 
+    private GamePaused gamePause; 
+
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        gamePause = GameObject.Find("PauseMenuController").GetComponent<GamePaused>(); 
     }
     void Update()
     {
         // Check for mouse input
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && !gamePause.isGamePaused())
         {
             OnClick();
         }

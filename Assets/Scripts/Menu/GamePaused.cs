@@ -34,7 +34,7 @@ public class GamePaused : MonoBehaviour
         AudioListener.pause = false;
         isPaused = false;
     }
-    public bool isPowerupPopupOpen()
+    public bool isGamePaused()
     {
         return isPaused;
     }
