@@ -76,6 +76,7 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(ConfirmationBox());
         _sound.levelUpSound();
         PlayerStats.levelUp();
+        UIScript.updateHealthBarValue(); 
     }
     public IEnumerator ConfirmationBox()
     {

@@ -17,6 +17,7 @@ public class Life : Stat
 
     public override void updateStat(){
         maxHealth = 100 + (level-1)*5;
+        currentHealth += 5; 
     }
 
     public override void levelUp(int n=1){
