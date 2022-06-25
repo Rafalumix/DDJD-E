@@ -12,12 +12,11 @@ public class bossManager : MonoBehaviour
     [SerializeField] GameObject sphere = null;
     bool isGameFinished = false; 
 
-    RoomManager roomManager = null; 
+    RoomManager roomManager = null;
 
-    private int rounds; 
+    [SerializeField] private int rounds; 
     void Start()
     {
-        rounds = 3;
         roomManager = GetComponent<RoomManager>();
 
     }
