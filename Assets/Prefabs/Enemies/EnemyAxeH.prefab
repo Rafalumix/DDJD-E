@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14392e766b0145445b9ce58fb6d4e993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stoppingDistanceFromThePlayer: 1
+  stoppingDistanceFromThePlayer: 3
   randomWalkRadius: 5
   lookRadius: 10
 --- !u!114 &6415060842531754239
@@ -117,8 +117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54b9c16b94cead6419e4f477c2328b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifePoints: 100
-  damage: 20
+  lifePoints: 120
+  damage: 30
   givenXP: 6
   fromWhichDepthItAppears: 0
 --- !u!136 &6415060842531754238
@@ -145,7 +145,7 @@ Animator:
   m_GameObject: {fileID: 6415060842531754232}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 533c95d041afee940bbb95b5659ed28d, type: 3}
-  m_Controller: {fileID: 9100000, guid: a13dc588d3cc3b641b65cb4109e52470, type: 2}
+  m_Controller: {fileID: 9100000, guid: 36542eeabfc47b04587bdcda9fec8fbd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

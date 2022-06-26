@@ -33,7 +33,6 @@ public class EnemyIA : MonoBehaviour
         {
             float distance = Vector3.Distance(target.transform.position, transform.position);
 
-            Debug.Log(distance);
             if (distance < stoppingDistanceFromThePlayer)
             {
                 FaceTarget();
