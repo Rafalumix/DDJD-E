@@ -233,8 +233,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 5015829207161816530, guid: 5e3e3c24f2216ac43ba2402f82d0fb37, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3e3c24f2216ac43ba2402f82d0fb37, type: 3}
+--- !u!1 &4336520738291253518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1965877732943567356, guid: 5e3e3c24f2216ac43ba2402f82d0fb37, type: 3}
+  m_PrefabInstance: {fileID: 2839055310516426994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9099367521102282750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4336520738291253518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf36a4bb3713f4b9daeb3308952124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3681412518237846304
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -39,11 +39,11 @@ public class EnemyController : MonoBehaviour
 
     public void attack()
     {
-
         if (!_animator.GetBool("isDead"))
         {
             _animator.SetTrigger("Attack");
-            mainCharacter.takeDamage(damage);
+            // _animator.SetBool("isAttacking", true);
+            // mainCharacter.takeDamage(damage);
             /*if (canEmitSound == true)
             {
                 StartCoroutine(randomGroan());
@@ -100,5 +100,15 @@ public class EnemyController : MonoBehaviour
     public void EndAttack() 
     {
         _animator.SetBool("isAttacking", false);
+    }
+
+    public void StartAttack() 
+    {
+        _animator.SetBool("isAttacking", true);
+    }
+
+    public int GetDamage() 
+    {
+        return damage;
     }
 }
