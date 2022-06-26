@@ -126,7 +126,7 @@ namespace StarterAssets
 			
 			JumpAndGravity();
 			GroundedCheck();
-			if(!_animator.GetCurrentAnimatorStateInfo(0).IsName("Block"))
+			if(!_animator.GetCurrentAnimatorStateInfo(0).IsName("Block") && _animator.GetBool("CanMove"))
             {
 				Move();
             }
@@ -269,6 +269,15 @@ namespace StarterAssets
 		private void StopBlock() 
 		{
 			_animator.SetBool("Block", false);
+		}
+
+		public void CanMove() 
+		{
+			_animator.SetBool("CanMove", true);
+		}
+		public void DisableMove() 
+		{
+			_animator.SetBool("CanMove", false);
 		}
 
 		private void JumpAndGravity()
