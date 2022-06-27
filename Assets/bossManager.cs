@@ -10,7 +10,9 @@ public class bossManager : MonoBehaviour
     [SerializeField] EnemyController enemy4 = null;
     private int secondsToWait = 10;
 
-    [SerializeField] GameObject PopupWindow = null;
+    [SerializeField] GameObject PopupText = null;
+    [SerializeField] GameObject PopupSecretEndingText = null;
+
 
     [SerializeField] GameObject sphere = null;
     bool isGameFinished = false; 
@@ -51,9 +53,15 @@ public class bossManager : MonoBehaviour
     }
 
     private IEnumerator EndPopUp(){
-        PopupWindow.SetActive(true);
+        PopupText.SetActive(true);
         yield return new WaitForSeconds(secondsToWait);
-        PopupWindow.SetActive(false);
+        PopupText.SetActive(false);
+        if (ScrollManager.isUnlockedSecretEnding())
+        {
+            PopupSecretEndingText.SetActive(true);
+            yield return new WaitForSeconds(secondsToWait);
+            PopupSecretEndingText.SetActive(false);
+        }
     }
 
     private IEnumerator nextRound()

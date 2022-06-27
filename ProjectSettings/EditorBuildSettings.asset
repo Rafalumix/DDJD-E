@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/testRoom.unity
     guid: bde932abc8700ad47bae7d661cecc506
   - enabled: 1
-    path: Assets/Scenes/Initial Video.unity
+    path: Assets/Scenes/Videos/Initial Video.unity
     guid: 5581ff8d5d164e14aab8be544cfd4df6
   - enabled: 1
     path: Assets/Scenes/KingRoom.unity

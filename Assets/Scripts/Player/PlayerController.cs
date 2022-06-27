@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     {
             if (Input.GetKeyDown(KeyCode.X))
             {
-                gainXp(30);
+            PlayerStats.lastNoteRead = 12;
             }
             if (Input.GetKeyDown(KeyCode.I))
             {
