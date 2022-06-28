@@ -16,11 +16,13 @@ public class EnemyController : MonoBehaviour
 
     Collider _collider; 
     Animator _animator;
+    EnemyIA _IA; 
     enemySounds _sound;
     void Start()
     {
         mainCharacter = GameObject.Find("MainCharacter").GetComponent<PlayerController>();
         roomManager = GameObject.Find("GameManager").GetComponent<RoomManager>();
+        _IA = GetComponent<EnemyIA>(); 
         StartCoroutine(randomGroan());
 
         if (PlayerStats.actualRoomNumber >= fromWhichDepthItAppears)
@@ -39,7 +41,7 @@ public class EnemyController : MonoBehaviour
 
     public void attack()
     {
-        if (!_animator.GetBool("isDead"))
+        if (_IA.isAlive())
         {
             mainCharacter.takeDamage(damage);
             /*if (canEmitSound == true)
@@ -75,7 +77,8 @@ public class EnemyController : MonoBehaviour
         if (!_animator.GetBool("isDead"))
         {
             mainCharacter.gainXp(givenXP); 
-            _collider.enabled = false; 
+            _collider.enabled = false;
+            _IA.Kill(); 
             _animator.SetBool("isDead", true);
             roomManager.reduceEnemies();
             roomManager.checkOpenPowerUpWindow(); 
@@ -86,5 +89,11 @@ public class EnemyController : MonoBehaviour
     {
         _collider.enabled = true;
         _animator.SetBool("isDead", false);
+        StartCoroutine(makeHimMove()); 
+    }
+    private IEnumerator makeHimMove()
+    {
+        yield return new WaitForSeconds(1.5f);
+        _IA.Reborn(); 
     }
 }
