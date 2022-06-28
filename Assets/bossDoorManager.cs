@@ -33,6 +33,7 @@ public class bossDoorManager : Interactable
             {
                 _sound.openDoorSound();
             }
+            SceneManager.LoadScene(GetSceneName.SecretEndingVideo);
             Debug.Log("SECRET ENDING"); 
         }
     }
