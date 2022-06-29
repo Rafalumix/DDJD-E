@@ -94,6 +94,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            CinemachineCameraShaker.instance.ShakeCamera(0.1f);
             UIScript.gotHurt(); 
             bool isDefending = _animator.GetBool("Block");
             if (isDefending)
