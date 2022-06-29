@@ -8,16 +8,20 @@ public class bossManager : MonoBehaviour
     [SerializeField] EnemyController enemy2 = null;
     [SerializeField] EnemyController enemy3 = null;
     [SerializeField] EnemyController enemy4 = null;
+    private int secondsToWait = 10;
+
+    [SerializeField] GameObject PopupText = null;
+    [SerializeField] GameObject PopupSecretEndingText = null;
+
 
     [SerializeField] GameObject sphere = null;
     bool isGameFinished = false; 
 
-    RoomManager roomManager = null; 
+    RoomManager roomManager = null;
 
-    private int rounds; 
+    [SerializeField] private int rounds; 
     void Start()
     {
-        rounds = 3;
         roomManager = GetComponent<RoomManager>();
 
     }
@@ -31,10 +35,11 @@ public class bossManager : MonoBehaviour
             {
                 StartCoroutine(nextRound());
             }
-            else
+            else if (!isGameFinished)
             {
                 sphere.SetActive(false);
                 isGameFinished = true; 
+                StartCoroutine(EndPopUp());
             }
         }
     }
@@ -46,6 +51,19 @@ public class bossManager : MonoBehaviour
         }
         return false; 
     }
+
+    private IEnumerator EndPopUp(){
+        PopupText.SetActive(true);
+        yield return new WaitForSeconds(secondsToWait);
+        PopupText.SetActive(false);
+        if (ScrollManager.isUnlockedSecretEnding())
+        {
+            PopupSecretEndingText.SetActive(true);
+            yield return new WaitForSeconds(secondsToWait);
+            PopupSecretEndingText.SetActive(false);
+        }
+    }
+
     private IEnumerator nextRound()
     {
         rounds--;
