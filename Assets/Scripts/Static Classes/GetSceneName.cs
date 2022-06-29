@@ -14,6 +14,10 @@ public static class GetSceneName
 
     public static string firstRoom = "Room Hallway";
     public static string testRoom = "testRoom";
+    public static string library = "Library";
+    public static string dungeon = "Dungeon";
+
+
 
     public static string bossRoom = "KingRoom"; 
 }
