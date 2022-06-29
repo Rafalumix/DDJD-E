@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14392e766b0145445b9ce58fb6d4e993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stoppingDistanceFromThePlayer: 4
+  stoppingDistanceFromThePlayer: 2.8
   randomWalkRadius: 5
   lookRadius: 10
 --- !u!114 &6415060842531754239
@@ -251,6 +251,10 @@ PrefabInstance:
     - target: {fileID: 2198124141975679810, guid: cd7d1a231565e714ba4c6bdc5e65572b, type: 3}
       propertyPath: m_Name
       value: Spear
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055253278615280638, guid: cd7d1a231565e714ba4c6bdc5e65572b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8348913258103871232, guid: cd7d1a231565e714ba4c6bdc5e65572b, type: 3}
       propertyPath: m_RootOrder

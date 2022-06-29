@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+ 
 
 public class EnemyController : MonoBehaviour
 {
@@ -19,12 +20,12 @@ public class EnemyController : MonoBehaviour
     EnemyIA _IA; 
     enemySounds _sound;
 
+
     void Start()
     {
         mainCharacter = GameObject.Find("MainCharacter").GetComponent<PlayerController>();
         roomManager = GameObject.Find("GameManager").GetComponent<RoomManager>();
         _IA = GetComponent<EnemyIA>(); 
-
         StartCoroutine(randomGroan());
 
         if (PlayerStats.actualRoomNumber >= fromWhichDepthItAppears)
@@ -45,6 +46,7 @@ public class EnemyController : MonoBehaviour
     {
         if (!_animator.GetBool("isDead") && _IA.isAlive())
         {
+          
             _animator.SetTrigger("Attack");
             // _animator.SetBool("isAttacking", true);
             // mainCharacter.takeDamage(damage);
@@ -57,10 +59,12 @@ public class EnemyController : MonoBehaviour
 
     public void takeDamage(int damage)
     {
-        _animator.SetTrigger("Hit");
+
+        if( Random.Range(1,100)<= 25)
+            _animator.SetTrigger("Hit");
+
         _sound.monsterGetHitSound(); 
         lifePoints -= damage;
-        Debug.Log(lifePoints);
         if (lifePoints <= 0)
         {
             die(); 

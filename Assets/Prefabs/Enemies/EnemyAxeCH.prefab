@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14392e766b0145445b9ce58fb6d4e993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stoppingDistanceFromThePlayer: 3
+  stoppingDistanceFromThePlayer: 2
   randomWalkRadius: 5
   lookRadius: 10
 --- !u!114 &6415060842531754239
@@ -232,6 +232,10 @@ PrefabInstance:
     - target: {fileID: 611270859389563256, guid: 0c9a80396b3933845b74d01a257097e4, type: 3}
       propertyPath: m_Name
       value: Axe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048952856547098787, guid: 0c9a80396b3933845b74d01a257097e4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c9a80396b3933845b74d01a257097e4, type: 3}

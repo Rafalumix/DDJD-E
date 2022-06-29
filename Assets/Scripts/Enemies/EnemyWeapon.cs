@@ -19,8 +19,11 @@ public class EnemyWeapon : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
+        Debug.Log(_attackAnimator.isAttacking());
         if (_attackAnimator.isAttacking())
         {
+
             if (other.tag == "Player")
             {
                 Debug.Log("Player hitted!");
@@ -38,7 +41,8 @@ public class EnemyWeapon : MonoBehaviour
             {
                 _sound.hitWoodSound(); 
                 Debug.Log("wood"); 
-            } else if (other.tag == "metal")
+            } 
+            else if (other.tag == "metal")
             {
                 _sound.hitMetalSound(); 
                 Debug.Log("metal");

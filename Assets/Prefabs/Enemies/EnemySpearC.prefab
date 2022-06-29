@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14392e766b0145445b9ce58fb6d4e993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stoppingDistanceFromThePlayer: 4
+  stoppingDistanceFromThePlayer: 2.8
   randomWalkRadius: 5
   lookRadius: 10
 --- !u!114 &6415060842531754239
