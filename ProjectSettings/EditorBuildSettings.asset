@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/DeathMenu.unity
     guid: 697f5426a3269c64cbb43a671dbec841
   - enabled: 1
-    path: Assets/Scenes/Room Hallway.unity
+    path: Assets/Scenes/Room with Hallway.unity
     guid: 46445a0fb53135449a6a908b35afab0f
   - enabled: 1
     path: Assets/Scenes/testRoom.unity
@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon.unity
     guid: 58e4472e1a1f7bcc3aede7b6fc991409
+  - enabled: 1
+    path: Assets/Scenes/Room Hallway.unity
+    guid: f1a3f7fbf9804574b9ffb2f69d08c62d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

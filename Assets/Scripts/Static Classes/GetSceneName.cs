@@ -16,6 +16,7 @@ public static class GetSceneName
     public static string testRoom = "testRoom";
     public static string library = "Library";
     public static string dungeon = "Dungeon";
+    public static string hallway = "Room with Hallway";
 
 
 

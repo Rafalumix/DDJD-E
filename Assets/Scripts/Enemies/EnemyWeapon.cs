@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyWeapon : MonoBehaviour
 {
-    private EnemyController _attackAnimator;
+    [SerializeField] private EnemyController _attackAnimator;
 
     private SwordSounds _sound; 
 
@@ -12,7 +12,7 @@ public class EnemyWeapon : MonoBehaviour
 
     private void Awake()
     {
-        _attackAnimator = GetComponentInParent<EnemyController>(); 
+        //_attackAnimator = GetComponentInParent<EnemyController>(); 
         _sound = GetComponent<SwordSounds>();
     }
 
@@ -23,7 +23,6 @@ public class EnemyWeapon : MonoBehaviour
         Debug.Log(_attackAnimator.isAttacking());
         if (_attackAnimator.isAttacking())
         {
-
             if (other.tag == "Player")
             {
                 Debug.Log("Player hitted!");
