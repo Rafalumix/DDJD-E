@@ -1,9 +1,11 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private UIScript UIScript = null;
+    [SerializeField] private GameObject LevelUpPopup = null; 
 
     private SoundCharacter _sound;
     private Animator _animator; 
@@ -18,7 +20,7 @@ public class PlayerController : MonoBehaviour
     {
             if (Input.GetKeyDown(KeyCode.X))
             {
-                gainXp(30);
+            PlayerStats.lastNoteRead = 12;
             }
             if (Input.GetKeyDown(KeyCode.I))
             {
@@ -44,10 +46,6 @@ public class PlayerController : MonoBehaviour
             {
                 die();
             }    
-            if (Input.GetKeyDown(KeyCode.Comma))
-        {
-            SaveSystem.SavePlayer(); 
-        }
     }
 
     public void die()
@@ -75,11 +73,17 @@ public class PlayerController : MonoBehaviour
     private void levelUp()
     {
         Debug.Log(transform.name + " level up!");
+        StartCoroutine(ConfirmationBox());
         _sound.levelUpSound();
         PlayerStats.levelUp();
+        UIScript.updateHealthBarValue(); 
     }
-
-
+    public IEnumerator ConfirmationBox()
+    {
+        LevelUpPopup.SetActive(true);
+        yield return new WaitForSeconds(2);
+        LevelUpPopup.SetActive(false);
+    }
     public void takeDamage(int enemyFlatDamage)
     {
         if (chanceHit(PlayerStats.evasion.getDodgeChance()))
@@ -90,6 +94,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            UIScript.gotHurt(); 
             bool isDefending = _animator.GetBool("Block");
             if (isDefending)
             {
@@ -142,6 +147,7 @@ public class PlayerController : MonoBehaviour
     {
         if (PlayerStats.nPotionsActual > 0)
         {
+            UIScript.gotHealed(); 
             _sound.dringPotionSound(); 
             PlayerStats.nPotionsActual--;
             UIScript.updatePotionValue();

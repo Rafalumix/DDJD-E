@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class sword : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class sword : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other);
+        //Debug.Log(other);
         if (_attackAnimator.isAttacking())
         {
             Debug.Log("attacking");
@@ -43,6 +44,9 @@ public class sword : MonoBehaviour
             {
                 _sound.hitMetalSound(); 
                 Debug.Log("metal");
+            } else if (other.tag == "boss")
+            {
+                SceneManager.LoadScene(GetSceneName.EndingVideo);
             }
         }
         

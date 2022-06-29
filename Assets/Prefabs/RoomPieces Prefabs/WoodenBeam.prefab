@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5340344366519349455}
   - component: {fileID: 4228597942599927363}
   - component: {fileID: 9201181305881925662}
+  - component: {fileID: 6021430533013808657}
   m_Layer: 0
   m_Name: WoodenBeam
   m_TagString: Untagged
@@ -95,3 +96,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.010068856, y: 0.08399996, z: 0.0028920167}
   m_Center: {x: 0.033529863, y: -0.0009421481, z: 0.0021000474}
+--- !u!64 &6021430533013808657
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8832118831380849602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6453075446833843183, guid: e0f2b3ddaa295bf4cac010f0e97b2c3c, type: 3}

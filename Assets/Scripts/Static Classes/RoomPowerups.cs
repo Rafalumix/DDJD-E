@@ -6,11 +6,9 @@ public static class RoomPowerups
 {
     private static int valueOfBoost = 3;
 
-    private static int a = -1;
-    private static int b = -1;
-    private static int c = -1; 
+    private static int[] actualPowerUp = {-1, -1, -1}; 
 
-    private static string[] powerups = {"Boost number of potions",
+    private static string[] powerups = {"Increase potions",
     "Level up!",
     "Life up!",
     "Endurance up!",
@@ -21,37 +19,50 @@ public static class RoomPowerups
     "Refill potions",
     "Potion Healing up!",
     };
-    public static int getRandomBoost()
+    private static string[] textures = {"Icons/Potion_Number_Up_Icon",
+    "Icons/Level_Up_Icon",
+    "Icons/Life_Up_Icon",
+    "Icons/Endurance_Up_Icon",
+    "Icons/Vigor_Up_Icon",
+    "Icons/Evasion_Up_Icon",
+    "Icons/Luck_Up_Icon",
+    "Icons/Speed_Up_Icon",
+    "Icons/Refill_Potion_Icon",
+    "Icons/Potion_Healing_Up",
+    };
+    public static void generateSetOfBoosts()
     {
-        c = b;
-        b = a;
-        a = (int)Random.Range(0f, powerups.Length);
-        if(a == b)
+        actualPowerUp[0] = (int)Random.Range(0f, powerups.Length);
+        actualPowerUp[1] = (int)Random.Range(0f, powerups.Length);
+        actualPowerUp[2] = (int)Random.Range(0f, powerups.Length);
+        while (actualPowerUp[0] == actualPowerUp[1] || actualPowerUp[0] == actualPowerUp[2])
         {
-            a++; 
+            actualPowerUp[0] = (int)Random.Range(0f, powerups.Length);
         }
-        if (a >= powerups.Length)
+        while (actualPowerUp[1] == actualPowerUp[0] || actualPowerUp[1] == actualPowerUp[2])
         {
-            a = 0; 
+            actualPowerUp[1] = (int)Random.Range(0f, powerups.Length);
         }
-        if(a == c)
+        while (actualPowerUp[2] == actualPowerUp[0] || actualPowerUp[2] == actualPowerUp[1])
         {
-            a++; 
+            actualPowerUp[2] = (int)Random.Range(0f, powerups.Length);
         }
-        if (a >= powerups.Length)
+    }
+    public static int getBoost(int n)
+    {
+        if (actualPowerUp[n] == -1)
         {
-            a = 0;
+            generateSetOfBoosts(); 
         }
-        /*
-        while ((a != b) && (a != c))
-        {
-            a = (int)Random.Range(0f, powerups.Length);
-        }*/
-        return a;
+        return actualPowerUp[n];
     }
     public static string getName(int n)
     {
         return powerups[n]; 
+    }
+    public static string getTextureName(int n)
+    {
+        return textures[n]; 
     }
     public static void applyPowerUp(int n)
     {

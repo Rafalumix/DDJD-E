@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable] //Fields inside this class will show up in the inspector 
-public class Stat
+public abstract class Stat
 {
     [SerializeField] //Can be modified inside the inspector 
     protected int level = 1;
@@ -19,19 +19,22 @@ public class Stat
         return level; 
     }
 
-    public virtual void levelUp()
+    public virtual void levelUp(int n=1)
     {
         Debug.Log(name + " boosted!");
-        level += 1; 
+        level += n; 
     }
 
     public virtual void showDetails(){
         Debug.Log(name + " is level "+ level);
     }
 
-    public void setStat(int n)
-    {
-        this.level = n; 
+    public abstract void updateStat();
+
+    public void setStat(int n){
+        level=n;
+        updateStat();
     }
+
 }
 

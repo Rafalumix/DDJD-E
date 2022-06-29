@@ -9,6 +9,7 @@ TagManager:
   - wall
   - wood
   - metal
+  - boss
   layers:
   - Default
   - TransparentFX

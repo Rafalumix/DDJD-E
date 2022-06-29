@@ -7,9 +7,14 @@ using Cinemachine;
 
 public class PauseMenuScript : MonoBehaviour
 {
+    private GamePaused gamePaused = null;
+
     [SerializeField] private GameObject PauseMenu = null;
     [SerializeField] private GameObject backToMainMenuPopup = null;
-    [SerializeField] private bool isPaused = false;
+    private PowerUpMenuScript powerUpMenuScript = null;
+    private Sounds sounds = null;
+
+    private bool isPaused = false;
 
     [SerializeField] private GameObject UI = null;
 
@@ -18,6 +23,7 @@ public class PauseMenuScript : MonoBehaviour
 
     [SerializeField] private TMP_Text nameLabel = null;
     [SerializeField] private TMP_Text levelLabel = null;
+    [SerializeField] private TMP_Text roomCounter = null;
     [Header("Stats")]
     [SerializeField] private TMP_Text lifeLabel = null;
     [SerializeField] private TMP_Text enduranceLabel = null;
@@ -30,22 +36,34 @@ public class PauseMenuScript : MonoBehaviour
         // We are in the game so the mouse is not visible 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        powerUpMenuScript = GetComponent<PowerUpMenuScript>();
+        gamePaused = GetComponent<GamePaused>();
+        sounds = GameObject.Find("Music").GetComponent<Sounds>();
+        if (PlayerStats.actualRoomNumber <= 12)
+        {
+            roomCounter.text = PlayerStats.actualRoomNumber + "/12";
+        } else
+        {
+            roomCounter.text = "Boss";
+        }
         updateStats(); 
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M) && !powerUpMenuScript.isPowerupPopupOpen() && !isPaused)
         {
-            isPaused = !isPaused; 
-        }
-        if (isPaused)
-        {
-            openPauseMenu();
-        }
-        else
-        {
-            closePauseMenu();
+            sounds.clickConfirmButtonSound();
+            gamePaused.changePause();
+            isPaused = !isPaused;
+            if (isPaused)
+            {
+                openPauseMenu();
+            }
+            else
+            {
+                closePauseMenu();
+            }
         }
     }
     void updateStats()
@@ -63,27 +81,20 @@ public class PauseMenuScript : MonoBehaviour
 
     void openPauseMenu()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
         UI.SetActive(false);
         updateStats();
 
-        Time.timeScale = Mathf.Epsilon;
-        AudioListener.pause = true; 
         PauseMenu.SetActive(true);
         isPaused = true; 
     }
     public void closePauseMenu()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         UI.SetActive(true);
 
-        Time.timeScale = 1;
-        AudioListener.pause = false;
         PauseMenu.SetActive(false);
         backToMainMenuPopup.SetActive(false); 
         isPaused = false;
+        gamePaused.changePause();
     }
     public void returnToMenu()
     {

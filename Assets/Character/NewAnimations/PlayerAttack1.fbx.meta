@@ -348,7 +348,7 @@ ModelImporter:
       takeName: metarig|metarigAction
       internalID: 0
       firstFrame: 0
-      lastFrame: 36
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -368,10 +368,17 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 1
+      - time: 0.8376384
         functionName: SetupCombo
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 93a55c2401f11614b998ca4cf0d7df64, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: DisableMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0

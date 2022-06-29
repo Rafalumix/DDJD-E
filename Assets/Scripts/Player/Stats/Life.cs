@@ -11,13 +11,18 @@ public class Life : Stat
     public Life(int start_level){
         name = "Life";        
         level = start_level;
-        maxHealth = 100 + (level-1)*5;
+        updateStat();
         currentHealth = maxHealth;
     }
 
-    public override void levelUp(){
-        base.levelUp();
+    public override void updateStat(){
         maxHealth = 100 + (level-1)*5;
+        currentHealth += 5; 
+    }
+
+    public override void levelUp(int n=1){
+        base.levelUp(n);
+        updateStat();
         Debug.Log("Player's max health is now " + maxHealth);
     }
 

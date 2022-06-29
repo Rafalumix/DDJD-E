@@ -10,6 +10,7 @@ public class EnemyIA : MonoBehaviour
     [SerializeField] private float lookRadius = 10f;
 
     private bool canAttack = true;
+    private bool canMove = true; 
     private Animator _animator;
 
 
@@ -29,7 +30,7 @@ public class EnemyIA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!_animator.GetBool("isDead"))
+        if (canMove && !_animator.GetBool("isDead"))
         {
             float distance = Vector3.Distance(target.transform.position, transform.position);
 
@@ -87,5 +88,17 @@ public class EnemyIA : MonoBehaviour
     void OnDrawGizmosSelected() {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
+    }
+    public bool isAlive()
+    {
+        return canMove; 
+    }
+    public void Kill()
+    {
+        canMove = false; 
+    }
+    public void Reborn()
+    {
+        canMove = true; 
     }
 }

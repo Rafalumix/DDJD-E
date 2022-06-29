@@ -15,16 +15,28 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/DeathMenu.unity
     guid: 697f5426a3269c64cbb43a671dbec841
   - enabled: 1
-    path: Assets/Scenes/Playground.unity
-    guid: e9017d5f96b9f09489b4b37e1d6eb914
-  - enabled: 1
-    path: Assets/Scenes/useless rooms/test.unity
-    guid: 25289ae20d87ea14081322e7cbc76876
-  - enabled: 1
-    path: Assets/Scenes/Room #1.unity
+    path: Assets/Scenes/Room Hallway.unity
     guid: 46445a0fb53135449a6a908b35afab0f
   - enabled: 1
     path: Assets/Scenes/testRoom.unity
     guid: bde932abc8700ad47bae7d661cecc506
+  - enabled: 1
+    path: Assets/Scenes/Videos/Initial Video.unity
+    guid: 5581ff8d5d164e14aab8be544cfd4df6
+  - enabled: 1
+    path: Assets/Scenes/KingRoom.unity
+    guid: 9a58a6e4651940842b667237f7e2c68a
+  - enabled: 1
+    path: Assets/Scenes/Videos/Ending Video.unity
+    guid: 4d1185c55bf8e3d478e30eec9e5d0a90
+  - enabled: 1
+    path: Assets/Scenes/Videos/Ending Video SecretEnding.unity
+    guid: 814d2ad8bc5c8754881c919c31ac2d50
+  - enabled: 1
+    path: Assets/Scenes/Library.unity
+    guid: 63101679b9e4e404c948c110595ae14f
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 58e4472e1a1f7bcc3aede7b6fc991409
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

@@ -120,7 +120,7 @@ public class MainMenuController : MonoBehaviour
     {
         PlayerStats.newGame(); 
         Debug.Log("Restart level."); 
-        SceneManager.LoadScene(GetSceneName.firstRoom); 
+        SceneManager.LoadScene(GetSceneName.InitialVideo); 
     }
 
     public void loadLevel()
@@ -129,7 +129,7 @@ public class MainMenuController : MonoBehaviour
         {
             PlayerData data = SaveSystem.LoadData();
             data.LoadSavedDataInGame(); 
-            SceneManager.LoadScene(2); 
+            SceneManager.LoadScene(PlayerStats.actualRoomID); 
         } else
         {
             noSavedGameDialog.SetActive(true); 
