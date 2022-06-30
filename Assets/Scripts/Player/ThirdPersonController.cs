@@ -258,7 +258,7 @@ namespace StarterAssets
 
 		private void Roll() 
 		{
-			_animator.SetTrigger("Roll");
+			// _animator.SetTrigger("Roll");
 		}
 
 		private void Block() 

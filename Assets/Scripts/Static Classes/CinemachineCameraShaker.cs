@@ -1,4 +1,4 @@
-// Taken from: https://gist.github.com/reunono/efea18bed03fa83dec651fb18beea3bd 
+// Adapted from: https://gist.github.com/reunono/efea18bed03fa83dec651fb18beea3bd 
 
 
 using UnityEngine;
@@ -52,6 +52,7 @@ public class CinemachineCameraShaker : MonoBehaviour
 		_perlinB = _virtualCameraB.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin> ();
 		if(instance == null)
 			instance = this;
+		
 	}		
 
 	/// <summary>
@@ -60,6 +61,8 @@ public class CinemachineCameraShaker : MonoBehaviour
 	protected virtual void Start()
 	{		
 		CameraReset ();
+		instance.ShakeCamera(3,1,5);
+
 	}
 
 	/// <summary>
