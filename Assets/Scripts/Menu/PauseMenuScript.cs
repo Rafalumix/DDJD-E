@@ -51,7 +51,7 @@ public class PauseMenuScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M) && !powerUpMenuScript.isPowerupPopupOpen() && !isPaused)
+        if ((Input.GetKeyDown(KeyCode.Escape)) && !powerUpMenuScript.isPowerupPopupOpen() && !isPaused)
         {
             sounds.clickConfirmButtonSound();
             gamePaused.changePause();

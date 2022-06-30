@@ -81,7 +81,7 @@ public static class PlayerStats
         PlayerStats.evasion.levelUp();
         PlayerStats.luck.levelUp();
         PlayerStats.speed.levelUp();
-        PlayerStats.xpNeededToLvlUp = PlayerStats.level * 10;
+        PlayerStats.xpNeededToLvlUp = (PlayerStats.level+1) * 6;
     }
     public static void generateNewStats()
     {

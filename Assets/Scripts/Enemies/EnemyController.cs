@@ -30,7 +30,7 @@ public class EnemyController : MonoBehaviour
 
         if (PlayerStats.actualRoomNumber >= fromWhichDepthItAppears)
         {
-            lifePoints += PlayerStats.actualRoomNumber * 10;
+            lifePoints += PlayerStats.actualRoomNumber * 5;
             damage += PlayerStats.actualRoomNumber * 3; 
             _animator = GetComponent<Animator>();
             _collider = GetComponentInChildren<Collider>();
