@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
-            CinemachineCameraShaker.instance.ShakeCamera(0.1f);
+            _sound.attackSound(); 
         }
         if (Input.GetKeyDown(KeyCode.V))
         {

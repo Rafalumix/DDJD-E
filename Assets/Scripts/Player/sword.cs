@@ -23,7 +23,7 @@ public class sword : MonoBehaviour
         //Debug.Log(other);
         if (_attackAnimator.isAttacking())
         {
-            Debug.Log("attacking");
+            Debug.Log("attacking"); 
             if (other.tag == "enemy")
                     {
                         CinemachineCameraShaker.instance.ShakeCamera(0.02f,5,20);

@@ -265,11 +265,11 @@ MonoBehaviour:
   - {fileID: 730362082294546181}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 233593
+  Length: 210000
 --- !u!114 &-3920783879871541522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +640,11 @@ MonoBehaviour:
   - {fileID: 730362082294546181}
   StringsBanks:
   - {fileID: 6411411952340321490}
+<<<<<<< Updated upstream
   cacheTime: 637916814845735875
+=======
+  cacheTime: 637922109464615498
+>>>>>>> Stashed changes
   cacheVersion: 10
 --- !u!114 &246474543580002805
 MonoBehaviour:
@@ -711,7 +715,11 @@ MonoBehaviour:
   Path: Fmod/Desktop/Pablo.bank
   Name: Pablo
   StudioPath: bank:/Pablo
+<<<<<<< Updated upstream
   lastModified: 637916814845710517
+=======
+  lastModified: 637922109464531150
+>>>>>>> Stashed changes
   FileSizes: []
   Exists: 1
 --- !u!114 &829053767343033861
@@ -837,7 +845,11 @@ MonoBehaviour:
   Path: Fmod/Desktop/Gabriel.bank
   Name: Gabriel
   StudioPath: bank:/Gabriel
+<<<<<<< Updated upstream
   lastModified: 637916814840329404
+=======
+  lastModified: 637922109460186206
+>>>>>>> Stashed changes
   FileSizes: []
   Exists: 1
 --- !u!114 &2645832339027588530
@@ -1233,10 +1245,14 @@ MonoBehaviour:
   Path: Fmod/Desktop/Pablo.strings.bank
   Name: Pablo.strings
   StudioPath: bank:/Pablo.strings
+<<<<<<< Updated upstream
   lastModified: 637916814845735875
+=======
+  lastModified: 637922109464615498
+>>>>>>> Stashed changes
   FileSizes:
   - Name: 
-    Value: 3094
+    Value: 3198
   Exists: 1
 --- !u!114 &6818164243487656402
 MonoBehaviour:

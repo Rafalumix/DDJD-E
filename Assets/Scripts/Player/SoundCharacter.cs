@@ -52,7 +52,14 @@ public class SoundCharacter : MonoBehaviour
         {
             instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/FOOTSTEPS_STONE");
             instance.start();
+            instance = FMODUnity.RuntimeManager.CreateInstance("event:/Pablo/ARMOUR");
+            instance.start();
         }
+    }
+    public void attackSound()
+    {
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Gabriel/SwordSlashAir");
+        instance.start();
     }
 
 }
