@@ -22,38 +22,17 @@ public class PlayerController : MonoBehaviour
         {
             _sound.attackSound(); 
         }
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            CinemachineCameraShaker.instance.ShakeCamera(0.05f,10,20);
-        }
-
         if (Input.GetKeyDown(KeyCode.X))
         {
         PlayerStats.lastNoteRead = 12;
-        }
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            printStats();
         }
         if (Input.GetKeyDown(KeyCode.Y))
         {
             levelUp();
         }
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            takeDamage(30);
-        }
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            calculateOutgoingDamage();
-        }
         if (Input.GetKeyDown(KeyCode.R))
         {
             takePotion();
-        }
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            die();
         }
     }
 
