@@ -91,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistanceFromThePlayer: 2
   randomWalkRadius: 5
-  lookRadius: 15
+  lookRadius: 10
 --- !u!114 &6415060842531754239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54b9c16b94cead6419e4f477c2328b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifePoints: 65
-  damage: 15
-  givenXP: 8
+  lifePoints: 120
+  damage: 30
+  givenXP: 6
   fromWhichDepthItAppears: 0
 --- !u!136 &6415060842531754238
 CapsuleCollider:
@@ -389,7 +389,8 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 533c95d041afee940bbb95b5659ed28d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 533c95d041afee940bbb95b5659ed28d, type: 3}
 --- !u!4 &6812933192332799598 stripped
 Transform:

@@ -26,7 +26,7 @@ public class sword : MonoBehaviour
             Debug.Log("attacking");
             if (other.tag == "enemy")
                     {
-                        CinemachineCameraShaker.instance.ShakeCamera(0.05f,10,20);
+                        CinemachineCameraShaker.instance.ShakeCamera(0.02f,10,20);
                         Debug.Log("Enemy hitted!");
                         enemyController = other.GetComponent<EnemyController>();
                         enemyController.takeDamage(PlayerStats.vigor.getFlatDamage()); 
