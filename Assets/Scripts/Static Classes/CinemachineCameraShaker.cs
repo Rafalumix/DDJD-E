@@ -1,4 +1,4 @@
-// Taken from: https://gist.github.com/reunono/efea18bed03fa83dec651fb18beea3bd 
+// Adapted from: https://gist.github.com/reunono/efea18bed03fa83dec651fb18beea3bd 
 
 
 using UnityEngine;
