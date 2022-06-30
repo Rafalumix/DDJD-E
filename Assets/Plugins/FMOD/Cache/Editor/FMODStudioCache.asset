@@ -20,9 +20,9 @@ MonoBehaviour:
     Data4: 500982005
   Banks:
   - {fileID: 3183620119912979161}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -231,7 +231,7 @@ MonoBehaviour:
   Path: Fmod/Desktop/Pablo.strings.bank
   Name: Pablo.strings
   StudioPath: bank:/Pablo.strings
-  lastModified: 637922255810713250
+  lastModified: 637922266915838299
   FileSizes:
   - Name: 
     Value: 3240
@@ -742,7 +742,7 @@ MonoBehaviour:
   - {fileID: 3183620119912979161}
   StringsBanks:
   - {fileID: -6367238386444521460}
-  cacheTime: 637922255810713250
+  cacheTime: 637922266915838299
   cacheVersion: 10
 --- !u!114 &972360586106830914
 MonoBehaviour:
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   Path: Fmod/Desktop/Pablo.bank
   Name: Pablo
   StudioPath: bank:/Pablo
-  lastModified: 637922255810663414
+  lastModified: 637922266915798780
   FileSizes: []
   Exists: 1
 --- !u!114 &3239409558606338879
@@ -1290,7 +1290,7 @@ MonoBehaviour:
   Path: Fmod/Desktop/Gabriel.bank
   Name: Gabriel
   StudioPath: bank:/Gabriel
-  lastModified: 637922255641611308
+  lastModified: 637922266913654117
   FileSizes: []
   Exists: 1
 --- !u!114 &6806341319293375998
