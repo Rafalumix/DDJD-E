@@ -47,14 +47,14 @@ public class PlayerController : MonoBehaviour
         {
             calculateOutgoingDamage();
         }
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             takePotion();
         }
         if (Input.GetKeyDown(KeyCode.Z))
         {
             die();
-        }    
+        }
     }
 
     public void die()

@@ -91,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stoppingDistanceFromThePlayer: 2.8
   randomWalkRadius: 5
-  lookRadius: 10
+  lookRadius: 25
 --- !u!114 &6415060842531754239
 MonoBehaviour:
   m_ObjectHideFlags: 0
