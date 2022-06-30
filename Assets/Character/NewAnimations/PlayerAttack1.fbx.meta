@@ -368,17 +368,24 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.8376384
-        functionName: SetupCombo
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 93a55c2401f11614b998ca4cf0d7df64, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
       - time: 0
         functionName: DisableMove
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7090301
+        functionName: attackSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: f28426204b8c51a449746a52352cae67, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8376384
+        functionName: SetupCombo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 93a55c2401f11614b998ca4cf0d7df64, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0

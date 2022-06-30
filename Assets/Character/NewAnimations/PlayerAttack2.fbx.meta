@@ -365,6 +365,13 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
+      - time: 0.21070234
+        functionName: attackSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: f28426204b8c51a449746a52352cae67, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       - time: 0.9750437
         functionName: SetupCombo
         data: 
