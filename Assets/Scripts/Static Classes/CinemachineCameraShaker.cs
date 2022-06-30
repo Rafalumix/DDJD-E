@@ -26,16 +26,30 @@ public class CinemachineCameraShaker : MonoBehaviour
 	protected Vector3 _initialPosition;
 	protected Quaternion _initialRotation;
 
-	public Cinemachine.CinemachineBasicMultiChannelPerlin _perlin;
-	public Cinemachine.CinemachineVirtualCamera _virtualCamera;
+	public Cinemachine.CinemachineBasicMultiChannelPerlin _perlinT;
+	public Cinemachine.CinemachineBasicMultiChannelPerlin _perlinM;
+	public Cinemachine.CinemachineBasicMultiChannelPerlin _perlinB;
+	public Cinemachine.CinemachineFreeLook _freeLook;
+	// public Cinemachine.CinemachineVirtualCamera _virtualCamera;
+	public Cinemachine.CinemachineVirtualCamera _virtualCameraT;
+	public Cinemachine.CinemachineVirtualCamera _virtualCameraM;
+	public Cinemachine.CinemachineVirtualCamera _virtualCameraB;
+
+	private Coroutine coroutine;
 
 	/// <summary>
 	/// On awake we grab our components
 	/// </summary>
 	protected virtual void Awake () 
 	{
-		_virtualCamera = GameObject.FindObjectOfType<Cinemachine.CinemachineVirtualCamera>();
-		_perlin = _virtualCamera.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin> ();
+		_freeLook = GameObject.FindObjectOfType<Cinemachine.CinemachineFreeLook>();
+
+		_virtualCameraT = _freeLook.GetRig(0);
+		_virtualCameraM = _freeLook.GetRig(1);
+		_virtualCameraB = _freeLook.GetRig(2);
+		_perlinT = _virtualCameraT.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin> ();
+		_perlinM = _virtualCameraM.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin> ();
+		_perlinB = _virtualCameraB.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin> ();
 		if(instance == null)
 			instance = this;
 	}		
@@ -54,7 +68,7 @@ public class CinemachineCameraShaker : MonoBehaviour
 	/// <param name="duration">Duration.</param>
 	public virtual void ShakeCamera (float duration)
 	{
-		StartCoroutine (ShakeCameraCo (duration, DefaultShakeAmplitude, DefaultShakeFrequency));
+		ShakeCamera(duration, DefaultShakeAmplitude, DefaultShakeFrequency);
 	}
 
 	/// <summary>
@@ -65,7 +79,9 @@ public class CinemachineCameraShaker : MonoBehaviour
 	/// <param name="frequency">Frequency.</param>
 	public virtual void ShakeCamera (float duration, float amplitude, float frequency)
 	{
-		StartCoroutine (ShakeCameraCo (duration, amplitude, frequency));
+		if(coroutine != null)
+			StopCoroutine(coroutine);
+		coroutine = StartCoroutine (ShakeCameraCo (duration, amplitude, frequency));
 	}
 
 	/// <summary>
@@ -77,8 +93,18 @@ public class CinemachineCameraShaker : MonoBehaviour
 	/// <param name="frequency">Frequency.</param>
 	protected virtual IEnumerator ShakeCameraCo(float duration, float amplitude, float frequency)
 	{
-		_perlin.m_AmplitudeGain = amplitude;
-		_perlin.m_FrequencyGain = frequency;
+		Debug.Log("SHAKING");
+
+		_perlinT.m_AmplitudeGain = amplitude;
+		_perlinM.m_AmplitudeGain = amplitude;
+		_perlinB.m_AmplitudeGain = amplitude;
+		_perlinT.m_FrequencyGain = frequency;
+		_perlinM.m_FrequencyGain = frequency;
+		_perlinB.m_FrequencyGain = frequency;
+
+		
+		
+		
 		yield return new WaitForSeconds (duration);
 		CameraReset ();
 	}
@@ -88,8 +114,12 @@ public class CinemachineCameraShaker : MonoBehaviour
 	/// </summary>
 	public virtual void CameraReset()
 	{
-		_perlin.m_AmplitudeGain = IdleAmplitude;
-		_perlin.m_FrequencyGain = IdleFrequency;
+		_perlinT.m_AmplitudeGain = IdleAmplitude;
+		_perlinM.m_AmplitudeGain = IdleAmplitude;
+		_perlinB.m_AmplitudeGain = IdleAmplitude;
+		_perlinT.m_FrequencyGain = IdleFrequency;
+		_perlinM.m_FrequencyGain = IdleFrequency;
+		_perlinB.m_FrequencyGain = IdleFrequency;
 	}
 
 }

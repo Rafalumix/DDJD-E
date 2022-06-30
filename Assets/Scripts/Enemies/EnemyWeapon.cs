@@ -12,7 +12,7 @@ public class EnemyWeapon : MonoBehaviour
 
     private void Awake()
     {
-        //_attackAnimator = GetComponentInParent<EnemyController>(); 
+        _attackAnimator = GetComponentInParent<EnemyController>(); 
         _sound = GetComponent<SwordSounds>();
     }
 
