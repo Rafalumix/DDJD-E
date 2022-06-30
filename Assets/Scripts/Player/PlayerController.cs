@@ -18,15 +18,15 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            _sound.attackSound();
-            //SceneManager.LoadScene(GetSceneName.bossRoom);
-        }
+
+        // Only from grading purposes. Ease traversing the game
         if (Input.GetKeyDown(KeyCode.X))
         {
-        PlayerStats.lastNoteRead = 12;
+            SceneManager.LoadScene("KingRoom");
+            PlayerStats.lastNoteRead = 12;
         }
+        
+        // Only from grading purposes. Ease traversing the game
         if (Input.GetKeyDown(KeyCode.Y))
         {
             levelUp();
