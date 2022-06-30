@@ -20,7 +20,8 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
-            _sound.attackSound(); 
+            _sound.attackSound();
+            //SceneManager.LoadScene(GetSceneName.bossRoom);
         }
         if (Input.GetKeyDown(KeyCode.X))
         {
