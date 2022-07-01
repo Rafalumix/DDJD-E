@@ -231,7 +231,7 @@ MonoBehaviour:
   Path: Fmod/Desktop/Pablo.strings.bank
   Name: Pablo.strings
   StudioPath: bank:/Pablo.strings
-  lastModified: 637922355817935208
+  lastModified: 637922264200461846
   FileSizes:
   - Name: 
     Value: 3240
@@ -742,7 +742,7 @@ MonoBehaviour:
   - {fileID: 3183620119912979161}
   StringsBanks:
   - {fileID: -6367238386444521460}
-  cacheTime: 637922355817935208
+  cacheTime: 637922371574587054
   cacheVersion: 10
 --- !u!114 &972360586106830914
 MonoBehaviour:
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   Path: Fmod/Desktop/Pablo.bank
   Name: Pablo
   StudioPath: bank:/Pablo
-  lastModified: 637922355817895220
+  lastModified: 637922282576671505
   FileSizes: []
   Exists: 1
 --- !u!114 &3239409558606338879
@@ -1290,7 +1290,7 @@ MonoBehaviour:
   Path: Fmod/Desktop/Gabriel.bank
   Name: Gabriel
   StudioPath: bank:/Gabriel
-  lastModified: 637922355816221770
+  lastModified: 637922371574587054
   FileSizes: []
   Exists: 1
 --- !u!114 &6806341319293375998
