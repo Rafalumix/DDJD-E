@@ -66031,7 +66031,7 @@ MonoBehaviour:
   PopupText: {fileID: 1568600527}
   PopupSecretEndingText: {fileID: 635843348}
   sphere: {fileID: 834545068}
-  rounds: 2
+  rounds: 3
 --- !u!114 &4383877058986636462
 MonoBehaviour:
   m_ObjectHideFlags: 0
