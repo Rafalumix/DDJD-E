@@ -42,6 +42,8 @@ public class CinemachineCameraShaker : MonoBehaviour
 	/// </summary>
 	protected virtual void Awake () 
 	{
+		Application.targetFrameRate = 60;
+		
 		_freeLook = GameObject.FindObjectOfType<Cinemachine.CinemachineFreeLook>();
 
 		_virtualCameraT = _freeLook.GetRig(0);

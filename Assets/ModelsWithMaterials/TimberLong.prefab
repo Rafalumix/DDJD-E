@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1356108150805723709, guid: 3fab2a72d5dc1d442bf810ed8d9dbb39, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356108150805723709, guid: 3fab2a72d5dc1d442bf810ed8d9dbb39, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356108150805723709, guid: 3fab2a72d5dc1d442bf810ed8d9dbb39, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370121053134267480, guid: 3fab2a72d5dc1d442bf810ed8d9dbb39, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370121053134267480, guid: 3fab2a72d5dc1d442bf810ed8d9dbb39, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370121053134267480, guid: 3fab2a72d5dc1d442bf810ed8d9dbb39, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1543827006882465369, guid: 3fab2a72d5dc1d442bf810ed8d9dbb39, type: 3}
       propertyPath: m_Name
       value: TimberLong
